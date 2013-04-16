@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WASession",
+	"category" : "QC-Magritte-Demo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCMagritteSession",
+	"type" : "normal"
+}
