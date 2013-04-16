@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "DiegoLont 1/15/2013 10:31",
+	"super" : "MAStringWriter",
+	"category" : "QC-Magritte-Renderer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCLabelWriter",
+	"type" : "normal"
+}
