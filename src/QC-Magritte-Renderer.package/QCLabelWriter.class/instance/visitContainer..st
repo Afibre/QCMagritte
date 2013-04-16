@@ -8,8 +8,8 @@ visitContainer: aDescription
 	aDescription do: [ :each |
 		each visibleInLabel ifTrue: [
 			sep ifNotNil: [
-				sep ifEmpty: [ sep := each propertyAt: #separatorBefore ifAbsent: [ ', ' ] ].
+				sep ifEmpty: [ sep := each separatorBefore ].
 				stream nextPutAll: sep ].
 			each stringWriter
 				write: (self object readUsing: each) description: each to: stream.
-			sep := each propertyAt: #separatorAfter ifAbsent: [ '' ] ] ]
+			sep := each separatorAfter ] ]
