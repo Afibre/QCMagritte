@@ -15,10 +15,10 @@ baseline010: spec
 					repository: 'http://smalltalkhub.com/#!/~DiegoLont/QCMagritte' ];
 			project: 'Seaside'  with: [
 				spec
-					className: 'ConfigurationOfSeaside';
+					className: 'ConfigurationOfSeaside30';
 					versionString: #'bleedingEdge';
 					loads: #( 'OneClick' );
 					repository: 'http://smalltalkhub.com/#!/~DiegoLont/QCMagritte' ].
 		spec 
 			group: 'default' with: #('Core' );
-			group: 'Core' with: #( 'Magritte3' 'Seaside30' ) ]
+			group: 'Core' with: #( 'Magritte3' 'Seaside' ) ]

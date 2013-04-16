@@ -12,4 +12,4 @@ version010: spec
 		spec author: 'DiegoLont'.
 		spec 
 			project: 'Magritte3' with: '3.0';
-			project: 'Seaside30' with: '3.0.8' ]
+			project: 'Seaside' with: '3.0.8' ]
