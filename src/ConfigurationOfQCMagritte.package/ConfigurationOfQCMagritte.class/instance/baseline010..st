@@ -13,12 +13,18 @@ baseline010: spec
 					versionString: #'bleedingEdge';
 					loads: #( 'Seaside' );
 					repository: 'http://smalltalkhub.com/mc/DiegoLont/QCMagritte/main' ];
-			project: 'Seaside'  with: [
+			project: 'Seaside' with: [
 				spec
 					className: 'ConfigurationOfSeaside30';
 					versionString: #'bleedingEdge';
 					loads: #( 'OneClick' );
 					repository: 'http://smalltalkhub.com/mc/DiegoLont/QCMagritte/main' ].
+		spec
+			package: 'QC-Magritte-Core' with: [ 
+				spec requires: #( 'Magritte3' ) ];
+			package: 'QC-Magritte-Demo' with: [ 
+				spec requires: #( 'QC-Magritte-Core' 'OneClick' ) ].
 		spec 
-			group: 'default' with: #('Core' );
-			group: 'Core' with: #( 'Magritte3' 'Seaside' ) ]
+			group: 'default' with: #('Core' 'Demo' );
+			group: 'Core' with: #( 'QC-Magritte-Core' );
+			group: 'Demo' with: #( 'QC-Magritte-Demo' ) ]
