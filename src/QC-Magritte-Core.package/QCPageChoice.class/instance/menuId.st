@@ -1,3 +1,3 @@
 accessing
 menuId
-	^'menu-id'
+	^'qc-magritte-menu'

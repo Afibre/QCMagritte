@@ -1,3 +1,3 @@
 accessing
 tabItemClass
-	^'tabItemClass'
+	^'qc-magritte-tab-item-class'

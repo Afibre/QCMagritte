@@ -1,3 +1,3 @@
 accessing
 tabClass
-	^'tab-class'
+	^'qc-magritte-tab'
