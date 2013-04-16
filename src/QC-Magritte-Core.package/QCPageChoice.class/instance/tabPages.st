@@ -1,0 +1,3 @@
+accessing
+tabPages
+	^self pages

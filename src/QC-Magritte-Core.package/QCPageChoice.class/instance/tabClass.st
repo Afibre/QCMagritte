@@ -1,0 +1,3 @@
+accessing
+tabClass
+	^'tab-class'
