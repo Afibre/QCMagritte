@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "QCPageChoice",
+	"super" : "WAFileLibrary",
 	"category" : "QC-Magritte-Demo",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "QCMagritteDemo",
+	"name" : "QCMagritteDemoLibrary",
 	"type" : "normal"
 }

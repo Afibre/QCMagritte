@@ -1,4 +1,6 @@
 rendering
 renderContentOn: html
 	self renderKeepAliveOn: html.
-	super renderContentOn: html
+	html div
+		id: 'demo-content';
+		with: [ super renderContentOn: html ]

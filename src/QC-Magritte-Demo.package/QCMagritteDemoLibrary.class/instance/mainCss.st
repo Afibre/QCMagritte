@@ -1,0 +1,3 @@
+accessing
+mainCss
+	^self contentCss
