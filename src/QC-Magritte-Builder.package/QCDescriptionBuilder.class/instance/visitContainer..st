@@ -3,4 +3,4 @@ visitContainer: aContainer
 	buildedDescription := aContainer copy.
 	buildedDescription removeAll.
 	aContainer do: [ :each |
-		self visit: each ]
+		self visit: each copy ]
