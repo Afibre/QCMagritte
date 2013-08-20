@@ -22,8 +22,12 @@ baseline010: spec
 		spec
 			package: 'QC-Magritte-Core' with: [ 
 				spec requires: #( 'Magritte3' ) ];
+			package: 'QC-Magritte-Renderer' with: [ 
+				spec requires: #( 'QC-Magritte-Core' ) ];
+			package: 'QC-Magritte-Builder' with: [ 
+				spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Demo' with: [ 
-				spec requires: #( 'QC-Magritte-Core' 'OneClick' ) ].
+				spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Builder' 'OneClick' ) ].
 		spec 
 			group: 'default' with: #('Core' 'Demo' );
 			group: 'Core' with: #( 'QC-Magritte-Core' );
