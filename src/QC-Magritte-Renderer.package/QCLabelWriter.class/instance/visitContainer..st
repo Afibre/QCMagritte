@@ -5,6 +5,11 @@ visitContainer: aDescription
 		... but we want to extend this and  use separators  "
 	| sep |
 	sep := nil.
+	self object isCollection ifTrue: [ 
+		stream nextPutAll: '#( '.
+		self object do: [ :each | self object: each during: [ self visitContainer: aDescription ] ] separatedBy: [ stream nextPutAll: ', ' ].
+		stream nextPutAll: ' )'.
+		^self ].
 	aDescription do: [ :each |
 		each visibleInLabel ifTrue: [
 			sep ifNotNil: [
