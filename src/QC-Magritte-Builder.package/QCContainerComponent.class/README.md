@@ -1,0 +1,1 @@
+A QCContainerComponent enriches the magritte description according to the description builder class. 
