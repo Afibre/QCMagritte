@@ -12,6 +12,9 @@ version010: spec
 		spec author: 'DiegoLont'.
 		spec 
 			project: 'Magritte3' with: '3.0';
-			project: 'Seaside' with: '3.0.8';
-			package: 'QC-Magritte-Core' with: 'QC-Magritte-Core-DiegoLont.2';
-			package: 'QC-Magritte-Demo' with: 'QC-Magritte-Demo-DiegoLont.2' ]
+			project: 'Seaside' with: '3.0.8'
+		" For now we want bleeding edge
+			package: 'QC-Magritte-Core' with: 'QC-Magritte-Core-DiegoLont.5';
+			package: 'QC-Magritte-Demo' with: 'QC-Magritte-Demo-DiegoLont.3';
+			package: 'QC-Magritte-Renderer' with: 'QC-Magritte-Renderer-DiegoLont.2'
+		"  ]

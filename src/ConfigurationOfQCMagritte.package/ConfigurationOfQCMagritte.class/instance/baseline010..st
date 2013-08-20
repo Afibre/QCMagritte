@@ -12,13 +12,13 @@ baseline010: spec
 					className: 'ConfigurationOfMagritte3';
 					versionString: #'bleedingEdge';
 					loads: #( 'Seaside' );
-					repository: 'http://smalltalkhub.com/mc/DiegoLont/QCMagritte/main' ];
-			project: 'Seaside' with: [
+					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ];
+			project: 'Seaside3' with: [
 				spec
-					className: 'ConfigurationOfSeaside30';
+					className: 'ConfigurationOfSeaside3';
 					versionString: #'bleedingEdge';
 					loads: #( 'OneClick' );
-					repository: 'http://smalltalkhub.com/mc/DiegoLont/QCMagritte/main' ].
+					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].
 		spec
 			package: 'QC-Magritte-Core' with: [ 
 				spec requires: #( 'Magritte3' ) ];
