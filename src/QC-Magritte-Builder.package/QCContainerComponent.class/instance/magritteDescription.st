@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 magritteDescription
 	^magritteDescription ifNil: [
 		| model builder |
