@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "QCObject",
+	"category" : "QC-Magritte-Language",
+	"classinstvars" : [
+		"singletons",
+		"curLanguage",
+		"allLanguages"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"key",
+		"translations"
+	],
+	"name" : "QCMultilanguageString",
+	"type" : "normal"
+}
