@@ -7,17 +7,23 @@ baseline010: spec
 		spec author: 'DiegoLont'.
 		spec repository: 'http://smalltalkhub.com/mc/DiegoLont/QCMagritte/main'.
 		spec 
+			project: 'TwitterBootstrap' with: [
+				spec
+					className: 'ConfigurationOfTwitterBootstrap';
+					versionString: #'development';
+					loads: #( 'All' );
+					repository: 'http://ss3.gemstone.com/ss/TwitterBootstrap' ];
 			project: 'Magritte3' with: [
 				spec
 					className: 'ConfigurationOfMagritte3';
-					versionString: #'bleedingEdge';
+					versionString: #'stable';
 					loads: #( 'Seaside' );
 					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ];
 			project: 'Seaside3' with: [
 				spec
 					className: 'ConfigurationOfSeaside3';
-					versionString: #'bleedingEdge';
-					loads: #( 'OneClick' );
+					versionString: #'stable';
+					loads: #( 'Zinc-Seaside' );
 					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].
 		spec
 			package: 'QC-Magritte-Core' with: [ 
@@ -27,7 +33,7 @@ baseline010: spec
 			package: 'QC-Magritte-Builder' with: [ 
 				spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Demo' with: [ 
-				spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Builder' 'Seaside3' ) ].
+				spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Builder' 'Seaside3' 'TwitterBootstrap' ) ].
 		spec 
 			group: 'default' with: #('Core' 'Demo' );
 			group: 'Core' with: #( 'QC-Magritte-Core' );
