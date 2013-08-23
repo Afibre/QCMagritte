@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "QC-Magritte-TwitterBootstrap-Demo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"menu"
+	],
+	"name" : "TWBSQCExamples",
+	"type" : "normal"
+}
