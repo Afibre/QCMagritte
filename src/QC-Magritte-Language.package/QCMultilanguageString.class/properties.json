@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "QCObject",
+	"super" : "Object",
 	"category" : "QC-Magritte-Language",
 	"classinstvars" : [
 		"singletons",
