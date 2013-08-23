@@ -32,8 +32,12 @@ baseline010: spec
 				spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Builder' with: [ 
 				spec requires: #( 'QC-Magritte-Core' ) ];
+			package: 'QC-Magritte-Language' with: [ 
+				spec requires: #( 'QC-Magritte-Builder' ) ];
+			package: 'QC-Magritte-TwitterBootstrap' with: [ 
+				spec requires: #( 'QC-Magritte-Builder' 'TwitterBootstrap' ) ];
 			package: 'QC-Magritte-Demo' with: [ 
-				spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Builder' 'Seaside3' 'TwitterBootstrap' ) ].
+				spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Builder' 'Seaside3' 'QC-Magritte-TwitterBootstrap'  'QC-Magritte-Language' ) ].
 		spec 
 			group: 'default' with: #('Core' 'Demo' );
 			group: 'Core' with: #( 'QC-Magritte-Core' );
