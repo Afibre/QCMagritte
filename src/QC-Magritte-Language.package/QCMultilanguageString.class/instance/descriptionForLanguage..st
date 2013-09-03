@@ -3,8 +3,8 @@ descriptionForLanguage: aLanguage
 	^MAStringDescription new
 		accessor: (MAChainAccessor on: #translations accessor: 
 			(MADictionaryAccessor key: aLanguage));
-		label: (QCMultilanguageString on: aLanguage displayName);
+		label: aLanguage displayName;
 		priority: 200;
-		comment: (QCMultilanguageString on: 'The translation in'), ' ', (QCMultilanguageString on: aLanguage displayName);
+		comment: (QCMultilanguageString on: 'The translation in') greaseString, ' ', (QCMultilanguageString on: aLanguage displayName) greaseString;
 		reportColumnClass: QCDescribedColumn;
 		yourself
