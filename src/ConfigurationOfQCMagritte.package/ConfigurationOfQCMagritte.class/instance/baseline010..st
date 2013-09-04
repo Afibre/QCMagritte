@@ -36,7 +36,7 @@ baseline010: spec
 				spec requires: #( 'QC-Magritte-Builder' ) ];
 			package: 'QC-Magritte-TwitterBootstrap' with: [ 
 				spec requires: #( 'QC-Magritte-Builder' 'TwitterBootstrap' ) ];
-			package: 'QC-Magritte-Other ' with: [ 
+			package: 'QC-Magritte-Other' with: [ 
 				spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Model' with: [ 
 				spec requires: #( 'QC-Magritte-Core' ) ];
