@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "QCSelectQuery",
+	"category" : "QC-Magritte-Meta-Query",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"searchValue",
+		"searchField",
+		"operator",
+		"searchValueType"
+	],
+	"name" : "QCAdvancedQuery",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+testing
+canSimplify
+	^false

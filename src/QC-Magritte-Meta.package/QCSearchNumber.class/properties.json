@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCSearchInputType",
+	"category" : "QC-Magritte-Meta",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCSearchNumber",
+	"type" : "normal"
+}

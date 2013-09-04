@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCCompareOperator",
+	"category" : "QC-Magritte-Meta-Operator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCContainsSubStringOperator",
+	"type" : "normal"
+}
