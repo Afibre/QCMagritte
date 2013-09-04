@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"doubleClickCommand"
+		"doubleClickCommand",
+		"indices"
 	],
 	"name" : "QCReportComponent",
 	"type" : "normal"
