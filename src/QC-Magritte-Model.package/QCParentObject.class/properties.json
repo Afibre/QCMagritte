@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "QCObject",
+	"category" : "QC-Magritte-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tags",
+		"comments",
+		"parent"
+	],
+	"name" : "QCParentObject",
+	"type" : "normal"
+}

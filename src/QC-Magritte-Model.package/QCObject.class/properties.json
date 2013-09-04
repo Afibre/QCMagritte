@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GRObject",
+	"category" : "QC-Magritte-Model",
+	"classinstvars" : [
+		"template"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCObject",
+	"type" : "normal"
+}
