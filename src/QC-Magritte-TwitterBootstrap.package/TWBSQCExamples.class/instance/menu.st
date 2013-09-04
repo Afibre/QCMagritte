@@ -1,3 +1,3 @@
 accessing
 menu
-	^ menu ifNil: [ menu := TWBSExampleMenu new ]
+	^ menu ifNil: [ menu := TWBSQCExampleMenu new ]

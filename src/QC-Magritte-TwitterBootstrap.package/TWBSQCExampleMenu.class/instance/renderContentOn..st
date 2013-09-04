@@ -24,12 +24,8 @@ renderContentOn: html
 		html div: [ 
 			html preformatted: [ 
 				html code: 'Gofer it
-    url: ''http://ss3.gemstone.com/ss/TwitterBootstrap'';
-    package: ''ConfigurationOfTwitterBootstrap'';
+    url: ''http://smalltalkhub.com/mc/DiegoLont/QCMagritte/main'';
+    package: ''ConfigurationOfQCMagritte'';
     load.
 
-ConfigurationOfTwitterBootstrap project stableVersion load: #(''Examples'').' ] ] ].
-
-	html div: [
-		html text: 'For more information see the '.
-		html anchor url: 'http://twitter.github.com/bootstrap/'; with: 'Twitter Bootstrap documentation' ]
+ConfigurationOfQCMagritte project development load: #( ''Demo'' ).' ] ] ]
