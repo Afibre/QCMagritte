@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCToManyComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCParentChildComponent",
+	"type" : "normal"
+}

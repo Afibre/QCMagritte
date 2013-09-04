@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "QCComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parent",
+		"selectedHeading",
+		"unselectedHeading",
+		"customColumns",
+		"saveCommand"
+	],
+	"name" : "QCColumnChooser",
+	"type" : "normal"
+}

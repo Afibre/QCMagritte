@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MASelectListComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCDynamicSelectComponent",
+	"type" : "normal"
+}

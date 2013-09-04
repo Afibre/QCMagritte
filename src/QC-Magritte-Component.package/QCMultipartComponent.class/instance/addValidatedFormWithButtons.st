@@ -1,0 +1,4 @@
+decorating
+addValidatedFormWithButtons
+	super addValidatedFormWithButtons.
+	self addTabs

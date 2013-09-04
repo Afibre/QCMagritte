@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MAMultipleSelectionComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"linkId"
+	],
+	"name" : "QCColumnSelectionComponent",
+	"type" : "normal"
+}

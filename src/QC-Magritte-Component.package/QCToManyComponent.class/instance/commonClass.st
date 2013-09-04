@@ -1,0 +1,3 @@
+accessing
+commonClass
+	^self magritteDescription commonClass

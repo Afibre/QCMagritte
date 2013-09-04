@@ -1,0 +1,3 @@
+accessing
+useLinksFor: anObject 
+	^true

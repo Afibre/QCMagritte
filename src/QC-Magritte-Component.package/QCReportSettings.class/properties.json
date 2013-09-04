@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"description",
+		"property",
+		"saveProperty",
+		"isOrdered"
+	],
+	"name" : "QCReportSettings",
+	"type" : "normal"
+}

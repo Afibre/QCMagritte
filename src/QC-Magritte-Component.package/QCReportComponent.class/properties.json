@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MAReport",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"doubleClickCommand"
+	],
+	"name" : "QCReportComponent",
+	"type" : "normal"
+}

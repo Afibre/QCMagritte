@@ -1,0 +1,3 @@
+accessing
+clearReportCommands
+	reportCommands := nil

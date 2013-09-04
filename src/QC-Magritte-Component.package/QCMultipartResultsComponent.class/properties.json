@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "QCMultipartComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hasForm"
+	],
+	"name" : "QCMultipartResultsComponent",
+	"type" : "normal"
+}
