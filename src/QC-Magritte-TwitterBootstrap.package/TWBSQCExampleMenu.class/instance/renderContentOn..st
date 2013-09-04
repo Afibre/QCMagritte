@@ -4,6 +4,10 @@ renderContentOn: html
 		class: 'page-header';
 		with: [ 
 			html heading level3; with:  'Twitter Bootstrap Seaside examples' ].
+	
+	html div
+		class: '';
+		with: [ html paragraph: 'This is a simple rework of the Twitter Demo example to show some of the functionality of QC-Magritte' ].
 		
 	html table
 		class: 'table table-striped table-bordered';

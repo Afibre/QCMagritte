@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCReportComponent",
+	"category" : "QC-Magritte-TwitterBootstrap-Demo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TWBSQCMagritteReport",
+	"type" : "normal"
+}

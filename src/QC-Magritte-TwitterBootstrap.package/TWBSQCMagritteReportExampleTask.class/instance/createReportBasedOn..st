@@ -3,8 +3,9 @@ createReportBasedOn: reportChooser
 
 	| theReport |
 	
-	theReport := TWBSMagritteReport rows: self demoRows description: TWBSMagritteExampleFormDescription new magritteDescription. 
+	theReport := TWBSQCMagritteReport rows: self demoRows description: TWBSMagritteExampleFormDescription new magritteDescription. 
 	theReport
+		doubleClickCommand: (QCCommand on: '' condition: nil action: [ :row | self doubleClickRow: row ]);
 		showBatchFirstLast: reportChooser showBatchFirstLast ;
 		showBordered: reportChooser bordered ;
 		showStriped: reportChooser striped ;
