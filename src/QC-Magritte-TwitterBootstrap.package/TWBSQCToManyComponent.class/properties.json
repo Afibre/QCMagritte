@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCToManyComponent",
+	"category" : "QC-Magritte-TwitterBootstrap-Demo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TWBSQCToManyComponent",
+	"type" : "normal"
+}
