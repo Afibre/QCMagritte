@@ -40,12 +40,14 @@ baseline010: spec
 				spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Model' with: [ 
 				spec requires: #( 'QC-Magritte-Core' ) ];
+			package: 'QC-Magritte-Session' with: [ 
+				 spec requires: #('QC-Magritte-Core')];
 			package: 'QC-Magritte-Meta' with: [ 
 				spec requires: #( 'QC-Magritte-Model' ) ];
 			package: 'QC-Magritte-Component' with: [ 
 				spec requires: #( 'QC-Magritte-Model' 'QC-Magritte-Other' 'QC-Magritte-Builder' ) ];
 			package: 'QC-Magritte-Demo' with: [ 
-				spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Component' 'QC-Magritte-Builder' 'Seaside3' 'QC-Magritte-TwitterBootstrap'  'QC-Magritte-Language' ) ].
+				spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Component' 'QC-Magritte-Builder' 'Seaside3' 'QC-Magritte-TwitterBootstrap'  'QC-Magritte-Language' 'QC-Magritte-Meta' 'QC-Magritte-Session') ].
 		spec 
 			group: 'default' with: #('Core' 'Demo' );
 			group: 'Core' with: #( 'QC-Magritte-Core' );
