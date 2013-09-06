@@ -1,3 +1,3 @@
 accessing
 selectQuery
-	^selectQuery ifNil: [ selectQuery := QCStringQuery on: QCModel default ]
+	^selectQuery ifNil: [ selectQuery := QCStringQuery on: self model model ]
