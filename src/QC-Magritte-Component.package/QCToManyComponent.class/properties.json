@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"searchForm",
 		"changed",
 		"cache",
 		"reportCommands",
