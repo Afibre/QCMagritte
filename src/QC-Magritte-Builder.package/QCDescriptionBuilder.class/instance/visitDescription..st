@@ -1,3 +1,5 @@
 visiting
 visitDescription: anObject
-	buildedDescription ifNotNil: [ buildedDescription add: anObject ]
+	buildedDescription
+		ifNil: [ self setBuildedDescription: anObject]
+		ifNotNil: [ buildedDescription add: anObject ]
