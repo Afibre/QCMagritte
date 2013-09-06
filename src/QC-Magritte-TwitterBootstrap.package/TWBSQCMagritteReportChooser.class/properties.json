@@ -9,7 +9,8 @@
 		"bordered",
 		"stiped",
 		"condensed",
-		"showBatchFirstLast"
+		"showBatchFirstLast",
+		"canEdit"
 	],
 	"name" : "TWBSQCMagritteReportChooser",
 	"type" : "normal"

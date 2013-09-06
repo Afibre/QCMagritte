@@ -1,6 +1,7 @@
 private
 buildReport
 	| retVal |
+	canEdit := self model reportOptions canEdit.
 	retVal := super buildReport.
 	retVal
 		showBatchFirstLast: self model reportOptions showBatchFirstLast ;

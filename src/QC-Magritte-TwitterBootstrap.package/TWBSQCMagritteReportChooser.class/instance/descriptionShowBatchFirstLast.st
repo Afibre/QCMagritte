@@ -1,5 +1,5 @@
 magrittes-descriptions
-showBatchFirstLastDescription
+descriptionShowBatchFirstLast
 	<magritteDescription>
 	^ MABooleanDescription new 
 		label: 'Show first/last';

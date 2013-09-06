@@ -1,6 +1,6 @@
 rendering
-renderContentOn: html
-	html table
+renderContentOn: canvas
+	canvas table
 		id: self ajaxId; 
 		class: self tableClass;
-		with: [ self renderTableOn: html ]
+		with: [ self renderTableOn: canvas ]

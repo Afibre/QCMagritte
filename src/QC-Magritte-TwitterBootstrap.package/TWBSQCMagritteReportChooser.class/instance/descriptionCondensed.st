@@ -1,10 +1,10 @@
 magrittes-descriptions
-borderedDescription
+descriptionCondensed
 	<magritteDescription>
 	^ MABooleanDescription new 
-		label: 'Bordered';
+		label: 'Condensed';
 		group: 'Bootstrap options' ;
-		accessor: #bordered;
-		comment: 'Rounds corners and adds outer border';
+		accessor: #condensed;
+		comment: 'Cuts vertical padding in half';
 		default: false;
 		yourself

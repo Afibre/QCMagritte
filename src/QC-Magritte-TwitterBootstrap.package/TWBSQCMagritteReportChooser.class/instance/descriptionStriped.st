@@ -1,5 +1,5 @@
 magrittes-descriptions
-stripedDescription
+descriptionStriped
 	<magritteDescription>
 	^ MABooleanDescription new 
 		label: 'Striped';
