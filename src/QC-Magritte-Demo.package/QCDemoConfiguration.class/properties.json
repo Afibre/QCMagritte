@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "QCObject",
+	"category" : "QC-Magritte-Demo",
+	"classinstvars" : [
+		"default"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"allLanguages"
+	],
+	"name" : "QCDemoConfiguration",
+	"type" : "normal"
+}

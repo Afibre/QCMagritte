@@ -1,0 +1,3 @@
+accessing
+curLanguage
+	^QCMultilanguageString curLanguage

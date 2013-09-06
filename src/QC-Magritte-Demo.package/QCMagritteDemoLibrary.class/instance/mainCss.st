@@ -1,3 +1,3 @@
 accessing
 mainCss
-	^self contentCss
+	^self contentCss, self tabMenuCss

@@ -1,0 +1,3 @@
+accessing
+allLanguages
+	^QCMultilanguageString allLanguages
