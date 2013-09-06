@@ -6,5 +6,6 @@ descriptionAllTranslations
 		accessor: #allTranslations;
 		comment: 'All translations in the system';
 		classes: (Array with: QCMultilanguageString);
+		beDefinitive;
 		priority: 700;
 		yourself
