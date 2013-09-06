@@ -1,4 +1,3 @@
-accessing
+security
 canRemove: aRow
-	self ifLoggedIn: [ ^(self isInEdit: aRow) not and: [ aRow canRemove ] ].
-	^false
+	^(self isInEdit: aRow) not and: [ aRow canRemove ]

@@ -1,4 +1,3 @@
-accessing
+security
 canEdit: aRow
-	self ifLoggedIn: [ ^(self isInEdit: aRow) not ].
-	^false
+	^(self isInEdit: aRow) not 
