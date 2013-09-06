@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "MAElementComponent",
+	"category" : "QC-Magritte-Meta",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"query",
+		"originalQuery",
+		"queryResultsComponent",
+		"queryOptionsComponent",
+		"simpleSearchComponent",
+		"selectQuery",
+		"optionsVisible",
+		"queryComponent"
+	],
+	"name" : "QCExtendedReportComponent",
+	"type" : "normal"
+}

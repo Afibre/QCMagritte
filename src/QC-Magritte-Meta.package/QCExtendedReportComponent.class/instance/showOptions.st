@@ -1,0 +1,3 @@
+actions
+showOptions
+	optionsVisible := true
