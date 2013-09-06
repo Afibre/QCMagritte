@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "WATask",
+	"super" : "Object",
 	"category" : "QC-Magritte-TwitterBootstrap-Demo",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"reportChooser"
+		"reportOptions",
+		"demoRows"
 	],
-	"name" : "TWBSQCMagritteReportExampleTask",
+	"name" : "TWBSQCReportValues",
 	"type" : "normal"
 }
