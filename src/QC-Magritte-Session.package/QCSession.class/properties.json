@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WASession",
+	"category" : "QC-Magritte-Session",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"announcer",
+		"user"
+	],
+	"name" : "QCSession",
+	"type" : "normal"
+}
