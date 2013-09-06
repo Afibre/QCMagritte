@@ -1,3 +1,3 @@
-icons
+customization
 editIcon
 	^nil
