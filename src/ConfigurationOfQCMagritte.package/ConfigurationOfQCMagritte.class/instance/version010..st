@@ -12,7 +12,9 @@ version010: spec
 		spec author: 'DiegoLont'.
 		spec 
 			project: 'Magritte3' with: '3.0';
-			project: 'Seaside' with: '3.0.8'
+			project: 'Seaside' with: '3.0.8'.
+		spec
+			package: 'QC-Magritte-Meta' with: 'QC-Magritte-Meta-DiegoLont.1'.
 		" For now we want bleeding edge
 			package: 'QC-Magritte-Core' with: 'QC-Magritte-Core-DiegoLont.5';
 			package: 'QC-Magritte-Demo' with: 'QC-Magritte-Demo-DiegoLont.3';
