@@ -3,9 +3,9 @@ descriptionKey
 	<magritteDescription>
 	^MAStringDescription new
 		accessor: #key;
-		label: (QCMultilanguageString on: 'Key');
+		label: 'Key';
 		priority: 50;
 		beReadonly;
-		comment: (QCMultilanguageString on: 'The key in the code');
+		comment: 'The key in the code';
 		reportColumnClass: QCDescribedColumn;
 		yourself
