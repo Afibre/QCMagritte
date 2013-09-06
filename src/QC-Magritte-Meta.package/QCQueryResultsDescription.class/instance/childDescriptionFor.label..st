@@ -7,6 +7,6 @@ childDescriptionFor: aClassList label: aLabel
 		visibleInReport: false;
 		visibleInLabel: false;
 		tabDisplay: false;
-		componentClass: QCExtendedReportComponent;
+		componentClass: QCCustomizedToManyComponent;
 		queryComponentClass: QCParentChildComponent;
 		yourself)

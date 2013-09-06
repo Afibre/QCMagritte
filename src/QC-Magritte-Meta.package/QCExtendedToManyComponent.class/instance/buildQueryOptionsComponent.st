@@ -10,5 +10,5 @@ buildQueryOptionsComponent
 			addReportCommand: (QCCommand on: (QCMultilanguageString on: 'Hide options') condition: [ self isOptionsVisible ] action: [ self hideOptions ]);
 			addReportCommand: (QCCommand on: (QCMultilanguageString on: 'Report options...') condition: [ self isOptionsVisible not ] action: [ self showOptions ]).
 		retVal addPage: (self reportOptionsFor: comp) label: (QCMultilanguageString on: 'Report options') ].
-	retVal addPage: (QCQuerySaveComponent on: self) label: self querySaveLabel.
+	self addCustomOptionsTo: retVal.
 	^retVal

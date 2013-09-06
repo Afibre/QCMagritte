@@ -1,3 +1,3 @@
 magritte-dummy
 isReadonly
-	^self user isNil
+	^false
