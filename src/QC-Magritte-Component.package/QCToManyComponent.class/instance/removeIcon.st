@@ -1,3 +1,3 @@
-customization
+icons
 removeIcon
 	^nil

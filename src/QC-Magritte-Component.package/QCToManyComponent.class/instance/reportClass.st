@@ -1,3 +1,0 @@
-customization
-reportClass
-	^QCReportComponent

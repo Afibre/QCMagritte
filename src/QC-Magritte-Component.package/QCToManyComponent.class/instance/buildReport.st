@@ -1,7 +1,7 @@
 private
 buildReport
 	| retVal |
-	retVal := (self reportClass rows: self value description: self reference)
+	retVal := (QCReportComponent rows: self value description: self reference)
 		sortEnabled: self magritteDescription isOrdered not;
 		yourself.
 	retVal columns do: [ :each | 
