@@ -1,3 +1,3 @@
-icons
+customization
 detailsIcon
 	^nil
