@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "QC-Magritte-Other",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"queryComponent",
+		"queryName",
+		"parent",
+		"selectQuery",
+		"columnChooser",
+		"targetDescription"
+	],
+	"name" : "QCOldSearchForm",
+	"type" : "normal"
+}
