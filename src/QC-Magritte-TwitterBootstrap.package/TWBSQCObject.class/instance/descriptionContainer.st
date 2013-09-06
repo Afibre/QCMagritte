@@ -1,4 +1,4 @@
-magritteDescription
+magritte descriptions
 descriptionContainer
 	<magritteContainer>
 	^ super descriptionContainer

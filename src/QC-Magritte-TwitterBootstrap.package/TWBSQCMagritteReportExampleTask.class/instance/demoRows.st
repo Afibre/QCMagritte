@@ -5,10 +5,10 @@ demoRows
 	
 	rows := OrderedCollection new.
 	Collection withAllSubclasses doWithIndex: [ :each :index |
-		rows add: (TWBSMagritteExampleFormDescription new
+		rows add: (TWBSQCReportValue new
 			name: each name;
 			number: index ;
-			bePositive: index odd ;
+			odd: index odd ;
 			yourself ) ].
 	^ rows
 

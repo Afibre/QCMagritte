@@ -1,16 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "TWBSQCObject",
+	"super" : "GRObject",
 	"category" : "QC-Magritte-TwitterBootstrap-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"bordered",
-		"stiped",
-		"condensed",
-		"showBatchFirstLast"
-	],
-	"name" : "TWBSQCMagritteReportChooser",
+	"instvars" : [ ],
+	"name" : "TWBSQCObject",
 	"type" : "normal"
 }

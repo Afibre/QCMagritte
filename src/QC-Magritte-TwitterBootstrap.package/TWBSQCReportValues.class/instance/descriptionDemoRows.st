@@ -2,9 +2,7 @@ magritteDescription
 descriptionDemoRows
 	<magritteDescription>
 	^MAToManyRelationDescription new 
-		label: 'DemoRows';
 		accessor: #demoRows;
-		classes: (Array with: TWBSMagritteExampleFormDescription);
+		classes: (Array with: TWBSQCReportValue);
 		beDefinitive;
-		beReadonly;
 		yourself

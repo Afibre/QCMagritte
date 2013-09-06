@@ -6,11 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"bordered",
-		"stiped",
-		"condensed",
-		"showBatchFirstLast"
+		"layoutStyle",
+		"validationMessageStyle"
 	],
-	"name" : "TWBSQCMagritteReportChooser",
+	"name" : "TWBSQCMagritteExampleFormChooser",
 	"type" : "normal"
 }

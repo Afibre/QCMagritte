@@ -1,6 +1,11 @@
 private
 createReportBasedOn: aReportChooser
-	^TWBSQCReportValues new
+	| theReport |
+	theReport := TWBSQCReportValues new
 		reportOptions: aReportChooser;
 		demoRows: self demoRows;
-		asComponent
+		asComponent.
+	
+	^ TWBSMagritteReportWrapper new
+		report: theReport ;
+		yourself

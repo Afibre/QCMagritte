@@ -1,3 +1,3 @@
 accessing
 examples
-	^ Array with: TWBSQCMagritteReportExampleTask
+	^ Array with: TWBSQCMagritteReportExampleTask with:TWBSQCMagritteExampleFormTask
