@@ -3,4 +3,5 @@ visitToManyRelationDescription: aDescription
 	super visitToManyRelationDescription: 
 		(aDescription
 			componentClass: TWBSQCToManyComponent;
-			yourself) 
+"			componentClass: QCExtendedToManyComponent;
+"			yourself) 

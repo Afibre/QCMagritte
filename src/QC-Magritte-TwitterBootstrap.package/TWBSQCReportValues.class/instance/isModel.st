@@ -1,0 +1,3 @@
+magritteDescription
+isModel
+	^true
