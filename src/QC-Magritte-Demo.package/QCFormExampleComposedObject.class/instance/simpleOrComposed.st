@@ -1,0 +1,3 @@
+accessing
+simpleOrComposed
+	^ simpleOrComposed

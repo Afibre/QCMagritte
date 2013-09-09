@@ -1,0 +1,3 @@
+actions
+buildModelComponent
+	^self model asComponent addValidatedForm

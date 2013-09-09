@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCParentObject",
+	"category" : "QC-Magritte-Demo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCFormExampleObject",
+	"type" : "normal"
+}
