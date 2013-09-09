@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"canEdit"
+		"canEdit",
+		"columnChooser",
+		"hasColumnChooser"
 	],
 	"name" : "TWBSQCToManyComponent",
 	"type" : "normal"

@@ -10,7 +10,8 @@
 		"stiped",
 		"condensed",
 		"showBatchFirstLast",
-		"canEdit"
+		"canEdit",
+		"hasColumnChooser"
 	],
 	"name" : "TWBSQCMagritteReportChooser",
 	"type" : "normal"

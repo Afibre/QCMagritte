@@ -7,4 +7,5 @@ descriptionCondensed
 		accessor: #condensed;
 		comment: 'Cuts vertical padding in half';
 		default: false;
+		priority: 130;
 		yourself

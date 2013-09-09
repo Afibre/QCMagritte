@@ -2,7 +2,9 @@
 	"commentStamp" : "",
 	"super" : "TWBSQCObject",
 	"category" : "QC-Magritte-TwitterBootstrap-Model",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"template"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

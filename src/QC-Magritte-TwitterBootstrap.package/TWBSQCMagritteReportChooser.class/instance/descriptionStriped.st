@@ -6,4 +6,5 @@ descriptionStriped
 		accessor: #striped;
 		comment: 'Adds light gray background color to odd rows';
 		default: false;
+		priority: 90;
 		yourself
