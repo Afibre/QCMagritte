@@ -8,6 +8,7 @@ buildReport
 		showBatchFirstLast: self model reportOptions showBatchFirstLast ;
 		showBordered: self model reportOptions bordered ;
 		showStriped: self model reportOptions striped ;
-		showCondensed: self model reportOptions condensed.
+		showCondensed: self model reportOptions condensed;
+		batchSize: self model reportOptions rowCount.
 		
 	^retVal

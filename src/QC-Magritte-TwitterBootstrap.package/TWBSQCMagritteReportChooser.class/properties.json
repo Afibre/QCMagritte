@@ -11,7 +11,8 @@
 		"condensed",
 		"showBatchFirstLast",
 		"canEdit",
-		"hasColumnChooser"
+		"hasColumnChooser",
+		"rowCount"
 	],
 	"name" : "TWBSQCMagritteReportChooser",
 	"type" : "normal"
