@@ -4,6 +4,6 @@ descriptionInt
 	^MANumberDescription new
 		accessor: #int;
 		label: 'Number';
-		group: 'Group';
+		group: 'History';
 		priority: 200;
 		yourself

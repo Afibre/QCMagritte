@@ -3,6 +3,6 @@ setDefaultsFor: aContainer
 	<magritteContainer>
 	^aContainer
 		componentRenderer: QCGroupedFormRenderer;
-		componentClass: QCContainerComponent;
+		componentClass: QCMultipartComponent;
 		descriptionBuilder: QCDescriptionFlattener;
 		yourself

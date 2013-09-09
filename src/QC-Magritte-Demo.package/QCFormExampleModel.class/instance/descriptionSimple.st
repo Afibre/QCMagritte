@@ -7,4 +7,5 @@ descriptionSimple
 		comment: 'A simple object';
 		classes: (Array with: QCFormExampleSimpleObject);
 		beRequired;
+		priority: 100;
 		yourself

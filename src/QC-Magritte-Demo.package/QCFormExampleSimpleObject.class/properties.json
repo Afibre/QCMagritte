@@ -10,7 +10,8 @@
 		"int",
 		"string",
 		"memo",
-		"hiddenField"
+		"hiddenField",
+		"history"
 	],
 	"name" : "QCFormExampleSimpleObject",
 	"type" : "normal"
