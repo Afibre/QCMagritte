@@ -1,3 +1,3 @@
 accessing
 parent
-	^parent ifNil: [ parent := QCModel default ]
+	^parent ifNil: [ parent := self defaultModel ]
