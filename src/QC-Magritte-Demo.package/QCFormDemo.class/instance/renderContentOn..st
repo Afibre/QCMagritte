@@ -7,6 +7,7 @@ renderContentOn: canvas
 			with: self message.
 		canvas horizontalRule ].
 	canvas paragraph: 'This is a simple form demo'.
-	canvas button
-		callback: [ self showForm ];
-		label: 'Show form'.
+	canvas form: [ 
+		canvas button
+			callback: [ self showForm ];
+			with: 'Show form' ].

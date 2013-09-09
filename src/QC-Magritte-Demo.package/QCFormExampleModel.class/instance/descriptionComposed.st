@@ -1,7 +1,7 @@
 magritte-description
 descriptionComposed
-	<magriteDescription>
-	^MAToManyRelationDescription new
+	<magritteDescription>
+	^MAToOneRelationDescription new
 		label: 'composed ';
 		accessor: #composed;
 		comment: 'A composed object';

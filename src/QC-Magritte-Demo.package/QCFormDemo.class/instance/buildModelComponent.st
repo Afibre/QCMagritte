@@ -1,3 +1,5 @@
 actions
 buildModelComponent
-	^self model asComponent addValidatedForm
+	^self model asComponent
+		addMessage: 'Showing example model in a form';
+		addValidatedForm	

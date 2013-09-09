@@ -1,3 +1,3 @@
 accessing
 simple
-	^ simple
+	^ simple ifNil: [ simple := QCFormExampleSimpleObject new ]

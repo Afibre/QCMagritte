@@ -1,7 +1,7 @@
 magritte-description
 descriptionSimple
-	<magriteDescription>
-	^MAToManyRelationDescription new
+	<magritteDescription>
+	^MAToOneRelationDescription new
 		label: 'simple';
 		accessor: #simple;
 		comment: 'A simple object';
