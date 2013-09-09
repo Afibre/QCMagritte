@@ -5,4 +5,5 @@ descriptionString
 		accessor: #string;
 		label: 'String';
 		group: 'Group';
-		yourself
+		priority: 220;
+	yourself

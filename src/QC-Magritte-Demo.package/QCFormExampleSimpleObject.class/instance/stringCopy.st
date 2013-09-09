@@ -1,0 +1,3 @@
+accessing
+stringCopy
+	^self string
