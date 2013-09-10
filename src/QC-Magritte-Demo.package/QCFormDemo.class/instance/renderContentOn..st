@@ -6,7 +6,7 @@ renderContentOn: canvas
 			class: 'error-message';
 			with: self message.
 		canvas horizontalRule ].
-	canvas paragraph: 'This is a simple form demo'.
+	canvas paragraph: 'This is a simple form demo. It shows the use of AJAX, by having some fields that propegate some values. Note that this renderer, rerenders the group on an event, so the influences only work within a group.'.
 	canvas form: [ 
 		canvas button
 			callback: [ self showSimpleForm ];
