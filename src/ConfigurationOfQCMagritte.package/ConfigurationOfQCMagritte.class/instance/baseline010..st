@@ -46,9 +46,13 @@ baseline010: spec
 				spec requires: #( 'QC-Magritte-Model' ) ];
 			package: 'QC-Magritte-Component' with: [ 
 				spec requires: #( 'QC-Magritte-Model' 'QC-Magritte-Other' 'QC-Magritte-Builder' ) ];
+			package: 'QC-Magritte-Tests' with:[
+				spec requires: #( 'QC-Magritte-Builder' ) ];
 			package: 'QC-Magritte-Demo' with: [ 
 				spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Builder' 'Seaside3' 'QC-Magritte-TwitterBootstrap'  'QC-Magritte-Language' 'QC-Magritte-Meta' 'QC-Magritte-Session') ].
 		spec 
-			group: 'default' with: #('Core' 'Demo' );
+			group: 'default' with: #('Core' 'Tests' );
 			group: 'Core' with: #( 'QC-Magritte-Core' );
-			group: 'Demo' with: #( 'QC-Magritte-Demo' ) ]
+			group: 'Tests' with: #( 'Core' 'QC-Magritte-Tests' );
+			group: 'Demo' with: #( 'QC-Magritte-Demo' );
+			group: 'All' with: #( 'Tests' 'Demo' ) ]
