@@ -1,5 +1,5 @@
 tests
-testDescription
+testBuildedDescription
 	| target component |
 	target := QCTestObject new.
 	component := target asComponent.
