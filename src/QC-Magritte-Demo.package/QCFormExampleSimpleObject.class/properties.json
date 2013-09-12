@@ -11,7 +11,9 @@
 		"string",
 		"memo",
 		"hiddenField",
-		"history"
+		"history",
+		"firstName",
+		"lastName"
 	],
 	"name" : "QCFormExampleSimpleObject",
 	"type" : "normal"
