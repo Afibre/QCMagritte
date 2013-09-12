@@ -8,4 +8,5 @@ descriptionDisplayString
 		beReadonly;
 		visible: (self class == QCObject);
 		reportColumnClass: QCDescribedColumn;
+		priority: 50;
 		yourself
