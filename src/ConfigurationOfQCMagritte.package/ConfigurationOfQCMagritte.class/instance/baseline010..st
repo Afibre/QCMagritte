@@ -18,13 +18,8 @@ baseline010: spec
 					className: 'ConfigurationOfMagritte3';
 					versionString: #'stable';
 					loads: #( 'Seaside' );
-					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ];
-			project: 'Seaside3' with: [
-				spec
-					className: 'ConfigurationOfSeaside3';
-					versionString: #'stable';
-					loads: #( 'Zinc-Seaside' );
-					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].
+					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ].
+
 		spec
 			package: 'QC-Magritte-Core' with: [ 
 				spec requires: #( 'Magritte3' ) ];
@@ -49,10 +44,22 @@ baseline010: spec
 			package: 'QC-Magritte-Tests' with:[
 				spec requires: #( 'QC-Magritte-Builder' ) ];
 			package: 'QC-Magritte-Demo' with: [ 
-				spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Builder' 'Seaside3' 'QC-Magritte-TwitterBootstrap'  'QC-Magritte-Language' 'QC-Magritte-Meta' 'QC-Magritte-Session') ].
+				spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Builder' 'QC-Magritte-TwitterBootstrap'  'QC-Magritte-Language' 'QC-Magritte-Meta' 'QC-Magritte-Session') ].
 		spec 
 			group: 'default' with: #('Core' 'Tests' );
 			group: 'Core' with: #( 'QC-Magritte-Core' );
 			group: 'Tests' with: #( 'Core' 'QC-Magritte-Tests' );
 			group: 'Demo' with: #( 'QC-Magritte-Demo' );
-			group: 'All' with: #( 'Tests' 'Demo' ) ]
+			group: 'All' with: #( 'Tests' 'Demo' ) ].
+	
+	spec for: #( #'gemstone' #'pharo' ) do: [ 
+		spec
+			project: 'Seaside3' with: [
+				spec
+					className: 'ConfigurationOfSeaside3';
+					versionString: '3.0.9';
+					loads: #( 'Zinc-Seaside' );
+					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].
+		spec
+			package: 'QC-Magritte-Demo' with: [ 
+				spec requires: #( 'Seaside3' ) ] ]
