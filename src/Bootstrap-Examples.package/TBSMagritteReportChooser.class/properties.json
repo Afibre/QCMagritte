@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "GRObject",
+	"category" : "Bootstrap-Examples-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bordered",
+		"stiped",
+		"condensed",
+		"showBatchFirstLast"
+	],
+	"name" : "TBSMagritteReportChooser",
+	"type" : "normal"
+}

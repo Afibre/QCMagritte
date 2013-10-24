@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "GRObject",
+	"category" : "Bootstrap-Examples-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"number",
+		"bePositive"
+	],
+	"name" : "TBSMagritteExampleFormDescription",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "GRObject",
+	"category" : "Bootstrap-Examples-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"layoutStyle",
+		"validationMessageStyle"
+	],
+	"name" : "TBSMagritteExampleFormChooser",
+	"type" : "normal"
+}

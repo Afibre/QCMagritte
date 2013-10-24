@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WATask",
+	"category" : "Bootstrap-Examples-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSMagritteExampleFormTask",
+	"type" : "normal"
+}
