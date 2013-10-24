@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MARadioGroupComponent",
+	"category" : "Bootstrap-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSMagritteRadioGroupComponent",
+	"type" : "normal"
+}

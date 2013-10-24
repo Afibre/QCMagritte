@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAVerifiedPasswordComponent",
+	"category" : "Bootstrap-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSVerifiedPasswordComponent",
+	"type" : "normal"
+}

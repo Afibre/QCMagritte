@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MAFormDecoration",
+	"category" : "Bootstrap-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"formCss",
+		"legend"
+	],
+	"name" : "TBSMagritteFormDecoration",
+	"type" : "normal"
+}

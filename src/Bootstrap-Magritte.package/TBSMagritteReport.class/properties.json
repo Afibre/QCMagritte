@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAReport",
+	"category" : "Bootstrap-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSMagritteReport",
+	"type" : "normal"
+}

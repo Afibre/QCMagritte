@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAValidationDecoration",
+	"category" : "Bootstrap-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSMagritteValidationDecoration",
+	"type" : "normal"
+}

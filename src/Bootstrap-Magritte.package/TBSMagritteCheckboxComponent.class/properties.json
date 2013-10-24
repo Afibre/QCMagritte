@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MACheckboxComponent",
+	"category" : "Bootstrap-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSMagritteCheckboxComponent",
+	"type" : "normal"
+}

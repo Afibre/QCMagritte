@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAOneToManyComponent",
+	"category" : "Bootstrap-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSMagritteOneToManyComponent",
+	"type" : "normal"
+}

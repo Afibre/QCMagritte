@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MAComponentRenderer",
+	"category" : "Bootstrap-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"validationMessagesInline",
+		"formInline"
+	],
+	"name" : "TBSMagritteFormRenderer",
+	"type" : "normal"
+}
