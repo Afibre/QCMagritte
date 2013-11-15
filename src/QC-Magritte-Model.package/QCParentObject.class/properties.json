@@ -2,7 +2,9 @@
 	"commentStamp" : "",
 	"super" : "QCObject",
 	"category" : "QC-Magritte-Model",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"defaultModel"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
