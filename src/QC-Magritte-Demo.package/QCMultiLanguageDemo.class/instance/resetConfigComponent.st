@@ -1,0 +1,3 @@
+actions
+resetConfigComponent
+	configComponent := nil
