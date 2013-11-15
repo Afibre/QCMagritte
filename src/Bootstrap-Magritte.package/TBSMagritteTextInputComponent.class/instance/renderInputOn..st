@@ -1,16 +1,12 @@
 rendering
 renderInputOn: html
 	| textInput |
-	textInput := html textInput.
+	textInput := html textInput tbsFormControl.
 	description placeholder notNil ifTrue: [ 
 		textInput placeholder: description placeholder ].
-	
-	description cssClasses isEmpty ifFalse: [
-		textInput class: (String streamContents: [:stream |
-			description cssClasses 
-				do: [:cls | stream nextPutAll: cls] 
-				separatedBy: [stream nextPut: Character space]])].
-	
+		
+	description cssClasses do: [ :cls | textInput class: cls ].
+		
 	textInput
 		id: self labelId;
-		on: #string of: self. 
+		on: #string of: self

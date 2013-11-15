@@ -6,14 +6,13 @@ renderElement: aDescription
 	self formInline 
 		ifTrue: [ self renderElementForInlineForm: aDescription ]
 		ifFalse: [ 
-			html div
-				class: 'control-group';
+			html tbsFormGroup
 				class: (self classFor: aDescription);
 				with: [
 					self renderLabel: aDescription.
 					html div
 						class: 'controls';
-						 with: [ 			
+						 with: [ 
 							self renderControl: aDescription.
 							self renderComment: aDescription.
 							self validationMessagesInline ifTrue: [ self renderInlineError: aDescription ] ] ] ]

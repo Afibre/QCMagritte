@@ -1,10 +1,11 @@
 rendering
 renderEditorOn: html
-	html label
+	html div
 		class: 'checkbox';
 		with: [
-			html checkbox
-				id: self labelId;
-				disabled: self isReadonly;
-				on: #value of: self.
-			html space; render: self magritteDescription checkboxLabel ]
+			html label: [ 
+				html checkbox
+					id: self labelId;
+					disabled: self isReadonly;
+					on: #value of: self.
+				html space; render: self magritteDescription checkboxLabel ] ]
