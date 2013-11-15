@@ -1,3 +1,3 @@
 accessing
 labelFormatter
-	^QCLabelWriter
+	^QCLabelReflectiveWriter

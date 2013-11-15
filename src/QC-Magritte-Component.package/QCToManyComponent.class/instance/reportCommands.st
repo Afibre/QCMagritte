@@ -1,3 +1,3 @@
 accessing
 reportCommands
-	^reportCommands ifNil: [ reportCommands := OrderedCollection new ]
+	^reportCommands ifNil: [ reportCommands := self buildReportCommands ]

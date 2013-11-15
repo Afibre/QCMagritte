@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "QCMultipartComponent",
+	"super" : "QCContainerComponent",
 	"category" : "QC-Magritte-Component",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"hasForm"
+		"currentTab",
+		"activeDescription"
 	],
-	"name" : "QCMultipartResultsComponent",
+	"name" : "QCMultiPartComponent",
 	"type" : "normal"
 }

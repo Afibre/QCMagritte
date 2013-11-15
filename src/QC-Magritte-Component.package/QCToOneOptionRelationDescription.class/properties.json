@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "QCContainerComponent",
+	"super" : "MAToOneRelationDescription",
 	"category" : "QC-Magritte-Component",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"currentTab",
-		"activeDescription"
+		"options"
 	],
-	"name" : "QCMultipartComponent",
+	"name" : "QCToOneOptionRelationDescription",
 	"type" : "normal"
 }

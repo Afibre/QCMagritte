@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "QCMultipartComponent",
+	"super" : "QCMultiPartComponent",
 	"category" : "QC-Magritte-Component",
 	"classinstvars" : [ ],
 	"pools" : [ ],
