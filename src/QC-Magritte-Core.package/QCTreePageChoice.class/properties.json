@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "QCPageChoice",
+	"category" : "QC-Magritte-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parent",
+		"active"
+	],
+	"name" : "QCTreePageChoice",
+	"type" : "normal"
+}

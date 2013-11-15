@@ -1,3 +1,3 @@
-accessing
+css
 menuId
 	^'qc-magritte-menu'

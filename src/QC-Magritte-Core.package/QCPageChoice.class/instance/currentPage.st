@@ -1,3 +1,3 @@
 pages
 currentPage
-	^currentPage ifNil: [ currentPage := self homepage ]
+	^currentPage ifNil: [ currentPage := self homePage ]

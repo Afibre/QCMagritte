@@ -1,3 +1,3 @@
 pages
 goHome
-	self currentPage: homepage
+	self currentPage: self homePage

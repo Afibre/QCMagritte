@@ -8,5 +8,4 @@ addPage: page announcement: announcement subject: subject accessors: accessors
 			temp := subject.
 			accessors do: [ :each| temp := temp perform: each ].
 			page subject: temp.
-			self currentPage: page.
-		]
+			self currentPage: page ]

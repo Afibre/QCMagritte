@@ -1,3 +1,3 @@
-accessing
+css
 menuClass
-	^'qc-magritte-menu'
+	^'qc-magritte-submenu'

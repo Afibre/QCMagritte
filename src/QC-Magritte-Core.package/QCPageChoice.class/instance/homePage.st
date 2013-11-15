@@ -1,6 +1,6 @@
 pages
-homepage
-	homepage ifNil: 
+homePage
+	homePage ifNil: 
 		[ self pages ifEmpty: [ ^ nil ].
 		^ self pages first ].
-	^ homepage
+	^ homePage

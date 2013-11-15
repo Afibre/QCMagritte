@@ -1,4 +1,6 @@
 pages
 close: aPage
+	aPage = currentPage ifTrue: [ currentPage := nil ].
+	aPage = homePage ifTrue: [ homePage := nil ].
 	self pages remove: aPage ifAbsent: [ ].
-	currentPage = aPage ifTrue: [ currentPage := aPage prevPage ]
+	self pages ifEmpty: [ self onCloseLastPage value ]
