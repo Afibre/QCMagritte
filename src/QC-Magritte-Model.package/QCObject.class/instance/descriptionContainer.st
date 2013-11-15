@@ -3,5 +3,5 @@ descriptionContainer
 	<magritteContainer>
 	^ super descriptionContainer
 		componentRenderer: QCGroupedFormRenderer;
-		stringWriter: QCLabelWriter;
+		stringWriter: QCLabelReflectiveWriter;
 		yourself
