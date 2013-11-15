@@ -4,7 +4,7 @@ descriptionSearchValueType
 	^MASingleOptionDescription new
 		label: (QCMultilanguageString on: 'Search value type');
 		options: self possibleValueTypes;
-		labels: QCLabelWriter;
+		labels: QCLabelReflectiveWriter;
 		accessor: #searchValueType;
 		beRequired;
 		reportColumnClass: QCDescribedColumn;

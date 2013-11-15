@@ -7,6 +7,6 @@ descriptionOperator
 		options: self possibleOperators;
 		priority: 200;
 		beRequired;
-		labels: QCLabelWriter;
+		labels: QCLabelReflectiveWriter;
 		visibleInReport: false;
 		yourself

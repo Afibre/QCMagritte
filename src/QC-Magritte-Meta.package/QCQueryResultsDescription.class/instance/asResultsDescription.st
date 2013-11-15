@@ -1,0 +1,3 @@
+converting
+asResultsDescription
+	^self

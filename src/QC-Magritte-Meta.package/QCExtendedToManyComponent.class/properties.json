@@ -1,14 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "MAElementComponent",
+	"super" : "QCToManyComponent",
 	"category" : "QC-Magritte-Meta",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"query",
-		"originalQuery",
-		"queryResultsComponent",
 		"queryOptionsComponent",
 		"simpleSearchComponent",
 		"optionsVisible",

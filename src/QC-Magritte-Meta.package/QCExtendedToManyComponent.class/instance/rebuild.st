@@ -1,5 +1,5 @@
 actions
 rebuild
-	queryResultsComponent := nil.
 	queryOptionsComponent := nil.
-	simpleSearchComponent := nil
+	simpleSearchComponent := nil.
+	super rebuild.

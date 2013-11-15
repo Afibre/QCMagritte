@@ -1,3 +1,3 @@
 initialization
 columnChooserFor: aComponent
-	^(QCColumnChooser visibleOn: aComponent description: self childDescription)
+	^(QCColumnChooser visibleOn: aComponent description: self reference)

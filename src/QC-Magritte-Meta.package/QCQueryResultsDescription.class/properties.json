@@ -2,7 +2,9 @@
 	"commentStamp" : "",
 	"super" : "QCParentObject",
 	"category" : "QC-Magritte-Meta-Query",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"defaultComponentClass"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

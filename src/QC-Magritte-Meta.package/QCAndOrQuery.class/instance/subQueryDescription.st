@@ -6,7 +6,7 @@ subQueryDescription
 		label: (QCMultilanguageString on: 'Sub queries');
 		accessor: #subQueries;
 		classes: QCSelectQuery allSubclasses;
-		componentClass: QCCustomizedToManyComponent;
+		componentClass: QCExtendedQueryComponent;
 		queryComponentClass: QCParentChildComponent;
 		reportColumnClass: QCToManyColumn;
 		visibleInReport: false;

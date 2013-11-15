@@ -1,3 +1,5 @@
 hooks
 children
-	^Array with: self simpleSearchComponent with: self queryResultsComponent with: self queryOptionsComponent
+	self hasSearchForm ifTrue: [ ^super children copyWithAll: 
+		(Array with: self simpleSearchComponent with: self queryOptionsComponent) ].
+	^super children copyWith: self queryOptionsComponent

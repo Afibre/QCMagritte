@@ -1,5 +1,5 @@
 rendering
 renderContentOn: canvas
-	self renderSearchFormOn: canvas.
-	self renderQueryResultsOn: canvas.
-	self renderQueryEditorOn: canvas
+	self hasSearchForm ifTrue: [ self renderSearchFormOn: canvas ].
+	super renderContentOn: canvas.
+	self renderQueryOptionsOn: canvas
