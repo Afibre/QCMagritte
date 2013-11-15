@@ -1,3 +1,0 @@
-accessing
-queryResultsDescription
-	^self query resultsDescription

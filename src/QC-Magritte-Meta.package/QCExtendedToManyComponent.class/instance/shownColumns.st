@@ -1,3 +1,3 @@
 accessing
 shownColumns
-	^self report columns select: [ :each | each visible ] thenCollect: [ :each | each magritteDescription ]
+	^self report columns select: [ :each | each visible and: [ each isDescribedColumn ] ] thenCollect: [ :each | each magritteDescription ]
