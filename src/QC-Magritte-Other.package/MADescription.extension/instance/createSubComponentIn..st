@@ -1,5 +1,5 @@
 *QC-Magritte-Other
-createMementoFrom: aComponent
+createSubComponentIn: aComponent
 	" creates a memento to support tabs "
 	self showTabAsContainer
 		ifTrue: [ ^(aComponent memento readUsing: self) asComponent addValidatedForm ].

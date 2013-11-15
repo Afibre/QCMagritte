@@ -1,3 +1,3 @@
-*QC-Magritte-Other-Other-Other-Other
+*QC-Magritte-Other
 defaultTabDisplay
 	^false

@@ -1,3 +1,3 @@
 accessing
 stringWriter
-	^QCLabelWriter
+	^QCLabelReflectiveWriter

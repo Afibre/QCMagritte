@@ -1,4 +1,9 @@
 *QC-Magritte-Other
 childDescription
-	self options ifNotEmpty: [ ^self options first magritteDescription ].
-	^nil
+	| commonClass |
+	self options ifEmpty: [ self halt ].
+	commonClass := self options first class.
+	self options allButFirstDo: [ :each |
+		[ each class includesBehavior: commonClass ]
+			whileFalse: [ commonClass := commonClass superclass ] ].
+	^commonClass template magritteDescription
