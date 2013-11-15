@@ -1,3 +1,0 @@
-converting
-asResultsDescription
-	^self

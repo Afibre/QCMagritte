@@ -3,6 +3,6 @@ descriptionContainer
 	<magritteContainer>
 	^ super descriptionContainer
 		componentClass: QCMultiPartResultsComponent;
-		descriptionBuilders: (Array with: QCDescriptionFlattener with: QCDescriptionBuildMultiLanguage with: QCDescriptionBuildSettings);
+		descriptionBuilders: (Array with: QCDescriptionFlattener with: QCDescriptionBuildMultiLanguage);
 		componentRenderer: QCOverviewRenderer;
 		yourself

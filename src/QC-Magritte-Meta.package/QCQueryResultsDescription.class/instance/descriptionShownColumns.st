@@ -3,7 +3,7 @@ descriptionShownColumns
 	<magritteDescription>
 	^MAMultipleOptionDescription new
 		priority: 700;
-		label: 'Shown columns';
+		label: (QCMultilanguageString on: 'Shown columns');
 		accessor: #shownColumns;
 		options: self possibleColumns;
 		hidden: (self canChooseColumnsFor: self resultType);

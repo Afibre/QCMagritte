@@ -6,9 +6,8 @@ descriptionQueryColumns
 		label: 'Calculated columns';
 		accessor: #queryColumns;
 		classes: { QCQueryColumn };
-		componentClass: self class defaultComponentClass;
+		componentClass: QCToManyComponent;
 		reportColumnClass: QCToManyColumn;
-		stringWriter: QCLabelReflectiveWriter;
 		visibleInReport: true;
 		visibleInLabel: false;
 		yourself

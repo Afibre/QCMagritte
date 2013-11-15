@@ -3,7 +3,7 @@ descriptionResultsDescription
 	<magritteDescription>
 	^MAToOneRelationDescription new
 		accessor: #resultsDescription;
-		label: 'Results';
+		label: (QCMultilanguageString on: 'Results');
 		visibleInLabel: false;
 		visibleInReport: false;
 		visible: false;
