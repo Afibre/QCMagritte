@@ -1,1 +1,1 @@
-A QCContainerComponent enriches the magritte description according to the description builder class. 
+A QCContainerComponent enriches the magritte description according to the description builder class. It does so by building the magritteDescription when accessed, and caches this results. This cache is reset when rebuild, or when the description is set again.
