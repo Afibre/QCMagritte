@@ -2,6 +2,6 @@ magritte-description
 setDefaultsForContainer: aContainer
 	<magritteContainer>
 	^aContainer
-		componentClass: QCMultipartComponent;
+		componentClass: QCMultiPartComponent;
 		descriptionBuilders: (Array with: QCDescriptionBuildMultiLanguage with: QCDemoBuilder);
 		yourself
