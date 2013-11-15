@@ -1,4 +1,3 @@
 actions
-selectPage: aComponent inTrace: aBoolean
-	(aBoolean or: [ rootPage ~= aComponent ]) ifTrue: [ ^self selectPage: aComponent ].
-	rootSelected := true
+selectPage: aComponent inTrace: aIsInTrace
+	(aIsInTrace or: [ rootPage ~= aComponent ]) ifTrue: [ ^self selectPage: aComponent ]
