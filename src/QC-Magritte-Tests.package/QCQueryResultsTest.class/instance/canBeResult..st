@@ -1,3 +1,3 @@
 dummy
-canBeResult: aQCParty 
+canBeResult: anObject 
 	^true

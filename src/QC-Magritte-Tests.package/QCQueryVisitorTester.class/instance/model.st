@@ -1,3 +1,0 @@
-mock
-model
-	^self
