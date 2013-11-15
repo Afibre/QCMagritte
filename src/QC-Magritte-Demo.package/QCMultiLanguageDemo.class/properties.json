@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"configComponent"
+		"configComponent",
+		"explanation"
 	],
 	"name" : "QCMultiLanguageDemo",
 	"type" : "normal"
