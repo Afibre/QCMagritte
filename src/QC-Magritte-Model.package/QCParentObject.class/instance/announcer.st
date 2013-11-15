@@ -1,3 +1,4 @@
 events
 announcer
-	^self model announcer
+	self model ifNotNilDo: [ :mod | ^mod announcer ].
+	^nil

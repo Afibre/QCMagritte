@@ -1,3 +1,4 @@
 accessing
 model
-	^self parent model
+	self parent ifNotNil: [ ^self parent model ].
+	^nil
