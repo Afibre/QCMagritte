@@ -5,5 +5,5 @@ descriptionContainer
 		componentRenderer: QCGroupedFormRenderer;
 		stringWriter: QCLabelReflectiveWriter;
 		componentClass: QCSearchComponent;
-		descriptionBuilders: (Array with: QCDescriptionFlattener with: QCDescriptionBuildMultiLanguage with: QCDescriptionBuildSettings);
+		descriptionBuilder: QCDescriptionBuildMultiLanguage;
 		yourself
