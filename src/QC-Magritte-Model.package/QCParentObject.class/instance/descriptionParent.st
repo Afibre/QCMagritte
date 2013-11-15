@@ -7,7 +7,6 @@ descriptionParent
 		accessor: #parent;
 		beReadonly;
 		classes: self parentClasses;
-		isJsonSerialized: false;
 		visibleInLabel: false;
 		visibleInReport: false;
 		reportColumnClass: QCDescribedColumn;
