@@ -6,8 +6,15 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"object"
+		"description",
+		"magritteComponent",
+		"searchForm",
+		"parties",
+		"party1",
+		"party2",
+		"model",
+		"selectQuery"
 	],
-	"name" : "QCContainerComponentTest",
+	"name" : "QCSearchStrategyTester",
 	"type" : "normal"
 }

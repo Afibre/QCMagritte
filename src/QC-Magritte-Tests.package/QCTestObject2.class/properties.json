@@ -6,10 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"a",
-		"b",
-		"c"
+		"data"
 	],
-	"name" : "QCTestObject",
+	"name" : "QCTestObject2",
 	"type" : "normal"
 }

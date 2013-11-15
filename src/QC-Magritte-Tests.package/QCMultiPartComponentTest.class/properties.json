@@ -1,15 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "QCObject",
+	"super" : "TestCase",
 	"category" : "QC-Magritte-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"a",
-		"b",
-		"c"
+		"items",
+		"dummy"
 	],
-	"name" : "QCTestObject",
+	"name" : "QCMultiPartComponentTest",
 	"type" : "normal"
 }

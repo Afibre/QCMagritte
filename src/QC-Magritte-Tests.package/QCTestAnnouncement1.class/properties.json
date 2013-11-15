@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "QCObject",
+	"super" : "Announcement",
 	"category" : "QC-Magritte-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"a",
-		"b",
-		"c"
+		"param"
 	],
-	"name" : "QCTestObject",
+	"name" : "QCTestAnnouncement1",
 	"type" : "normal"
 }
