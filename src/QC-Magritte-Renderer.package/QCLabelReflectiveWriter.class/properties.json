@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "QCLabelWriter",
+	"name" : "QCLabelReflectiveWriter",
 	"type" : "normal"
 }
