@@ -9,5 +9,6 @@ numberDescription
 		comment: 'select your favourite number';
 		addCondition: [ :v | v ~= 0 ] labelled: 'sorry we are not permitting zero to be favourite';
 		addCondition: [ :v | v ~= 1 ] labelled: 'sorry we are not permitting one to be favourite';
+		componentClass: TBSMagritteSelectListComponent;
 		beRequired;
 		yourself
