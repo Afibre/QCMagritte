@@ -2,9 +2,8 @@ rendering
 renderErrorsOn: html
 	html break.
 		
-	html div
-		class: 'alert';
-		class: 'alert-error';
+	html tbsAlert
+		beDanger;
 		with: [
 			html anchor 
 				class: 'close';
