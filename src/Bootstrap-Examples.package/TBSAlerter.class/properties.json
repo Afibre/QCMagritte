@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"text"
+		"text",
+		"state"
 	],
 	"name" : "TBSAlerter",
 	"type" : "normal"

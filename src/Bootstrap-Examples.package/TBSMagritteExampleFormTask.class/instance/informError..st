@@ -1,3 +1,3 @@
-as yet unclassified
+private
 informError: anObject
-	self call: (TBSAlerter on: anObject)
+	self call: (TBSAlerter dangerOn: anObject)

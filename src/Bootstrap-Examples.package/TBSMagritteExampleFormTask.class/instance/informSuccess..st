@@ -1,3 +1,3 @@
-as yet unclassified
+private
 informSuccess: anObject
-	self call: (TBSAlerter on: anObject)
+	self call: (TBSAlerter successOn: anObject)
