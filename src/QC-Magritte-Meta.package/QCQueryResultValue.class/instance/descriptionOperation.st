@@ -1,7 +1,7 @@
 magritte-description
 descriptionOperation
 	<magritteDescription>
-	^QCOptionRelationDescription new
+	^QCToOneOptionRelationDescription new
 		label: (QCMultilanguageString on: 'Operation');
 		accessor: #operation;
 		priority: 300;

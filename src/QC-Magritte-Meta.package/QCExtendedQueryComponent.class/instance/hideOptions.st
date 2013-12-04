@@ -1,0 +1,3 @@
+actions
+hideOptions
+	optionsVisible := false

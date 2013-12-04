@@ -3,7 +3,7 @@ descriptionSelectQuery
 	<magritteDescription>
 	^MAToOneRelationDescription new
 		accessor: #select;
-		label: (QCMultilanguageString on: 'Query');
+		label: 'Query';
 		visibleInLabel: false;
 		visibleInReport: false;
 		visible: false;

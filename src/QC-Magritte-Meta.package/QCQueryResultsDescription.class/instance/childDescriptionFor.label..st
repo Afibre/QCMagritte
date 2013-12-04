@@ -7,4 +7,5 @@ childDescriptionFor: aClassList label: aLabel
 		visibleInReport: false;
 		visibleInLabel: false;
 		tabDisplay: false;
+		componentClass: self class defaultComponentClass;
 		yourself)

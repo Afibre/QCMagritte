@@ -1,3 +1,3 @@
 accessing
 displayName
-	^(QCMultilanguageString on: 'Resultdescription for '), self query queryName
+	^(QCMultilanguageString on: 'Resultdescription for '), self parent label

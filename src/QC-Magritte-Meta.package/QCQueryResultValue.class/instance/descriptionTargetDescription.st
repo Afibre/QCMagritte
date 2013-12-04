@@ -7,5 +7,5 @@ descriptionTargetDescription
 		priority: 400;
 		options: self possibleDescriptions;
 		labels: QCCommentWriter;
-		group: (QCMultilanguageString on: 'Operation');
+		group: 'Operation';
 		yourself

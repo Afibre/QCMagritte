@@ -1,4 +1,4 @@
 maintenance
-validate
-	super validate.
+sanitizeForUpgrade
+	super sanitizeForUpgrade.
 	self queryColumns do: [ :each | each parent: self ]
