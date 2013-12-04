@@ -1,3 +1,4 @@
 testing
 shouldRenderSubMenuFor: aPage
-	^self active and: [ self isInTrace: aPage ]
+	^(aPage respondsTo: #renderSubMenuOn:withActivePage:)
+		and: [ self active and: [ self isInTrace: aPage ] ]
