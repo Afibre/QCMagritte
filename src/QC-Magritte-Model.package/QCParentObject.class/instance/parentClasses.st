@@ -1,3 +1,3 @@
-accessing
+accessing-magritte
 parentClasses
-	^{ QCModel }
+	^{ QCObject }
