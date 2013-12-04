@@ -1,6 +1,7 @@
 rendering
 renderContainer: aDescription
 	self validationMessagesInline: aDescription twbsInlineValidationMessages.
-	self formInline: aDescription twbsFormInline.
+	self formInline: aDescription tbsFormInline.
+	self formHorizontal: aDescription tbsFormHorizontal.
 	
 	super renderContainer: aDescription

@@ -6,10 +6,14 @@ renderElement: aDescription
 	html tbsFormGroup
 		class: (self classFor: aDescription);
 		with: [
+			| tag |
 			self renderLabel: aDescription.
-			html div
+			tag := html div
 				class: 'controls';
-				 with: [ 
+				yourself.
+			self formHorizontal ifTrue: [ tag class: 'col-sm-10' ].
+			tag
+				with: [ 
 					self renderControl: aDescription.
 					self renderComment: aDescription.
 					self validationMessagesInline ifTrue: [ self renderInlineError: aDescription ] ] ]
