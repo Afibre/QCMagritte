@@ -1,7 +1,8 @@
 rendering-batch
 renderBatchNextOn: html
-
-	self renderAnchorItem: [ self nextPage ] 
-		with: [ html tbsGlyphIcon iconForward ] 
-		disabled: self isOnLastPage 
-		on: html
+	html tbsButtonGroup: [ 
+		html tbsButton
+			callback: [ self nextPage ];
+			beDisabledIf: [ self isOnLastPage ];
+			beExtraSmall;
+			with: [ html tbsGlyphIcon iconForward ] ]

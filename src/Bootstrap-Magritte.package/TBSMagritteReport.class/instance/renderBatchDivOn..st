@@ -1,11 +1,9 @@
 rendering-batch
 renderBatchDivOn: html
-
-	html div
-		class: 'pagination' ;
-		with: [
-			"?"
-			html unorderedList with: [
+	html form: [ 
+		html tbsButtonToolbar
+			class: 'pagination' ;
+			with: [
 				self showBatchFirstLast
 					ifTrue: [ self renderBatchFirstOn: html ].
 				self showBatchPreviousNext
