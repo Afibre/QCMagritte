@@ -1,3 +1,3 @@
 accessing
 formInline
-	^ formInline ifNil: [ formInline := false ]
+	^ formInline ifNil: [ false ]

@@ -1,3 +1,3 @@
 accessing
 formCss
-	^ formCss
+	^ formCss ifNil: [ 'form-vertical' ]

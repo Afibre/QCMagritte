@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"validationMessagesInline",
-		"formInline"
+		"formInline",
+		"formHorizontal"
 	],
 	"name" : "TBSMagritteFormRenderer",
 	"type" : "normal"

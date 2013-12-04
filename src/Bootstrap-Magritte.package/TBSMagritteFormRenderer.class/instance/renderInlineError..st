@@ -1,7 +1,6 @@
 rendering
 renderInlineError: aDescription
 	(self errorsForDescription: aDescription) do: [ :error |
-		html div
-			class: 'alert';
-			class: 'alert-error';
+		html tbsAlert
+			beDanger;
 			with: error messageText ]
