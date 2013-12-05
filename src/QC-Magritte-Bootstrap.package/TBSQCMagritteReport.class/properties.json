@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCReportComponent",
+	"category" : "QC-Magritte-Bootstrap-Demo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSQCMagritteReport",
+	"type" : "normal"
+}

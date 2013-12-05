@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TBSQCObject",
+	"category" : "QC-Magritte-Bootstrap-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"layoutStyle",
+		"validationMessageStyle"
+	],
+	"name" : "TBSQCMagritteExampleFormChooser",
+	"type" : "normal"
+}

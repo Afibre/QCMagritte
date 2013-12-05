@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TBSQCObject",
+	"category" : "QC-Magritte-Bootstrap-Model",
+	"classinstvars" : [
+		"template"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"number",
+		"odd"
+	],
+	"name" : "TBSQCReportValue",
+	"type" : "normal"
+}
