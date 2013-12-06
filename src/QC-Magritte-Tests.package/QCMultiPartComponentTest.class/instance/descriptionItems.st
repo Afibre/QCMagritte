@@ -4,6 +4,6 @@ descriptionItems
 	^MAToManyRelationDescription new
 		label: 'items';
 		accessor: #items;
-		componentClass: QCExtendedToManyComponent;
+		componentClass: QCToManyComponent;
 		classes: (Array with: QCTestObject);
 		yourself
