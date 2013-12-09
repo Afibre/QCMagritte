@@ -1,5 +1,5 @@
 instance creation
-on: aLabel image: anUrl condition: aConditionBlock action: anActionBlock 
+on: aLabel imageUrl: anUrl condition: aConditionBlock action: anActionBlock 
 	^self new
 		label: aLabel;
 		imageUrl: anUrl;

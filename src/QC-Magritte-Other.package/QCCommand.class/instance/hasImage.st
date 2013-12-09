@@ -1,3 +1,3 @@
 testing
 hasImage
-	^imageUrl notNil
+	^imageUrl notNil or: [ imageBlock notNil ]
