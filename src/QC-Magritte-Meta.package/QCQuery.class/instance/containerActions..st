@@ -3,7 +3,7 @@ containerActions: aContainer
 	<magritteContainer>
 	^aContainer
 		addCustomCommand: (QCCommand on: (QCMultilanguageString on: 'Perform')
-				image: (QCLibrary / #performPng)
+				imageUrl: (QCLibrary / #performPng)
 				condition: [ :row | row canPerform ]
 				action: [ :row  :component | row performOn: component ]);
 		addCustomCommand: ((QCCommand on: (QCMultilanguageString on: 'More options ...')
