@@ -1,4 +1,4 @@
 decorating
 formButtons
-	(self magritteDescription label = 'Query Options') ifFalse: [ self halt ].
+	self readonly ifTrue: [ ^#( #close ) ].
 	^#( #save #cancel )
