@@ -11,7 +11,7 @@ buildReport
 			each filter: true ] ].
 	retVal showFilter: true.
 	retVal doubleClickCommand: (QCCommand on: (QCMultilanguageString on: 'edit')
-		image: self editIcon
+		imageUrl: self editIcon
 		condition: [ :row | self canEdit: row ]
 		action: [ :row | self edit: row ]).
 	^retVal
