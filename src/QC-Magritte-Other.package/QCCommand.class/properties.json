@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "WAObject",
 	"category" : "QC-Magritte-Other",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -11,7 +11,8 @@
 		"conditionBlock",
 		"imageUrl",
 		"showInColumn",
-		"showInDetail"
+		"showInDetail",
+		"imageBlock"
 	],
 	"name" : "QCCommand",
 	"type" : "normal"
