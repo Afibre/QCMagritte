@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderButton: aButton on: html
 	| label |
 	(aButton isKindOf: Association) 

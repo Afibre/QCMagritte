@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderButtonsOn: html
 	html div class: 'buttons'; with: [
 		self buttons do: [ :each |
