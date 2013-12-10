@@ -13,7 +13,9 @@
 		"hiddenField",
 		"history",
 		"firstName",
-		"lastName"
+		"lastName",
+		"country",
+		"state"
 	],
 	"name" : "QCFormExampleSimpleObject",
 	"type" : "normal"
