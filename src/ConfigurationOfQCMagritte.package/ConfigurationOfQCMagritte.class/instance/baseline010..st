@@ -23,8 +23,10 @@ baseline010: spec
 		spec
 			package: 'QC-Magritte-Core' with: [ 
 				spec requires: #( 'Magritte3' ) ];
+			package: 'QC-Magritte-Ajax' with: [ 
+				spec requires: #( 'Magritte3' ) ];
 			package: 'QC-Magritte-Renderer' with: [ 
-				spec requires: #( 'QC-Magritte-Core' ) ];
+				spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Ajax' ) ];
 			package: 'QC-Magritte-Builder' with: [ 
 				spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Language' with: [ 
