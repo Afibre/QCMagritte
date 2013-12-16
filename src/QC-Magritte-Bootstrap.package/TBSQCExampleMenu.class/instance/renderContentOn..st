@@ -7,7 +7,7 @@ renderContentOn: html
 	
 	html div
 		class: '';
-		with: [ html paragraph: 'This is a simple rework of the Twitter Demo example to show some of the functionality of QC-Magritte' ].
+		with: [ html paragraph: 'This is a simple rework of the Bootstrap Demo example to show some of the functionality of QC-Magritte' ].
 		
 	html table
 		class: 'table table-striped table-bordered';
