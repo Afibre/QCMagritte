@@ -8,5 +8,5 @@ descriptionDisplayString
 		visible: (self class == QCObject);
 		reportColumnClass: QCDescribedColumn;
 		priority: 50;
-		visibleInLabel: true;
+		visibleInLabel: self displayStringVisibleInLabel;
 		yourself
