@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "QCComponent",
+	"category" : "QC-Magritte-Language",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"encoding"
+	],
+	"name" : "QCLanguageImportComponent",
+	"type" : "normal"
+}

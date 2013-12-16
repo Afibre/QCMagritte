@@ -1,0 +1,3 @@
+actions
+upload
+	self close

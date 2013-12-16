@@ -1,9 +1,10 @@
 maintenance
-loadFromFile: aFilename
+loadFromString: aString
 	" this does not work yet, since we have a problem with the encoding "
 	| first languages data |
-	aFilename asFileReference readStreamDo: [ :in |
-		data := (NeoCSVReader on: in) upToEnd ].
+	data := (NeoCSVReader on: aString readStream)
+		separator: Character tab;
+		upToEnd.
 	first := true.
 	data do: [ :lineData  |
 		first

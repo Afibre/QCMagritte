@@ -1,7 +1,7 @@
 magritte-description
 descriptionKey
 	<magritteDescription>
-	^MAStringDescription new
+	^QCMultilanguageKeyDescription new
 		accessor: #key;
 		label: 'Key';
 		priority: 50;
