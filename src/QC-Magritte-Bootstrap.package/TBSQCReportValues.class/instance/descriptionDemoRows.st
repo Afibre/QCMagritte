@@ -3,6 +3,6 @@ descriptionDemoRows
 	<magritteDescription>
 	^MAToManyRelationDescription new 
 		accessor: #demoRows;
-		classes: (Array with: TWBSQCReportValue);
+		classes: (Array with: TBSQCReportValue);
 		beDefinitive;
 		yourself

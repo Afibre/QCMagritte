@@ -6,6 +6,6 @@ descriptionLayoutStyle
 		accessor: #layoutStyle;
 		options: self layoutStyles;
 		comment: 'choose a layout style';
-		componentClass: TWBSMagritteRadioGroupComponent;
+		componentClass: TBSMagritteRadioGroupComponent;
 		beRequired;
 		yourself
