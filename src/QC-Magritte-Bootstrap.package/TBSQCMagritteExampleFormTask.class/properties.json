@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "TBSTask",
+	"super" : "WATask",
 	"category" : "QC-Magritte-Bootstrap-Demo",
 	"classinstvars" : [ ],
 	"pools" : [ ],
