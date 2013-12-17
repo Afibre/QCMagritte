@@ -1,6 +1,16 @@
 rendering
-renderContentOn: canvas
-	canvas table
-		id: self ajaxId; 
-		class: self tableClass;
-		with: [ self renderTableOn: canvas ]
+renderContentOn: html
+	| tag |
+	tag := html tbsTable
+		id: self ajaxId;
+		yourself.
+	self showBordered 
+		ifTrue: [ tag beBordered ].
+	self showStriped 
+		ifTrue: [ tag beStriped ].
+	self showCondensed 
+		ifTrue: [ tag beCondensed ].
+	self showHover 
+		ifTrue: [ tag beHover ].
+	
+	tag with: [ self renderTableOn: html ]

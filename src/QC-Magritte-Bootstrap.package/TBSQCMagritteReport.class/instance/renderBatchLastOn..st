@@ -1,7 +1,8 @@
 rendering-batch
 renderBatchLastOn: html
-
-	self renderAnchorItem: [ self batchPage: self batchMaxPages ] 
-		with: [ html twbsIcon: 'fast-forward' ] 
-		disabled: self isOnLastPage 
-		on: html
+	html tbsButtonGroup: [ 
+		html tbsButton
+			beExtraSmall;
+			callback: [ self batchPage: self batchMaxPages ];
+			beDisabledIf: [ self isOnLastPage ];
+			with: [ html tbsGlyphIcon iconFastForward ] ]

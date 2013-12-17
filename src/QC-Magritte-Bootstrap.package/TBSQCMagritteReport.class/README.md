@@ -1,0 +1,1 @@
+This is a copy of the TBSMagritteReport, with a different parent (QCReportComponent)

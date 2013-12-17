@@ -1,7 +1,8 @@
 rendering-batch
 renderBatchPreviousOn: html
-
-	self renderAnchorItem: [ self previousPage ] 
-		with: [ html twbsIcon: 'backward' ] 
-		disabled: self isOnFirstPage 
-		on: html
+	html tbsButtonGroup: [ 
+		html tbsButton
+			callback: [ self previousPage ];
+			beDisabledIf: [ self isOnFirstPage ];
+			beExtraSmall;
+			with: [ html tbsGlyphIcon iconBackward ] ]

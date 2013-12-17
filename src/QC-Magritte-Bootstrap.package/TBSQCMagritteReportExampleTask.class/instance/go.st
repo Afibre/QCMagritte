@@ -1,8 +1,7 @@
 running
 go
-	| chosenReport reportChooser |
-	reportChooser := self call: self reportChooser.
-	chosenReport := (self createReportBasedOn: reportChooser).
+	| chosenReport |
+	chosenReport := (self createReportBasedOn: (self call: self reportChooser)).
 	
 	self call: chosenReport.
-	self twbsInformSuccess: [ :r | r strong: 'Thanks for looking at my report!' ]
+	self informSuccess: [ :r | r strong: 'Thanks for looking at my report!' ]
