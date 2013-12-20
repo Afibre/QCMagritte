@@ -1,3 +1,3 @@
 accessing
 encodingOptions
-	^TextConverter allEncodingNames   
+	^TextConverter allEncodingNames
