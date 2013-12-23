@@ -8,5 +8,5 @@ testBasicMenu2
 	self assert: (overviewMenu menuChoice: 2) equals: pages second.
 	self assert: (overviewMenu menuChoice: 3) equals: pages third.
 	self assert: (overviewMenu menuChoice: 4) equals: pages fourth.
-	pages withIndexDo: [ :page :index |
-		(index > 1) ifTrue: [ self deny: (overviewMenu isInTrace: page) ] ]
+	pages allButFirstDo: [ :page |
+		self deny: (overviewMenu isInTrace: page) ]

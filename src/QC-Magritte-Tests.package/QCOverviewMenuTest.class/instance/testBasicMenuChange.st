@@ -17,5 +17,5 @@ testBasicMenuChange
 	self assert: overviewMenu activePage equals: pages second.
 	self assert: overviewMenu menuSize equals: 4.
 	self assert: (overviewMenu isInTrace: (pages at: 1)).
-	pages withIndexDo: [ :page :index |
-		index > 1 ifTrue: [ self deny: (overviewMenu isInTrace: page) ] ].
+	pages allButFirstDo: [ :page |
+		self deny: (overviewMenu isInTrace: page) ].
