@@ -7,7 +7,6 @@ subQueryDescription
 		accessor: #subQueries;
 		classes: QCSelectQuery allSubclasses;
 		componentClass: QCExtendedQueryComponent;
-		queryComponentClass: QCParentChildComponent;
 		reportColumnClass: QCToManyColumn;
 		visibleInReport: false;
 		visibleInLabel: false;

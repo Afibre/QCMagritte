@@ -1,3 +1,4 @@
 instance creation
 new
-	^self on: QCModel default
+	self flag: #todo. "QObject doesNotUnderstand: #default"
+	^self on: QCObject default
