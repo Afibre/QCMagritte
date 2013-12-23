@@ -17,7 +17,4 @@ renderSearchContentOn: canvas
 			canvas anchor
 				class: 'command-link';
 				callback: [ self moreOptions ];
-				with: [
-					canvas image
-						url: QCLibrary / #searchmorePng;
-						altText: (QCMultilanguageString on: 'More...') ] ]
+				with: [ QCMultilanguageString on: 'More...' ] ]
