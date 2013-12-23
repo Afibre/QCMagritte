@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "MAObject",
+	"category" : "QC-Magritte-Session",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"RandomProvider"
+	],
+	"instvars" : [
+		"userid",
+		"passwordHash",
+		"salt"
+	],
+	"name" : "QCSessionModel",
+	"type" : "normal"
+}

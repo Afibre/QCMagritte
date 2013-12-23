@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MAObject",
+	"category" : "QC-Magritte-Session",
+	"classinstvars" : [
+		"default"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCConfiguration",
+	"type" : "normal"
+}
