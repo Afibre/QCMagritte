@@ -11,6 +11,7 @@ version010: spec
 	'.
 		spec author: 'DiegoLont'.
 		spec 
+			project: 'TwitterBootstrap' with: '1.0.3';
 			project: 'Magritte3' with: '3.0';
 			project: 'Seaside' with: '3.0.9'.
 		spec

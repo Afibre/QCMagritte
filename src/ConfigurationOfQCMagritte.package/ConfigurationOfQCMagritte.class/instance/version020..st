@@ -11,6 +11,7 @@ version020: spec
 	'.
 		spec author: 'DiegoLont'.
 		spec 
+			project: 'TwitterBootstrap' with: '1.1';
 			project: 'Magritte3' with: '3.1';
 			project: 'Seaside' with: '3.1.0'.
 		" For now we want bleeding edge
