@@ -13,7 +13,7 @@ version020: spec
 		spec 
 			project: 'TwitterBootstrap' with: '1.1.0';
 			project: 'Magritte3' with: '3.1';
-			project: 'Seaside' with: '3.1.0'.
+			project: 'Seaside3' with: '3.1.0'.
 		" For now we want bleeding edge
 			package: 'QC-Magritte-Core' with: 'QC-Magritte-Core-DiegoLont.5';
 			package: 'QC-Magritte-Demo' with: 'QC-Magritte-Demo-DiegoLont.3';
