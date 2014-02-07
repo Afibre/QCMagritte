@@ -32,7 +32,7 @@ baseline010: spec
 			package: 'QC-Magritte-Session' with: [ spec requires: #('QC-Magritte-Core')];
 			package: 'QC-Magritte-Meta' with: [ spec requires: #('QC-Magritte-Component' ) ];
 			package: 'QC-Magritte-Component' with: [ spec requires: #( 'QC-Magritte-Model' 'QC-Magritte-Other' 'QC-Magritte-Builder' ) ];
-			package: 'QC-Magritte-Tests' with:[ spec requires: #( 'QC-Magritte-Builder' ) ];
+			package: 'QC-Magritte-Tests' with:[ spec requires: #( 'QC-Magritte-Builder' 'QC-Magritte-Model' ) ];
 			package: 'QC-Magritte-Demo' with: [ spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Builder' 'QC-Magritte-TwitterBootstrap'  'QC-Magritte-Language' 'QC-Magritte-Meta' 'QC-Magritte-Session') ].
 		spec 
 			group: 'default' with: #('Core' 'Tests' );
