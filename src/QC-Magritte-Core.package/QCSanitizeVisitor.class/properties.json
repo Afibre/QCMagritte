@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "MAVisitor",
+	"category" : "QC-Magritte-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"target",
+		"processed",
+		"accessor",
+		"selector"
+	],
+	"name" : "QCSanitizeVisitor",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "QCComponent",
+	"category" : "QC-Magritte-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pages",
+		"currentPage",
+		"homePage",
+		"onCloseLastPage"
+	],
+	"name" : "QCPageChoice",
+	"type" : "normal"
+}

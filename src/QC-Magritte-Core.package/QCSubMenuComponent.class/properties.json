@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "QCComponent",
+	"category" : "QC-Magritte-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rootPage",
+		"subMenuPage",
+		"rootSelected",
+		"parent",
+		"label"
+	],
+	"name" : "QCSubMenuComponent",
+	"type" : "normal"
+}
