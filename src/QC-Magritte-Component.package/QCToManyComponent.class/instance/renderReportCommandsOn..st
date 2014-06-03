@@ -4,7 +4,7 @@ renderReportCommandsOn: canvas
 		class: 'button-space';
 		with: [  canvas space ].
 	self reportCommands do: [ :command |
-		(command isValidCommandFor: nil) ifTrue: [ 
+		(command isValidCommandFor: self value) ifTrue: [ 
 			canvas submitButton
-				callback: [ command execute ];
+				callback: [ command executeOn: self value component: self ];
 				with: command label ] ]
