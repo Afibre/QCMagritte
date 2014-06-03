@@ -13,6 +13,12 @@ baseline030: spec
 					versionString: #'stable';
 					loads: #( 'core' 'widgets' );
 					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main' ];
+			project: 'NeoCSV' with: [
+				spec
+					className: 'ConfigurationOfNeoCSV';
+					versionString: #'stable';
+					loads: #( 'default' );
+					repository: 'http://mc.stfx.eu/Neo' ];
 			project: 'Units' with: [
 				spec
 					className: 'ConfigurationOfUnits';
@@ -31,7 +37,7 @@ baseline030: spec
 			package: 'QC-Magritte-Application' with: [ spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Component' 'QC-Magritte-Ajax' 'QC-Magritte-Language' 'QC-Magritte-Meta' 'QC-Magritte-Session' ) ];
 			package: 'QC-Magritte-Bootstrap' with: [ spec requires: #( 'QC-Magritte-Application' 'Bootstrap' ) ];
 			package: 'QC-Magritte-Builder' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
-			package: 'QC-Magritte-Component' with: [ spec requires: #( 'QC-Magritte-Model' 'QC-Magritte-Other' 'QC-Magritte-Builder' ) ];
+			package: 'QC-Magritte-Component' with: [ spec requires: #( 'QC-Magritte-Model' 'QC-Magritte-Other' 'QC-Magritte-Builder' 'NeoCSV' ) ];
 			package: 'QC-Magritte-Core' with: [ spec requires: #( 'Magritte3' ) ];
 			package: 'QC-Magritte-Demo' with: [ spec requires: #( 'QC-Magritte-Application' 'QC-Magritte-Unit' );
 			package: 'QC-Magritte-Renderer' with: [ spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Ajax' ) ];

@@ -7,10 +7,14 @@ version040: spec
 		
 		spec description: '0.4:
 - Latest changes:
-	Uses seaside release 3.1 as base. Other than that it is the same as 0.3
+	Added Application
+	More Demos
+	Bugfixes and other improvements
+	Uses seaside release 3.1 as base. Other than that it is the same as 0.3.
 	'.
 		spec author: 'DiegoLont'.
 		spec 
+			project: 'NeoCSV' with: '10';
 			project: 'Magritte3' with: #'release3.1';
 			project: 'Seaside3' with: #'release3.1.'.
 		" For now we want bleeding edge
