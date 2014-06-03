@@ -1,0 +1,3 @@
+accessing
+allTranslations
+	^QCMultilanguageString singletons
