@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCSessionStateChanged",
+	"category" : "QC-Magritte-Session",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCLoggedOut",
+	"type" : "normal"
+}
