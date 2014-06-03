@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "QCMagritteDemoComponent",
-	"category" : "QC-Magritte-Demo",
+	"category" : "QC-Magritte-Demo-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

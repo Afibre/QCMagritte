@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "QCParentObject",
-	"category" : "QC-Magritte-Demo-Examples",
+	"super" : "QCApplication",
+	"category" : "QC-Magritte-Demo-Web",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "QCFormExampleObject",
+	"name" : "QCDemoApplication",
 	"type" : "normal"
 }

@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "QCObject",
-	"category" : "QC-Magritte-Demo-Examples",
+	"super" : "QCApplicationModel",
+	"category" : "QC-Magritte-Demo-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"languageName"
+		"projects"
 	],
-	"name" : "QCDemoLanguage",
+	"name" : "QCDemoModel",
 	"type" : "normal"
 }
