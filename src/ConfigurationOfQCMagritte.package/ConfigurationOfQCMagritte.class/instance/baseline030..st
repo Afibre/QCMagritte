@@ -39,7 +39,7 @@ baseline030: spec
 			package: 'QC-Magritte-Builder' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Component' with: [ spec requires: #( 'QC-Magritte-Model' 'QC-Magritte-Other' 'QC-Magritte-Builder' 'NeoCSV' ) ];
 			package: 'QC-Magritte-Core' with: [ spec requires: #( 'Magritte3' ) ];
-			package: 'QC-Magritte-Demo' with: [ spec requires: #( 'QC-Magritte-Application' 'QC-Magritte-Unit' );
+			package: 'QC-Magritte-Demo' with: [ spec requires: #( 'QC-Magritte-Application' 'QC-Magritte-Unit' ) ];
 			package: 'QC-Magritte-Renderer' with: [ spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Ajax' ) ];
 			package: 'QC-Magritte-Language' with: [ spec requires: #( 'QC-Magritte-Builder' 'QC-Magritte-Model' ) ];
 			package: 'QC-Magritte-Other' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
@@ -47,7 +47,7 @@ baseline030: spec
 			package: 'QC-Magritte-Session' with: [ spec requires: #('QC-Magritte-Core')];
 			package: 'QC-Magritte-Meta' with: [ spec requires: #('QC-Magritte-Component' ) ];
 			package: 'QC-Magritte-Unit' with: [ spec requires: #( 'Magritte3' 'Units' ) ];
-			package: 'QC-Magritte-Tests' with:[ spec requires: #( 'QC-Magritte-Builder' 'QC-Magritte-Model' ) ] ].
+			package: 'QC-Magritte-Tests' with: [ spec requires: #( 'QC-Magritte-Builder' 'QC-Magritte-Model' ) ].
 		spec 
 			group: 'default' with: #('Core' 'Tests' );
 			group: 'Core' with: #( 'QC-Magritte-Core' );
@@ -55,7 +55,7 @@ baseline030: spec
 			group: 'Demo' with: #( 'QC-Magritte-Demo' 'QC-Magritte-Bootstrap' );
 			group: 'All' with: #( 'Tests' 'Demo' ) ].
 	
-	spec for: #( #'gemstone' #'pharo' ) do: [ 
+	spec for: #( #'pharo' ) do: [ 
 		spec
 			project: 'Seaside3' with: [
 				spec
