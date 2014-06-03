@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAMagnitudeDescription",
+	"category" : "QC-Magritte-Unit",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCUnitValueDescription",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAElementComponent",
+	"category" : "QC-Magritte-Unit",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCUnitValueComponent",
+	"type" : "normal"
+}
