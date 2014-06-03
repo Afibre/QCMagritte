@@ -1,1 +1,0 @@
-Sends a acceptObject: to the query for all objects in the fields that can be queried
