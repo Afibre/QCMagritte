@@ -1,3 +1,0 @@
-accessing
-adaptedValue: aValue
-	^aValue

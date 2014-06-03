@@ -1,3 +1,0 @@
-testing
-isSimple
-	^self subclassResponsibility

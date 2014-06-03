@@ -1,3 +1,0 @@
-singleton
-instance
-	^self template

@@ -1,3 +1,0 @@
-maintenance
-refresh
-	queryOptionsComponent := nil

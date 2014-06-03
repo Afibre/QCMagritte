@@ -1,3 +1,0 @@
-accessing
-childDescription
-	^self resultsDescription childDescription

@@ -1,3 +1,0 @@
-testing
-canSimplify
-	^false

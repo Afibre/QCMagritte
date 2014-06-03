@@ -1,3 +1,0 @@
-accessing
-results
-	self halt.

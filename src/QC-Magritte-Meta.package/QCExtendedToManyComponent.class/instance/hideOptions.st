@@ -1,3 +1,0 @@
-actions
-hideOptions
-	optionsVisible := false
