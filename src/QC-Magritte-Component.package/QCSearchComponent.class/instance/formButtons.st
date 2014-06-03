@@ -1,3 +1,0 @@
-decorating
-formButtons
-	^#( search )

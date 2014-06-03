@@ -1,1 +1,0 @@
-QCAddressesColumn is used to render addresses in a report. Instead of converting the collection of addresses to a string, it displays the addresses as a collection.

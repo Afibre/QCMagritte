@@ -1,3 +1,0 @@
-private
-buildReportCommands
-	^OrderedCollection new

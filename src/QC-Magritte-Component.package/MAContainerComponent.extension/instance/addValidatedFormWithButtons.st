@@ -1,3 +1,0 @@
-*qc-magritte-component
-addValidatedFormWithButtons
-	self addFormWithButtons; addValidation

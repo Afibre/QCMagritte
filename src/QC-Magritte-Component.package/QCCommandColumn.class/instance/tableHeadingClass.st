@@ -1,3 +1,0 @@
-accessing
-tableHeadingClass
-	^'command-column'

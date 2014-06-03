@@ -1,3 +1,0 @@
-decorations
-formButtons
-	^#( close )

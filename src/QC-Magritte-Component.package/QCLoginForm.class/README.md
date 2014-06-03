@@ -1,1 +1,0 @@
-DELoginForm is a default component to provide a login box. It can be configured in css.

@@ -1,3 +1,0 @@
-accessing
-displayName
-	^'Search form'

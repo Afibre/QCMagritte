@@ -1,3 +1,0 @@
-accessing
-targetDescription
-	^self parent targetDescription

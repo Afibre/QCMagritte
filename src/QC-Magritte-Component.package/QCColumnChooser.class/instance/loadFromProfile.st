@@ -1,3 +1,0 @@
-actions
-loadFromProfile
-	self parent rebuildReport

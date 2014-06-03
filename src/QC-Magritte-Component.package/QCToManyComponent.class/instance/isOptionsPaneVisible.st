@@ -1,3 +1,0 @@
-testing
-isOptionsPaneVisible
-	^self parent isOptionsPaneVisible

@@ -1,3 +1,0 @@
-accessing
-mementoCache
-	^self cache

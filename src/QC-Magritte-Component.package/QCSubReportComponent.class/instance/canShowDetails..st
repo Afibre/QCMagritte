@@ -1,3 +1,0 @@
-accessing
-canShowDetails: aRow 
-	^true

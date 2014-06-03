@@ -1,4 +1,0 @@
-testing
-hasPrevious
-	^false
-	"todo!"
