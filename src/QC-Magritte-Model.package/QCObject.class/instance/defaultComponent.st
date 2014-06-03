@@ -1,0 +1,2 @@
+magritte-description
+defaultComponent

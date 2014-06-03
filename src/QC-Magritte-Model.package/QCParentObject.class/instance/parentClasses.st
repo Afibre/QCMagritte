@@ -1,0 +1,3 @@
+accessing-magritte
+parentClasses
+	^{ QCObject }
