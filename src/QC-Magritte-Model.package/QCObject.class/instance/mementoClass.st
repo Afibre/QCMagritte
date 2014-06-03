@@ -1,3 +1,0 @@
-magritte-description
-mementoClass
-	^QCAjaxMemento
