@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCContextTest",
+	"category" : "QC-Magritte-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCPageChoiceTest",
+	"type" : "normal"
+}
