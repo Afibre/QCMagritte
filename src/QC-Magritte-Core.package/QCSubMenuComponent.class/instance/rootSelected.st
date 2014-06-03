@@ -1,3 +1,0 @@
-accessing
-rootSelected
-	^rootSelected

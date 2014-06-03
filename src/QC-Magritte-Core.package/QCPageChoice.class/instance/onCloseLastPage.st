@@ -1,3 +1,0 @@
-accessing
-onCloseLastPage
-	^onCloseLastPage ifNil: [ [ ] ]

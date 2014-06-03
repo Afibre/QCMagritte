@@ -1,3 +1,0 @@
-pages
-menuChoices
-	^self pages
