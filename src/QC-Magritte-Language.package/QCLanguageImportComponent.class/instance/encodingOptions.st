@@ -1,3 +1,0 @@
-accessing
-encodingOptions
-	^TextConverter allEncodingNames
