@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "DiegoLont 9/10/2012 15:57",
+	"super" : "MACheckedMemento",
+	"category" : "QC-Magritte-Ajax",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCAjaxMemento",
+	"type" : "normal"
+}

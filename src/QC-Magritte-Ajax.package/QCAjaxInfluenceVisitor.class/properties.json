@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MAVisitor",
+	"category" : "QC-Magritte-Ajax",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"influencedDescriptions"
+	],
+	"name" : "QCAjaxInfluenceVisitor",
+	"type" : "normal"
+}

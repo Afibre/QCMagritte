@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MATableRenderer",
+	"category" : "QC-Magritte-Ajax",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ajaxId",
+		"containerDescription"
+	],
+	"name" : "QCAjaxTableRenderer",
+	"type" : "normal"
+}
