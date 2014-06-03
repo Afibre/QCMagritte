@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "DiegoLont 12/28/2012 11:33",
+	"super" : "QCQueryVisitor",
+	"category" : "QC-Magritte-Visitor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"result"
+	],
+	"name" : "QCQueryMatchVisitor",
+	"type" : "normal"
+}
