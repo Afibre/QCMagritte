@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "DiegoLont 4/11/2012 13:04",
+	"super" : "QCComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"userid",
+		"password",
+		"errorText"
+	],
+	"name" : "QCLoginForm",
+	"type" : "normal"
+}

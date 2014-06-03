@@ -1,0 +1,3 @@
+exporting
+exportFilename
+	^self magritteDescription filename

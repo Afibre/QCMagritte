@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "QCMultiPartComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"searchAction"
+	],
+	"name" : "QCSearchComponent",
+	"type" : "normal"
+}

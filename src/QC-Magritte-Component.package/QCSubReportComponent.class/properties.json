@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MAOneToManyComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"columnChooser"
+	],
+	"name" : "QCSubReportComponent",
+	"type" : "normal"
+}

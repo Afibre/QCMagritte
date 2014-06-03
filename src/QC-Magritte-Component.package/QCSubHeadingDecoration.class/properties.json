@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAMessageDecoration",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCSubHeadingDecoration",
+	"type" : "normal"
+}

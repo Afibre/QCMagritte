@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "QCComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"saveAction",
+		"comp",
+		"parent",
+		"saveCommand"
+	],
+	"name" : "QCReportOptionsComponent",
+	"type" : "normal"
+}

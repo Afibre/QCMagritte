@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MACommandColumn",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"component",
+		"headerCommands"
+	],
+	"name" : "QCCommandColumn",
+	"type" : "normal"
+}

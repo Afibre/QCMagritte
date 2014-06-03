@@ -1,0 +1,3 @@
+accessing
+canShowDetails: aRow 
+	^true

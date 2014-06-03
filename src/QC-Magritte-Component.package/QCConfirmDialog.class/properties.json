@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"yesLabel",
+		"noLabel",
+		"action"
+	],
+	"name" : "QCConfirmDialog",
+	"type" : "normal"
+}

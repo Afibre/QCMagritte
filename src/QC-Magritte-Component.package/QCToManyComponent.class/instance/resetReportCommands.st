@@ -1,0 +1,3 @@
+accessing
+resetReportCommands
+	reportCommands := nil

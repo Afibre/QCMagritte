@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "MAComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"memento",
+		"form",
+		"parent",
+		"children",
+		"readonly",
+		"errors"
+	],
+	"name" : "QCFormComponent",
+	"type" : "normal"
+}

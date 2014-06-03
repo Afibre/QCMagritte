@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "QCDescribedColumn",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"childDescription"
+	],
+	"name" : "QCRelationColumn",
+	"type" : "normal"
+}

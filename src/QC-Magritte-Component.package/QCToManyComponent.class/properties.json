@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "MAOneToManyComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"changed",
+		"cache",
+		"reportCommands",
+		"reference"
+	],
+	"name" : "QCToManyComponent",
+	"type" : "normal"
+}

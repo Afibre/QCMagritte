@@ -1,0 +1,3 @@
+actions
+parentObject
+	^self model

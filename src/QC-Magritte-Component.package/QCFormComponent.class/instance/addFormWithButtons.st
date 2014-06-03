@@ -1,0 +1,3 @@
+decorating
+addFormWithButtons
+	self addFormWithButtons: self formButtons

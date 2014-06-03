@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAExternalEditorComponent",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCParentChildEditorComponent",
+	"type" : "normal"
+}

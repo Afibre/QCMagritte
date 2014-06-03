@@ -1,0 +1,3 @@
+decorating
+addValidatedFormWithButtons
+	self addFormWithButtons; addValidation

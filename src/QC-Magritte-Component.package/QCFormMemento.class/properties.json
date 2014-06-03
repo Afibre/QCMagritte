@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "QCAjaxMemento",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"form"
+	],
+	"name" : "QCFormMemento",
+	"type" : "normal"
+}

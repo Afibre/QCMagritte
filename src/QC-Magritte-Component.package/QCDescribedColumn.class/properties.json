@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "MADescribedColumn",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mementoCache",
+		"componentCache",
+		"headerCommands"
+	],
+	"name" : "QCDescribedColumn",
+	"type" : "normal"
+}

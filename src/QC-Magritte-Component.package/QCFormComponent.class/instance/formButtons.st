@@ -1,0 +1,3 @@
+decorating
+formButtons
+	^#( #save #cancel )
