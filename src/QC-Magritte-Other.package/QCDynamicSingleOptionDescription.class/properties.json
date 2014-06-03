@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MASingleOptionDescription",
+	"category" : "QC-Magritte-Other",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"optionsBlock"
+	],
+	"name" : "QCDynamicSingleOptionDescription",
+	"type" : "normal"
+}
