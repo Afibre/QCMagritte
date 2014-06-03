@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "QCFormRenderer",
+	"category" : "QC-Magritte-Renderer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"groupDescriptions",
+		"groupId"
+	],
+	"name" : "QCGroupedFormRenderer",
+	"type" : "normal"
+}

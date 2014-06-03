@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAStringWriter",
+	"category" : "QC-Magritte-Renderer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCCsvWriter",
+	"type" : "normal"
+}

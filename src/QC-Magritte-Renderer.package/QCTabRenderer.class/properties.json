@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAComponentRenderer",
+	"category" : "QC-Magritte-Renderer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCTabRenderer",
+	"type" : "normal"
+}
