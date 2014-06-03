@@ -12,7 +12,8 @@
 		"imageUrl",
 		"showInColumn",
 		"showInDetail",
-		"imageBlock"
+		"imageBlock",
+		"showInParent"
 	],
 	"name" : "QCCommand",
 	"type" : "normal"
