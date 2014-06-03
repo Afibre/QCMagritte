@@ -1,0 +1,3 @@
+magritte-dummy
+root
+	^self

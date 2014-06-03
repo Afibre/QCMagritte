@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCTreePageChoice",
+	"category" : "QC-Magritte-Application",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCApplication",
+	"type" : "normal"
+}

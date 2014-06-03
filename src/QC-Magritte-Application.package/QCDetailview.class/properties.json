@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "QCAppComponent",
+	"category" : "QC-Magritte-Application",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"magritteComponent",
+		"target"
+	],
+	"name" : "QCDetailview",
+	"type" : "normal"
+}

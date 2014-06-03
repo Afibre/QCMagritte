@@ -1,0 +1,3 @@
+maintenance
+sanitizeForUpgrade
+	self default sanitizeForUpgrade.

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "QCObject",
+	"category" : "QC-Magritte-Application",
+	"classinstvars" : [
+		"default"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"announcer",
+		"rootQueries"
+	],
+	"name" : "QCApplicationModel",
+	"type" : "normal"
+}

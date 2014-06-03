@@ -1,0 +1,3 @@
+actions
+saveReportOptions
+	self userQueryResultsDescription rowCount: self report batchSize

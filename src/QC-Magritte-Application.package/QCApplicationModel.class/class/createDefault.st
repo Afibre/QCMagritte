@@ -1,0 +1,3 @@
+accessing
+createDefault
+	^self new
