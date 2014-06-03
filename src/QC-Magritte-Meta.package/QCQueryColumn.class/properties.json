@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "QCQueryResultValue",
+	"category" : "QC-Magritte-Meta-Query",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label"
+	],
+	"name" : "QCQueryColumn",
+	"type" : "normal"
+}

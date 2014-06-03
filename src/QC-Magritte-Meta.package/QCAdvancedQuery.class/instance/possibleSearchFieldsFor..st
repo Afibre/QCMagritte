@@ -1,0 +1,3 @@
+accessing-model
+possibleSearchFieldsFor: aMemento
+	^#()

@@ -1,0 +1,3 @@
+testing
+canHideOptions
+	^self isOptionsVisible

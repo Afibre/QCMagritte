@@ -1,0 +1,3 @@
+accessing
+queryDescription
+	^self subclassResponsibility

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCObject",
+	"category" : "QC-Magritte-Meta-Operator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCOperator",
+	"type" : "normal"
+}
