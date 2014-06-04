@@ -6,7 +6,6 @@ descriptionDisplayString
 		accessor: #displayName;
 		beReadonly;
 		visible: (self class == QCObject);
-		reportColumnClass: QCDescribedColumn;
 		priority: 50;
 		visibleInLabel: self displayStringVisibleInLabel;
 		yourself

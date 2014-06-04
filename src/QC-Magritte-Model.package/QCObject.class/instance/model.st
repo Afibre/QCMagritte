@@ -1,4 +1,7 @@
 session
 model
-	self mainPresenter ifNil: [ ^nil ].
-	^self mainPresenter model
+	self mainPresenter
+		ifNil: [
+			self halt.
+			^nil ]
+		ifNotNilDo: [ :pres | ^pres model ]

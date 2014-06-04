@@ -9,7 +9,6 @@ descriptionParent
 		classes: self parentClasses;
 		visibleInLabel: false;
 		visibleInReport: false;
-		reportColumnClass: QCDescribedColumn;
 		stringWriter: QCLabelReflectiveWriter;
 		visible: (self class == QCParentObject);
 		yourself
