@@ -81,9 +81,9 @@ baseline030: spec
 			yourself ].
 	spec for: #'pharo2.x' do: [ 
 		spec
-			package: 'Qc-magritte-pharo2';
-			package: 'QC-Magritte-Core' with: [ spec requires: 'Qc-magritte-pharo2' ] ].
+			package: 'QC-Magritte-Pharo2';
+			package: 'QC-Magritte-Core' with: [ spec requires: 'QC-Magritte-Pharo2' ] ].
 	spec for: #'pharo3.x' do: [ 
 		spec
-			package: 'Qc-magritte-pharo3';
-			package: 'QC-Magritte-Core' with: [ spec requires: 'Qc-magritte-pharo3' ] ].
+			package: 'QC-Magritte-Pharo3';
+			package: 'QC-Magritte-Core' with: [ spec requires: 'QC-Magritte-Pharo3' ] ].
