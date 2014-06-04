@@ -79,3 +79,11 @@ baseline030: spec
 			package: 'QC-Magritte-Meta' with: [ spec requires: #('Announcements' ) ];
 			package: 'QC-Magritte-Tests' with:[ spec requires: #( 'Announcements' ) ];
 			yourself ].
+	spec for: #'pharo2.x' do: [ 
+		spec
+			package: 'QC-Magritte-Pharo2';
+			package: 'QC-Magritte-Core' with: [ spec requires: 'QC-Magritte-Pharo2' ] ].
+	spec for: #'pharo3.x' do: [ 
+		spec
+			package: 'QC-Magritte-Pharo3';
+			package: 'QC-Magritte-Core' with: [ spec requires: 'QC-Magritte-Pharo3' ] ].
