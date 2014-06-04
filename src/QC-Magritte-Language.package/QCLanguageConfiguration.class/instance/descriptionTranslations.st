@@ -8,8 +8,6 @@ descriptionTranslations
 		comment: (QCMultilanguageString on: 'The translations');
 		classes: {QCMultilanguageString};
 		ordered: true;
-		componentClass: QCToManyComponent;
-		reportColumnClass: QCToManyColumn;
 		visibleInReport: false;
 		visibleInLabel: false;
 		canQueryDescription: false;
