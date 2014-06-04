@@ -1,7 +1,5 @@
 session
 model
 	self mainPresenter
-		ifNil: [
-			self halt.
-			^nil ]
+		ifNil: [ ^nil ]
 		ifNotNilDo: [ :pres | ^pres model ]
