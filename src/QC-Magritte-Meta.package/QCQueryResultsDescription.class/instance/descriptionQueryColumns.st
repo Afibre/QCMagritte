@@ -7,7 +7,6 @@ descriptionQueryColumns
 		accessor: #queryColumns;
 		classes: { QCQueryColumn };
 		componentClass: self class defaultComponentClass;
-		reportColumnClass: QCToManyColumn;
 		stringWriter: QCLabelReflectiveWriter;
 		visibleInReport: true;
 		visibleInLabel: false;

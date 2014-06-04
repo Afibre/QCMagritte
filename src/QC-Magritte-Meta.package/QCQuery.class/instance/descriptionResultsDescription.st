@@ -7,7 +7,6 @@ descriptionResultsDescription
 		visibleInLabel: false;
 		visibleInReport: false;
 		visible: false;
-		reportColumnClass: QCRelationColumn;
 		priority: 400;
 		classes: { QCQueryResultsDescription };
 		yourself
