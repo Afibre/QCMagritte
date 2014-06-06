@@ -9,7 +9,8 @@
 		"queryOptionsComponent",
 		"simpleSearchComponent",
 		"optionsVisible",
-		"selectQuery"
+		"selectQuery",
+		"userQueryResultsDescription"
 	],
 	"name" : "QCExtendedToManyComponent",
 	"type" : "normal"
