@@ -1,3 +1,0 @@
-accessing
-userQueryResultsDescription
-	^self toManyComponent userQueryResultsDescription 

@@ -1,6 +1,6 @@
 actions
 saveColumns: anArray
 	self saveReportOptions.
-	self userQueryResultsDescription queryColumns: anArray.
-	self userQueryResultsDescription shownColumns: self shownColumns.
+	self resultsDescription queryColumns: anArray.
+	self resultsDescription shownColumns: self shownColumns.
 	self rebuild

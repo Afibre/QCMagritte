@@ -1,3 +1,3 @@
 actions
 saveReportOptions
-	self userQueryResultsDescription rowCount: self report batchSize
+	self resultsDescription rowCount: self report batchSize
