@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "QCDescriptionBuilder",
+	"super" : "QCApplication",
 	"category" : "QC-Magritte-Demo-Web",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "QCDescriptionBuildDemoSettings",
+	"name" : "QCTutorialApplication",
 	"type" : "normal"
 }
