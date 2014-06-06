@@ -10,7 +10,7 @@
 		"simpleSearchComponent",
 		"optionsVisible",
 		"selectQuery",
-		"userQueryResultsDescription"
+		"resultsDescription"
 	],
 	"name" : "QCExtendedToManyComponent",
 	"type" : "normal"
