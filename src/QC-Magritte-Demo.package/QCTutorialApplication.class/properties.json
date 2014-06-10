@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "QCApplication",
+	"super" : "QCBootstrapApplication",
 	"category" : "QC-Magritte-Demo-Web",
 	"classinstvars" : [ ],
 	"pools" : [ ],
