@@ -45,9 +45,10 @@ baseline030: spec
 			package: 'QC-Magritte-Other' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Model' with: [ spec requires: #( 'QC-Magritte-Session' ) ];
 			package: 'QC-Magritte-Session' with: [ spec requires: #('QC-Magritte-Core')];
-			package: 'QC-Magritte-Meta' with: [ spec requires: #('QC-Magritte-Component' ) ];
+			package: 'QC-Magritte-Meta' with: [ spec requires: #('QC-Magritte-Component' 'QC-Magritte-Visitor') ];
 			package: 'QC-Magritte-Unit' with: [ spec requires: #( 'Magritte3' 'Units' ) ];
-			package: 'QC-Magritte-Tests' with: [ spec requires: #( 'QC-Magritte-Builder' 'QC-Magritte-Model' ) ].
+			package: 'QC-Magritte-Tests' with: [ spec requires: #( 'QC-Magritte-Builder' 'QC-Magritte-Model' ) ];
+			package: 'QC-Magritte-Visitor'.
 		spec 
 			group: 'default' with: #('Core' 'Tests' );
 			group: 'Core' with: #( 'QC-Magritte-Core' );
