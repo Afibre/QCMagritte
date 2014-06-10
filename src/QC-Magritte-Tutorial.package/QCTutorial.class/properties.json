@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "QCApplicationModel",
+	"category" : "QC-Magritte-Tutorial-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"description",
+		"explanation",
+		"priority"
+	],
+	"name" : "QCTutorial",
+	"type" : "normal"
+}

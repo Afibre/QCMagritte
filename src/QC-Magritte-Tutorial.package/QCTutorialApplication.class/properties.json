@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCBootstrapApplication",
+	"category" : "QC-Magritte-Tutorial-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCTutorialApplication",
+	"type" : "normal"
+}
