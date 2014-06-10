@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "DiegoLont 6/2/2014 10:22",
-	"super" : "QCBootstrapApplication",
+	"commentStamp" : "",
+	"super" : "QCApplication",
 	"category" : "QC-Magritte-Bootstrap-Web",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "QCBootstrapDemoApplication",
+	"name" : "QCBootstrapApplication",
 	"type" : "normal"
 }
