@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "QCReportComponent",
-	"category" : "QC-Magritte-Bootstrap-Demo",
+	"category" : "QC-Magritte-Bootstrap-Component",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
