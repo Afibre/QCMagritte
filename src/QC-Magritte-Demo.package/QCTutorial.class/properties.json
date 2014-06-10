@@ -8,7 +8,7 @@
 	"instvars" : [
 		"title",
 		"description",
-		"explenation",
+		"explanation",
 		"priority"
 	],
 	"name" : "QCTutorial",

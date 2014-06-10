@@ -4,6 +4,7 @@ tutorialWelcome
 	^QCTutorial new
 		priority: 10;
 		title: 'Welcome';
-		explenation: 'Welcome to this QCMagritte tutorial. In this turorial we will create a small application with QCMagritte';
+		description: 'Welcome to this QCMagritte tutorial.';
+		explanation: 'At the end of this tutorial you should be able to create a QC Magritte appliation.';
 		yourself
 		

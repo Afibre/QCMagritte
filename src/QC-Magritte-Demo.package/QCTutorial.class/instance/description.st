@@ -1,3 +1,3 @@
 accessing
 description
-	^ description ifNil: [ self explenation ]
+	^ description ifNil: [ self explanation ]

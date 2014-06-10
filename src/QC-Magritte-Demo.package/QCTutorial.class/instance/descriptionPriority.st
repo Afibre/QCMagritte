@@ -6,5 +6,5 @@ descriptionPriority
 		label: 'Priority';
 		accessor: #priority;
 		comment: 'Determines the order of the tutorials';
-		visibleInReport: false;
+		visible: false;
 		yourself
