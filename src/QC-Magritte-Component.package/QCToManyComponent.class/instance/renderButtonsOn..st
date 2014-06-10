@@ -2,15 +2,13 @@ rendering
 renderButtonsOn: canvas
 	canvas div
 		class: 'report-buttons';
-		with: [
-			self canAdd ifTrue: [
-				self renderSelectListOn: canvas ].
-			self hasChanged ifTrue: [
-				canvas submitButton
-					callback: [ self save ];
-					with: (QCMultilanguageString on: 'Confirm removal') ].
+		with: [ 
+			self renderSelectButtonsOn: canvas.
 			canvas span
 				class: 'button-space';
 				with: [  canvas space ].
 			self renderExportMenuOn: canvas.
+			canvas span
+				class: 'button-space';
+				with: [  canvas space ].
 			self renderReportCommandsOn: canvas ]
