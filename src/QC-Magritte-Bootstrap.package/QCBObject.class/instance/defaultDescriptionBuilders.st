@@ -1,3 +1,3 @@
 magritte descriptions
 defaultDescriptionBuilders
-	^Array with: QCBDefaultComponentBuilder with: QCDescriptionBuildMultiLanguage
+	^Array with: QCBDemoComponentBuilder with: QCDescriptionBuildMultiLanguage

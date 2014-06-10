@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "QCExtendedToManyComponent",
+	"category" : "QC-Magritte-Bootstrap-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"canEdit"
+	],
+	"name" : "QCBExtendedToManyComponent",
+	"type" : "normal"
+}
