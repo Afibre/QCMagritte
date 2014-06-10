@@ -1,3 +1,3 @@
 *QC-Magritte-Other
 shownColumns
-	^self reference
+	^self reference select: [ :each | each visibleInReport ]
