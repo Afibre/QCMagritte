@@ -1,0 +1,3 @@
+initialization
+createSearchComponent
+	^QCSimpleSearchForm onParent: self

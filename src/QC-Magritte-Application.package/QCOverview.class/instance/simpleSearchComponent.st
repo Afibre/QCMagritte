@@ -1,3 +1,3 @@
 accessing
 simpleSearchComponent
-	^simpleSearchComponent ifNil: [ simpleSearchComponent := QCSimpleSearchForm onParent: self ]
+	^simpleSearchComponent ifNil: [ simpleSearchComponent := self createSearchComponent ]
