@@ -1,3 +1,0 @@
-accessing
-applicationName
-	^'QCMagritte/Tutorial'
