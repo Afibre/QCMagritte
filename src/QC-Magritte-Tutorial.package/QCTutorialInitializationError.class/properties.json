@@ -1,17 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "QCApplicationModel",
+	"super" : "Error",
 	"category" : "QC-Magritte-Tutorial-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"title",
-		"chapter",
-		"description",
-		"explanation",
-		"priority"
-	],
-	"name" : "QCTutorial",
+	"instvars" : [ ],
+	"name" : "QCTutorialInitializationError",
 	"type" : "normal"
 }

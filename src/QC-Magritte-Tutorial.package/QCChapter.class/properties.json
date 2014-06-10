@@ -6,12 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"title",
-		"chapter",
-		"description",
-		"explanation",
-		"priority"
+		"tutorials",
+		"priority",
+		"title"
 	],
-	"name" : "QCTutorial",
+	"name" : "QCChapter",
 	"type" : "normal"
 }

@@ -2,8 +2,8 @@ magritte-description
 descriptionTutorials
 	<magritteDescription>
 	^MAToManyRelationDescription new
-		label: 'Tutorial';
+		label: 'Tutorials';
 		accessor: #tutorials;
+		sorted: true;
 		classes: { QCTutorial };
-		priority: 100;
 		yourself

@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"tutorials"
+		"chapters"
 	],
 	"name" : "QCTutorialModel",
 	"type" : "normal"
