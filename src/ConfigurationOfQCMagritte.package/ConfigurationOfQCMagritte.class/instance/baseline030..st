@@ -7,7 +7,7 @@ baseline030: spec
 		spec author: 'DiegoLont'.
 		spec repository: 'http://smalltalkhub.com/mc/DiegoLont/QCMagritte/main'.
 		spec 
-			project: 'Bootstrap' with: [
+			project: 'BootstrapMagritte' with: [
 				spec
 					className: 'ConfigurationOfBootstrapMagritte';
 					versionString: #'stable';
@@ -35,7 +35,7 @@ baseline030: spec
 		spec
 			package: 'QC-Magritte-Ajax' with: [ spec requires: #( 'Magritte3' 'QC-Magritte-Model') ];
 			package: 'QC-Magritte-Application' with: [ spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Component' 'QC-Magritte-Ajax' 'QC-Magritte-Language' 'QC-Magritte-Meta' 'QC-Magritte-Session' ) ];
-			package: 'QC-Magritte-Bootstrap' with: [ spec requires: #( 'QC-Magritte-Application' 'Bootstrap' ) ];
+			package: 'QC-Magritte-Bootstrap' with: [ spec requires: #( 'QC-Magritte-Application' 'BootstrapMagritte' ) ];
 			package: 'QC-Magritte-Builder' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Component' with: [ spec requires: #( 'QC-Magritte-Model' 'QC-Magritte-Other' 'QC-Magritte-Builder' 'NeoCSV' ) ];
 			package: 'QC-Magritte-Core' with: [ spec requires: #( 'Magritte3' ) ];
@@ -87,7 +87,7 @@ baseline030: spec
 		spec
 			package: 'QC-Magritte-Pharo2';
 			package: 'QC-Magritte-Core' with: [ spec requires: 'QC-Magritte-Pharo2' ] ].
-	spec for: #'pharo3.x' do: [ 
+	spec for: #(#'pharo3.x' #'pharo4.x') do: [ 
 		spec
 			package: 'QC-Magritte-Pharo3';
 			package: 'QC-Magritte-Core' with: [ spec requires: 'QC-Magritte-Pharo3' ] ].
