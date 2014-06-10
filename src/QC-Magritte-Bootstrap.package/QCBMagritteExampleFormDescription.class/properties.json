@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "QCBObject",
+	"category" : "QC-Magritte-Bootstrap-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"number",
+		"bePositive"
+	],
+	"name" : "QCBMagritteExampleFormDescription",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "QCApplicationModel",
+	"category" : "QC-Magritte-Bootstrap-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"reportOptions"
+	],
+	"name" : "QCBootstrapApplicationModel",
+	"type" : "normal"
+}

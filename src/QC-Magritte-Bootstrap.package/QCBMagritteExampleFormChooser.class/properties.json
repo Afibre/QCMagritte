@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "QCBObject",
+	"category" : "QC-Magritte-Bootstrap-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"layoutStyle",
+		"validationMessageStyle"
+	],
+	"name" : "QCBMagritteExampleFormChooser",
+	"type" : "normal"
+}

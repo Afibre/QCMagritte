@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WATask",
+	"category" : "QC-Magritte-Bootstrap-Demo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"reportChooser"
+	],
+	"name" : "QCBMagritteReportExampleTask",
+	"type" : "normal"
+}

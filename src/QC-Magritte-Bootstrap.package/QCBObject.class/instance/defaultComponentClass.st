@@ -1,0 +1,3 @@
+magritte descriptions
+defaultComponentClass
+	^QCContainerComponent

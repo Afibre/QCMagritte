@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "QCBObject",
+	"category" : "QC-Magritte-Bootstrap-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"number",
+		"odd",
+		"firstName"
+	],
+	"name" : "QCBReportValue",
+	"type" : "normal"
+}

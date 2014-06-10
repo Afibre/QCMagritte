@@ -1,0 +1,3 @@
+initialization
+createReportOptions
+	^QCBReportOptions new

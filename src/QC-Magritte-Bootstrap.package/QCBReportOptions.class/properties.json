@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "QCBObject",
+	"category" : "QC-Magritte-Bootstrap-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bordered",
+		"striped",
+		"condensed",
+		"showBatchFirstLast",
+		"hasColumnChooser",
+		"rowCount",
+		"canEdit"
+	],
+	"name" : "QCBReportOptions",
+	"type" : "normal"
+}
