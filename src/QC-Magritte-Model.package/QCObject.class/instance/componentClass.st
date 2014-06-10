@@ -1,3 +1,4 @@
 accessing-magritte
 componentClass
-	^self defaultComponentClass
+	self model isNil ifTrue: [ ^self defaultComponentClass ].
+	^self model defaultComponentClass

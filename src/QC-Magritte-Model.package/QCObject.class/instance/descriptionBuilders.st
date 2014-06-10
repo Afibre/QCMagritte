@@ -1,3 +1,4 @@
 accessing-magritte
 descriptionBuilders
-	^self defaultDescriptionBuilders
+	self model isNil ifTrue: [ ^self defaultDescriptionBuilders ].
+	^self model defaultDescriptionBuilders
