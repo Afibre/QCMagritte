@@ -47,14 +47,17 @@ baseline030: spec
 			package: 'QC-Magritte-Session' with: [ spec requires: #('QC-Magritte-Core')];
 			package: 'QC-Magritte-Meta' with: [ spec requires: #('QC-Magritte-Component' 'QC-Magritte-Visitor') ];
 			package: 'QC-Magritte-Unit' with: [ spec requires: #( 'Magritte3' 'Units' ) ];
+			package: 'QC-Magritte-Tutorial' with: [ spec requires: #( 'QC-Magritte-Application' 'QC-Magritte-Bootstrap' ) ];
 			package: 'QC-Magritte-Tests' with: [ spec requires: #( 'QC-Magritte-Builder' 'QC-Magritte-Model' ) ];
 			package: 'QC-Magritte-Visitor'.
 		spec 
 			group: 'default' with: #('Core' 'Tests' );
+			group: 'Bootstrap' with: #( 'QC-Magritte-Bootstrap' );
 			group: 'Core' with: #( 'QC-Magritte-Core' );
+			group: 'Demo' with: #( 'QC-Magritte-Demo' );
 			group: 'Tests' with: #( 'Core' 'QC-Magritte-Tests' );
-			group: 'Demo' with: #( 'QC-Magritte-Demo' 'QC-Magritte-Bootstrap' );
-			group: 'All' with: #( 'Tests' 'Demo' ) ].
+			group: 'Tutorial' with: #( 'QC-Magritte-Tutorial' );
+			group: 'All' with: #( 'Tutorial' 'Tests' 'Demo' ) ].
 	
 	spec for: #( #'pharo' ) do: [ 
 		spec
