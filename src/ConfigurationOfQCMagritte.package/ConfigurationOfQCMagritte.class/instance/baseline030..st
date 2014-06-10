@@ -9,10 +9,10 @@ baseline030: spec
 		spec 
 			project: 'Bootstrap' with: [
 				spec
-					className: 'ConfigurationOfBootstrap';
+					className: 'ConfigurationOfBootstrapMagritte';
 					versionString: #'stable';
-					loads: #( 'core' 'widgets' );
-					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main' ];
+					loads: #( 'default' );
+					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/BootstrapMagritte/main' ];
 			project: 'NeoCSV' with: [
 				spec
 					className: 'ConfigurationOfNeoCSV';
