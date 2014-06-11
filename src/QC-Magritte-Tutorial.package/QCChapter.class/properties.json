@@ -8,7 +8,8 @@
 	"instvars" : [
 		"tutorials",
 		"priority",
-		"title"
+		"title",
+		"description"
 	],
 	"name" : "QCChapter",
 	"type" : "normal"

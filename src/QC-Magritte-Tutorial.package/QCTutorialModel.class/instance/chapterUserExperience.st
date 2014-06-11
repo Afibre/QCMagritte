@@ -2,7 +2,7 @@ tutorials
 chapterUserExperience
 	<chapter>
 	^QCChapter new
-		priority: 10;
+		priority: 30;
 		title: 'User experience';
 		yourself
 		
