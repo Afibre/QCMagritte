@@ -30,7 +30,13 @@ baseline030: spec
 					className: 'ConfigurationOfMagritte3';
 					versionString: #'stable';
 					loads: #( 'Seaside' );
-					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ].
+					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ];
+			project: 'Seaside3' with: [
+				spec
+					className: 'ConfigurationOfSeaside3';
+					versionString: #'stable';
+					loads: #('JQueryUI' 'JQuery-JSON');
+					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].	
 
 		spec
 			package: 'QC-Magritte-Ajax' with: [ spec requires: #( 'Magritte3' 'QC-Magritte-Model') ];
@@ -58,15 +64,11 @@ baseline030: spec
 			group: 'Tests' with: #( 'Core' 'QC-Magritte-Tests' );
 			group: 'Tutorial' with: #( 'QC-Magritte-Tutorial' );
 			group: 'All' with: #( 'Tutorial' 'Tests' 'Demo' ) ].
-	
 	spec for: #( #'pharo' ) do: [ 
 		spec
 			project: 'Seaside3' with: [
 				spec
-					className: 'ConfigurationOfSeaside3';
-					versionString: '3.0.9';
-					loads: #( 'Zinc-Seaside' );
-					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].
+					loads: #( 'Zinc-Seaside' 'JQueryUI' 'JQuery-JSON')].
 		spec
 			package: 'QC-Magritte-Demo' with: [ 
 				spec requires: #( 'Seaside3' ) ] ].
@@ -90,4 +92,4 @@ baseline030: spec
 	spec for: #(#'pharo3.x' #'pharo4.x') do: [ 
 		spec
 			package: 'QC-Magritte-Pharo3';
-			package: 'QC-Magritte-Core' with: [ spec requires: 'QC-Magritte-Pharo3' ] ].
+			package: 'QC-Magritte-Core' with: [ spec requires: 'QC-Magritte-Pharo3' ] ]
