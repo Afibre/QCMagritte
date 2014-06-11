@@ -5,6 +5,7 @@ tutorialRestart
 		priority: 100;
 		title: 'Restart';
 		chapter: 'User experience';
-		explanation: 'Since editing might corrupt the tutorial, there is also a reset button. Press this button to rebuild the tutorials. Then continue with the next tutorial.';
+		description: 'Since editing might corrupt the tutorial, there is also a reset button. Go to the details and press the reset button. Then continue with the next chapter.';
+		addCommand: (QCCommand on: 'Reset' condition: nil action: [ :row :component | self resetTutorialOn: component ]);
 		yourself
 		

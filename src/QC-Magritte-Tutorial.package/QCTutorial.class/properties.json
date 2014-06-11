@@ -10,7 +10,9 @@
 		"chapter",
 		"description",
 		"explanation",
-		"priority"
+		"priority",
+		"commands",
+		"code"
 	],
 	"name" : "QCTutorial",
 	"type" : "normal"
