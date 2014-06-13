@@ -1,4 +1,4 @@
-tutorials
+installation
 tutorialDownload
 	<tutorial>
 	^QCTutorial new

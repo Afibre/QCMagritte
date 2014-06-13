@@ -6,10 +6,10 @@ helloWorldTime
 		title: 'Time';
 		chapter: 'Hello world';
 		description: 'Creating a model will not give much of a difference, since our model is still empty. We will now add a method in our model, that will return the current time, and a description that points to this method. First the method that returns the current date and time:';
-		code: 'now
+		addCode: 'now
 	^DateAndTime now';
 		explanation: 'Our description is more complex, as it has a few elements. We will first give the method then explain it.';
-		code: 'descriptionNow
+		addCode: 'descriptionNow
 		<magritteDescription>
 		^MADateAndTimeDescription new
 			label: ''Now'';
