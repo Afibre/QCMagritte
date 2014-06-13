@@ -1,3 +1,3 @@
 accessing
 model
-	^self subclassResponsibility
+	^nil
