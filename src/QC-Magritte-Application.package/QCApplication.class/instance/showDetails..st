@@ -4,4 +4,4 @@ showDetails: anAnnouncement
 	target := anAnnouncement target.
 	(self findPageFor: target) 
 		ifNil: [ self newPageFor: target ]
-		ifNotNilDo: [ :page | self selectPage: page ]
+		ifNotNilDo: [ :page | self currentPage: page ]
