@@ -6,5 +6,6 @@ descriptionTitle
 		label: 'Title';
 		accessor: #title;
 		comment: 'The title of this chapter.';
+		beReadonly;
 		visibleInReport: true;
 		yourself

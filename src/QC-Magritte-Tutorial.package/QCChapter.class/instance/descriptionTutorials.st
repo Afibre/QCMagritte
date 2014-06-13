@@ -6,4 +6,5 @@ descriptionTutorials
 		accessor: #tutorials;
 		sorted: true;
 		classes: { QCTutorial };
+		visibleInReport: false;
 		yourself

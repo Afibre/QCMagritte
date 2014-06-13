@@ -6,5 +6,5 @@ descriptionTitle
 		label: 'Title';
 		accessor: #title;
 		comment: 'The title of this tutorial item.';
-		visibleInReport: true;
+		beReadonly;
 		yourself
