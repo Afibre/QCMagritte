@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "QCOverview",
+	"super" : "QCDetailview",
 	"category" : "QC-Magritte-Bootstrap-Component",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "QCBootstrapOverview",
+	"name" : "QCBootstrapDetailView",
 	"type" : "normal"
 }

@@ -1,0 +1,3 @@
+*qc-magritte-bootstrap
+addValidatedTbsFormWithButtons
+	self addTbsFormWithButtons; addValidation

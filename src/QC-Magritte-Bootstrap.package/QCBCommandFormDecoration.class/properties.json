@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "QCOverview",
+	"super" : "QCCommandFormDecoration",
 	"category" : "QC-Magritte-Bootstrap-Component",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "QCBootstrapOverview",
+	"name" : "QCBCommandFormDecoration",
 	"type" : "normal"
 }
