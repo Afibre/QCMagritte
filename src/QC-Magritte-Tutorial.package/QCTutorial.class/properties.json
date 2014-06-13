@@ -1,16 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "QCParentObject",
+	"super" : "QCTutorialItem",
 	"category" : "QC-Magritte-Tutorial-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"title",
 		"chapter",
-		"priority",
 		"commands",
-		"description",
 		"explanation",
 		"code"
 	],
