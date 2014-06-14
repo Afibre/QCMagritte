@@ -1,6 +1,6 @@
 visiting-description
 visitStringDescription: aDescription
-	super visitStringDescription:
-		(aDescription
-			componentClass: TBSMagritteTextInputComponent;
-			yourself) 
+	(aDescription componentClass = aDescription class defaultComponentClass)
+		ifTrue: [ aDescription
+			componentClass: TBSMagritteTextInputComponent ].
+	super visitStringDescription: aDescription
