@@ -10,7 +10,7 @@ helloWorldModel
 	instanceVariableNames: ''''
 	classVariableNames: ''''
 	category: ''Hello-World-Model''';
-		explanation: 'We also need to tell our application what our model is. We do this by overriding the method "model" and return the value "HelloWorldModel default. The message default returns an singleton instance of the application model, that acts as a single access point for our application model.';
+		addExplanation: 'We also need to tell our application what our model is. We do this by overriding the method "model" and return the value "HelloWorldModel default. The message default returns an singleton instance of the application model, that acts as a single access point for our application model.';
 		addCode: 'model
 	^HelloWorldModel default';
 		yourself

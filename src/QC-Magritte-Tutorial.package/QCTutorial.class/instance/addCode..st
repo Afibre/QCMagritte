@@ -1,3 +1,3 @@
 accessing
 addCode: aString 
-	^self code add: aString
+	^self explanation addCode: aString

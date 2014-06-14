@@ -10,10 +10,10 @@ todoListModel
 	instanceVariableNames: ''todoListItems''
 	classVariableNames: ''''
 	category: ''Todo-List-Model''';
-		explanation: 'For the todoListItems we also create a getter and a setter.';
+		addExplanation: 'For the todoListItems we also create a getter and a setter.';
 		addCode: 'todoListItems
 		^todoListItems ifNil: [ todoListItems := OrderedCollection new ]';
-		explanation: 'Note that we need to initialize the todoListItems so we can add items to it.';
+		addExplanation: 'Note that we need to initialize the todoListItems so we can add items to it.';
 		addCode: 'todoListItems: aCollection
 		todoListItems := aCollection';
 		yourself

@@ -13,7 +13,7 @@ todoListDescriptions
 			label: ''Title'';
 			priority: 100;
 			yourself';
-		explanation: 'We state here that the title of type String is. The accessor links it to the getter "title" and setter "title:". The label is shown to the user in front of the field, so it can recognize the field. Finally the priority determines the order. Since we want to have room, we use 100 by default for the first item to be shown.';
+		addExplanation: 'We state here that the title of type String is. The accessor links it to the getter "title" and setter "title:". The label is shown to the user in front of the field, so it can recognize the field. Finally the priority determines the order. Since we want to have room, we use 100 by default for the first item to be shown.';
 		addCode: 'descriptionDescription
 		<magritteDescription>
 		^MAMemoDescription new
@@ -21,7 +21,7 @@ todoListDescriptions
 			label: ''Description'';
 			priority: 200;
 			yourself';
-		explanation: 'A Memo is a long string. Since different components should be used to display and edit long strings, for magritte this is considered a different type.';
+		addExplanation: 'A Memo is a long string. Since different components should be used to display and edit long strings, for magritte this is considered a different type.';
 		addCode: 'descriptionCompleted
 		<magritteDescription>
 		^MABooleanDescription new
@@ -29,5 +29,5 @@ todoListDescriptions
 			label: ''Completed'';
 			priority: 300;
 			yourself';
-		explanation: 'Finally, our completed variable is of type boolean. It can either be true or false.';
+		addExplanation: 'Finally, our completed variable is of type boolean. It can either be true or false.';
 		yourself

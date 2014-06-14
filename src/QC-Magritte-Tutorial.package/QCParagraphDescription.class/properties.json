@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAMemoDescription",
+	"category" : "QC-Magritte-Tutorial-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCParagraphDescription",
+	"type" : "normal"
+}

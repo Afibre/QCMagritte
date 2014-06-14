@@ -1,7 +1,7 @@
 magritte-description
 descriptionExplanation
 	<magritteDescription>
-	^MAMemoDescription new
+	^QCParagraphDescription new
 		priority: 250;
 		label: 'Explanation';
 		accessor: #explanation;

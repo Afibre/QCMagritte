@@ -13,5 +13,5 @@ To get to a method creation template, click on ‘GLASS’ in the first column, 
 		^description';
 		addCode: 'completed
 		^completed ifNil: [ false ]';
-		explanation: 'When an instance variable is not initialized it is nil by default. We send the message "ifNil:" to this variable, and if this variable is nil the block that is passed is evaluated. Evaluation gives the result false. If the variable is something else, we the message "ifNil:" returns the variable itself.';
+		addExplanation: 'When an instance variable is not initialized it is nil by default. We send the message "ifNil:" to this variable, and if this variable is nil the block that is passed is evaluated. Evaluation gives the result false. If the variable is something else, we the message "ifNil:" returns the variable itself.';
 		yourself
