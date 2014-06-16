@@ -10,6 +10,6 @@ todoListItem
 		instanceVariableNames: ''title description completed''
 		classVariableNames:''''
 		category:''Tutorial-Model''';
-		addExplanation: 'This creates a new subclass of QCObject named "TodoItem", gives it three instance variabes ("title", "description" and "completed") and puts it in the "Todo-List-Model" category.';
+		addExplanation: 'This creates a new subclass of QCObject named "TodoItem", gives it three instance variabes ("title", "description" and "completed") and puts it in the "Tutorial-Model" category.';
 		yourself
 		

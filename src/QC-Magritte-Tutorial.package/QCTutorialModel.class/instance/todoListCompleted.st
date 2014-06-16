@@ -28,4 +28,5 @@ todoListCompleted
 		completed := true';
 		addCode: 'reopen
 		completed := false';
+		addExplanation: 'Go back to the website and test how this looks.';
 		yourself
