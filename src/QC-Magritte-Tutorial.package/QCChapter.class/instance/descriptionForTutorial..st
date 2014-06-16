@@ -1,4 +1,4 @@
-magritte-description
+accessing-magritte
 descriptionForTutorial: aTutorial
 	^MAToOneRelationDescription new
 		label: aTutorial title;

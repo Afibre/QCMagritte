@@ -7,5 +7,6 @@ tutorialQuit
 		chapter: 'Installation';
 		description: 'Now we are ready to quit the application. Left click on the background to bring up the (now familiar) World menu and select the last item, ‘quit.’ In the ‘Save changes before quitting?’ dialog, select ‘No’ to quit without saving (since we already saved two images of the current object space).';
 		" add a picture of world menu and the quit dialog "
+		addExplanation: 'To go to the next chapter: close this tutorial item (go back up), and press next to open the next chapter.';
 		yourself
 		

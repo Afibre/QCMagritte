@@ -1,4 +1,4 @@
-magritte-description
+accessing-magritte
 descriptionForTutorialsInChapter: aChapter
 	^MAToManyRelationDescription new
 		label: aChapter title;

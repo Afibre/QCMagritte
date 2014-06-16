@@ -1,4 +1,4 @@
-magritte-description
+accessing-magritte
 descriptionChapters: aContainer
 "	<magritteContainer>
 "	self chapters do: [ :each |
