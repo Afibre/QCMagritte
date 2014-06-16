@@ -9,7 +9,7 @@ todoListModel
 		addCode: 'QCBootstrapApplicationModel subclass: #TodoListModel
 	instanceVariableNames: ''todoListItems''
 	classVariableNames: ''''
-	category: ''Todo-List-Model''';
+	category: ''Tutorial-Model''';
 		addExplanation: 'For the todoListItems we also create a getter and a setter.';
 		addCode: 'todoListItems
 		^todoListItems ifNil: [ todoListItems := OrderedCollection new ]';

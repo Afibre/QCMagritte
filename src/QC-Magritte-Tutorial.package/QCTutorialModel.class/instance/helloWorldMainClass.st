@@ -9,7 +9,7 @@ helloWorldMainClass
 		addCode: 'QCBootstrapApplication subclass: #HelloWorldApplication
 	instanceVariableNames: ''''
 	classVariableNames: ''''
-	category: ''Hello-World-Web''';
+	category: ''Tutorial-Web''';
 		addExplanation: 'Unfortunately, copying from this document and pasting into Pharo will likely not preserve the formatting. If you want to copy/paste, you should use a simple text editor (such as Notepad on Windows, TextEdit on the Mac, or MousePad on Linux) as an intermediate paste/copy location.';
 		addExplanation: 'Depending on your environment, you might find that <Alt>+<S> (or <Apple>+<S> on the Mac) can be used instead of <Ctrl>+<S>. This should result in a new line with ‘Hello-World’ alphabetically inserted into the class category list (the first column) and the single line ‘HelloWorld’ in the second column.';
 		" add a picture of the system browser "

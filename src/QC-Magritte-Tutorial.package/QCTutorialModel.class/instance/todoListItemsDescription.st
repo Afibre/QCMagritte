@@ -12,7 +12,7 @@ todoListItemsDescription
 			label: ''Todo'';
 			accessor: #todoListItems;
 			priority: 200;
-			classes: { TodoListItem };
+			classes: { TodoItem };
 			yourself';
 		addExplanation: 'The type of the todo list is a "to many relation" to the classes "TodoListItem". Note that the "{" "}" create an array of the things that are listed in between.';
 		yourself

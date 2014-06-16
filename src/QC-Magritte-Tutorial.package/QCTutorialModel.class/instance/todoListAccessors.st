@@ -2,7 +2,7 @@ todo-list
 todoListAccessors
 	<tutorial>
 	^QCTutorial new
-		priority: 30;
+		priority: 20;
 		title: 'Accessors';
 		chapter: 'Todo List';
 		description: 'Next we will define a couple ‘accessor’ (or ‘getter’) methods that simply return the value of the instance variable. (The method return is signaled by the up arrow or caret at the beginning of an expression.) These methods are necessary because in proper Smalltalk there is no direct structural access to the instance variables (or properties or fields) of an object. This language design enforces encapsulation and allows the implementation of an object to change (perhaps the ‘price’ is calculated every time it is requested rather than saved with the object). Note that these are two separate methods.';
