@@ -1,6 +1,7 @@
 visiting-description
 visitStringDescription: aDescription
-	(aDescription componentClass = aDescription class defaultComponentClass)
+	" we only want to replace text input components, not custom components of components of subclasses "
+	(aDescription componentClass = MATextInputComponent)
 		ifTrue: [ aDescription
 			componentClass: TBSMagritteTextInputComponent ].
 	super visitStringDescription: aDescription

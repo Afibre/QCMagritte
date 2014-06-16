@@ -1,5 +1,5 @@
 class initialization
 registerForDevelopment
-	super registerForDevelopment
+	^super registerForDevelopment
 		addLibrary: TBSDeploymentLibrary;
 		yourself
