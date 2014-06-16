@@ -1,4 +1,4 @@
 accessing
 applicationName
-	" This is shown in the title bar of the browser "
-	^'QC Magritte'
+	" This is the name that is used for registration of the application "
+	^self subclassResponsibility
