@@ -5,7 +5,7 @@ todoListModel
 		priority: 50;
 		title: 'Model';
 		chapter: 'Todo List';
-		description: 'Now that we have a class that we can show, it is time to create our model. Our model is a single access point for the application where all objects are stored. As we use the Bootstrap template, we will use QCBootstrapApplicationModel as our base class for our model';
+		description: 'We now have a class that we can show. We need to put this class into a model. The model will be a single access point for the application where all objects are stored. As we use the Bootstrap template, we will use QCBootstrapApplicationModel as our base class for our model';
 		addCode: 'QCBootstrapApplicationModel subclass: #TodoListModel
 	instanceVariableNames: ''todoListItems''
 	classVariableNames: ''''

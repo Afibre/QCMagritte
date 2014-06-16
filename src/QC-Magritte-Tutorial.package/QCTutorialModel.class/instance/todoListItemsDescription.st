@@ -5,7 +5,7 @@ todoListItemsDescription
 		priority: 60;
 		title: 'Items Description';
 		chapter: 'Todo List';
-		description: 'Also, for our model we need to create a description for the todo list items.';
+		description: 'Also, for our model we need to create a description for the todo list items. In our description we will link it to our class we created at the beginning of this chapter.';
 		addCode: 'descriptionTodoListItems
 		<magritteDescription>
 		^MAToManyRelationDescription new

@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"paragraphs",
+		"cssClass"
+	],
 	"name" : "QCParagraphList",
 	"type" : "normal"
 }

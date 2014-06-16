@@ -3,4 +3,7 @@ renderOn: canvas
 	| tag |
 	tag := canvas paragraph.
 	self cssClass ifNotNil: [ tag class: self cssClass ].
-	tag with: self text
+	tag with: [
+		self text linesDo: [ :line |
+			canvas text: line;
+				break ] ]
