@@ -1,3 +1,3 @@
 accessing-defaults
 defaultComponentClasses
-	^ Array with: QCDynamicSelectComponent with: MARadioGroupComponent
+	^ Array with: QCDynamicSelectListComponent with: MARadioGroupComponent

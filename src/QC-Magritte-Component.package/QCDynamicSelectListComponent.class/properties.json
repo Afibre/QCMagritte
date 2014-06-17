@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "QCDynamicSelectComponent",
+	"name" : "QCDynamicSelectListComponent",
 	"type" : "normal"
 }
