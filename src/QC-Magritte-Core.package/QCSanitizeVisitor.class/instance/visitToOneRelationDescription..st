@@ -1,5 +1,5 @@
 visiting
 visitToOneRelationDescription: aDescription
-	super visitToManyRelationDescription: aDescription.
+	super visitToOneRelationDescription: aDescription.
 	(self target readUsing: aDescription) ifNotNilDo: [ :value |
 		self sanitize: value ]
