@@ -4,4 +4,5 @@ executeOn: aComponent command: aCommand
 	aComponent validate ifFalse: [ ^self ].
 	aComponent commit.
 	(aCommand isValidCommandFor: self model) ifTrue: [
-		aCommand executeOn: self model component: aComponent ]
+		aCommand executeOn: self model component: aComponent ].
+	aComponent reset
