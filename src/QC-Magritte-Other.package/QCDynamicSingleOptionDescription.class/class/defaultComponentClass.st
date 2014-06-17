@@ -1,3 +1,3 @@
 defaults
 defaultComponentClass
-	^QCDynamicSelectComponent
+	^QCDynamicSelectListComponent
