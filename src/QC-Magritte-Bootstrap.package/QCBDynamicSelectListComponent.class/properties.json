@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "QCDynamicSelectListComponent",
-	"category" : "QC-Magritte-Bootstrap",
+	"category" : "QC-Magritte-Bootstrap-Component",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TBSDynamicSelectListComponent",
+	"name" : "QCBDynamicSelectListComponent",
 	"type" : "normal"
 }
