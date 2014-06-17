@@ -1,9 +1,9 @@
 addingProjects
-todoListAddProjects
+addingProjectsProjects
 	<tutorial>
 	^QCTutorial new
-		priority: 20;
-		title: 'Add Projects';
+		priority: 10;
+		title: 'Projects';
 		chapter: 'Adding projects';
 		description: 'It is very common to have a todo list per project. So we start by adding projects to our model.';
 		addExplanation: 'First we need to define a project. For now we only put in a title for the project.';
@@ -33,4 +33,5 @@ todoListAddProjects
 	priority: 300;
 	classes: { TodoProject };
 	yourself';
+		addExplanation: 'When you start a new session, our projects should appear in the menu. Add a few projects, so we have some data.';
 		yourself

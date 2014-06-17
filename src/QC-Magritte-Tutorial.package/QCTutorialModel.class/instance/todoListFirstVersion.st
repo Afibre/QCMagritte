@@ -9,4 +9,5 @@ todoListFirstVersion
 		addExplanation: 'You should see the following screen:';
 		addExplanation: 'Now we are going to test this application by adding some todo items. Just fill them out how you like.';
 		addExplanation: 'Note that the user can double-click an item to edit this item inline in the report (same as the edit-button). Also adding will simply "add" the items, and removing will need a confirmation before the remove is actually committed. So the user can always undo his action quite easily.';
+		addExplanation: 'Also there is a button where we can go to the details. This will open a new page where you can edit the item as well.';
 		yourself

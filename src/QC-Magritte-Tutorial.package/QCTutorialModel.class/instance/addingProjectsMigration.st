@@ -1,5 +1,5 @@
 addingProjects
-todoListMigration
+addingProjectsMigration
 	<tutorial>
 	^QCTutorial new
 		priority: 20;

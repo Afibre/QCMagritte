@@ -1,5 +1,5 @@
 addingProjects
-todoListOwnerShip
+addingProjectsOwnerShip
 	<tutorial>
 	^QCTutorial new
 		priority: 40;
