@@ -1,0 +1,3 @@
+*qc-magritte-component
+visitToOneOptionRelationDescription: anObject
+	self visitToOneRelationDescription: anObject
