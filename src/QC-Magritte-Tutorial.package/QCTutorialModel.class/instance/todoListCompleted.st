@@ -19,11 +19,12 @@ todoListCompleted
 		addCode: 'containerActions: aContainer
 	<magritteContainer>
 	^aContainer
-		addCommand: ''Complete'' action: [ :row | row complete ];
-		addCommand: ''Reopen'' action: [ :row | row reopen ];
+		addCommand: ''Complete'' action: #complete;
+		addCommand: ''Reopen'' action: #reopen;
 		yourself';
-		addExplanation: 'Here we see a new pragma: "magritteContainer". Because the method has a parameter it indicates it should be called with the container that is created. It is called before we add our descriptions. Here we add our commands. Since we only want to complete it when the row is not completed, we add the condition "[ :row | row complete ]". This is a special construction in smalltalk indication a piece of code that get''s evaluated when appropriate. It has one paramter (the row). When the user presses the "complete" action, it will be called.';
-		addExplanation: 'This means we need some extra methods as well:';
+		addExplanation: 'Here we see a new pragma: "magritteContainer". Because the method has a parameter it indicates it should be called with the container that is created. It is called before we add our descriptions. Here we add our commands.';
+		addExplanation: 'There is a second special thing here we want to note: #complete is a symbol. This is a constant in Smalltalk. In Smalltalk we can use these symbols to call methods on objects.';
+		addExplanation: 'The command here means that the method complete will be called when the user presses on the action "complete", that is both visible in the overview and the details. This means we need to implement these methods as well:';
 		addCode: 'complete
 	completed := true';
 		addCode: 'reopen

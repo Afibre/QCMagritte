@@ -5,9 +5,9 @@ helloWorldAddTime
 		priority: 130;
 		title: 'Add Time';
 		chapter: 'Hello world';
-		description: 'The QCMagritte application framwork is that it is data driven. This means the our application needs to have a model, to actually do something. But for now we will take a shortcut and override the "renderCurrentPageOn:" instead.';
+		description: 'The QCMagritte application framwork is model driven. This means the our application needs to have a described model, to actually do something. Because we do not have a model yet, it renders an error message. For now we will not create a model, but take a shortcut and override the "renderErrorOn:" instead.';
 		addExplanation: 'Go to your class browser and create the following method on the class HelloWorldApplication:';
-		addCode: 'renderCurrentPageOn: html
+		addCode: 'renderErrorOn: html
 	| now |
 	now := DateAndTime now.
 	html
