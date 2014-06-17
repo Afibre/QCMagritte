@@ -19,8 +19,8 @@ todoListCompleted
 		addCode: 'containerActions: aContainer
 	<magritteContainer>
 	^aContainer
-		addCommand: ''Complete'' action: #complete;
-		addCommand: ''Reopen'' action: #reopen;
+		addCommand: ''complete'' action: #complete;
+		addCommand: ''reopen'' action: #reopen;
 		yourself';
 		addExplanation: 'Here we see a new pragma: "magritteContainer". Because the method has a parameter it indicates it should be called with the container that is created. It is called before we add our descriptions. Here we add our commands.';
 		addExplanation: 'There is a second special thing here we want to note: #complete is a symbol. This is a constant in Smalltalk. In Smalltalk we can use these symbols to call methods on objects.';
