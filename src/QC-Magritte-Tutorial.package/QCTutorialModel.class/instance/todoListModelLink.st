@@ -2,7 +2,7 @@ todo-list
 todoListModelLink
 	<tutorial>
 	^QCTutorial new
-		priority: 60;
+		priority: 65;
 		title: 'Link to application';
 		chapter: 'Todo List';
 		description: 'Finally we need to link our model to the application. As this is simply a demo, we will bind it to the Welcome application we already have made. We override here the "model" method.';

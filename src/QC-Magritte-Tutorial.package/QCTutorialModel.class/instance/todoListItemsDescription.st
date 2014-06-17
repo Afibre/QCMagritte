@@ -10,7 +10,7 @@ todoListItemsDescription
 	<magritteDescription>
 	^MAToManyRelationDescription new
 		label: ''Todo'';
-		accessor: #todoListItems;
+		accessor: #todoItems;
 		priority: 200;
 		classes: { TodoItem };
 		yourself';

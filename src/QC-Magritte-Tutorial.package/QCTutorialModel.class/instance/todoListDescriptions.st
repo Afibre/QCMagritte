@@ -5,15 +5,16 @@ todoListDescriptions
 		priority: 40;
 		title: 'Descriptions';
 		chapter: 'Todo List';
-		description: 'Now that we can access our variables properly we need to add descriptions to our class. These descriptions will be marked with a "pragma" that allows the framework to recognize these methods.';
+		description: 'Now that we can access our variables properly we need to add descriptions to our class. These descriptions will be marked with a "pragma" (annotation) that allows the framework to recognize these methods. The syntax for a pragma is "<" the annotation ">"';
 		addCode: 'descriptionTitle
 	<magritteDescription>
 	^MAStringDescription new
 		accessor: #title;
 		label: ''Title'';
 		priority: 100;
+		beRequired;
 		yourself';
-		addExplanation: 'We state here that the title of type String is. The accessor links it to the getter "title" and setter "title:". The label is shown to the user in front of the field, so it can recognize the field. Finally the priority determines the order. Since we want to have room, we use 100 by default for the first item to be shown.';
+		addExplanation: 'We state here that the title of type String is. The accessor links it to the getter "title" and setter "title:". The label is shown to the user in front of the field, so it can recognize the field. Finally the priority determines the order, we use 100 by default for the first item to be shown. Also we indicate that the title is a required field and should be filled out by the user.';
 		addCode: 'descriptionDescription
 	<magritteDescription>
 	^MAMemoDescription new
