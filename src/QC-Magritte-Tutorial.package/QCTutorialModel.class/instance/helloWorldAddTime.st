@@ -8,12 +8,12 @@ helloWorldAddTime
 		description: 'The QCMagritte application framwork is that it is data driven. This means the our application needs to have a model, to actually do something. But for now we will take a shortcut and override the "renderCurrentPageOn:" instead.';
 		addExplanation: 'Go to your class browser and create the following method on the class HelloWorldApplication:';
 		addCode: 'renderCurrentPageOn: html
-		| now |
-		now := DateAndTime now.
-		html
-			heading: ''Current time'';
-			text: now;
-			yourself';
+	| now |
+	now := DateAndTime now.
+	html
+		heading: ''Current time'';
+		text: now;
+		yourself';
 		addExplanation: 'This code introduces some new syntax. Line 2 defines a method temporary variable, ‘now,’ that is declared by placing it between vertical bars (or pipe characters). In Smalltalk (like Perl, Python, PHP, and others), variables are dynamically typed (as opposed to the static typing of languages like C and Java where types must be declared at compile time). This means that all we need to do is specify the name and this will reserve space for the object reference.';
 		addExplanation: 'Line 3 is an expression that introduces the second of Smalltalk’s two operators (the return operator was mentioned in step #8). The assignment operator or colon-equals (:=) is used to take the object returned by the expression on the right and place a reference to it in the variable defined on the left.';
 		addExplanation: 'Lines 4-7 are a single expression. Since extra whitespace is ignored in Smalltalk you can add new lines and tabs for cosmetic styling. Next, recall that expressions are made up of receivers and messages and that there are three types of messages: unary, binary, and keyword (evaluated in that order). On line 5 the keyword message ‘heading:’ that is sent to ‘html’ with a String as an argument. Normally this line would en with a period (which would indicate the end of an expression), but this message ends with a semicolon.';

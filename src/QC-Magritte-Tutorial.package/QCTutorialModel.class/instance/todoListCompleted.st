@@ -19,14 +19,14 @@ todoListCompleted
 		addCode: 'containerActions: aContainer
 	<magritteContainer>
 	^aContainer
-		addCommand: ''Complete'' condition: nil action: [ :row | row complete ];
-		addCommand: ''Reopen'' condition: nil action: [ :row | row reopen ];
+		addCommand: ''Complete'' action: [ :row | row complete ];
+		addCommand: ''Reopen'' action: [ :row | row reopen ];
 		yourself';
 		addExplanation: 'Here we see a new pragma: "magritteContainer". Because the method has a parameter it indicates it should be called with the container that is created. It is called before we add our descriptions. Here we add our commands. Since we only want to complete it when the row is not completed, we add the condition "[ :row | row complete ]". This is a special construction in smalltalk indication a piece of code that get''s evaluated when appropriate. It has one paramter (the row). When the user presses the "complete" action, it will be called.';
 		addExplanation: 'This means we need some extra methods as well:';
 		addCode: 'complete
-		completed := true';
+	completed := true';
 		addCode: 'reopen
-		completed := false';
+	completed := false';
 		addExplanation: 'Go back to the website and test how this looks.';
 		yourself

@@ -12,8 +12,8 @@ todoListModel
 	category: ''Tutorial-Model''';
 		addExplanation: 'For the todoListItems we also create a getter and a setter.';
 		addCode: 'todoItems
-		^todoItems ifNil: [ todoItems := OrderedCollection new ]';
+	^todoItems ifNil: [ todoItems := OrderedCollection new ]';
 		addExplanation: 'Note that we need to initialize the todoItems so we can add items to it.';
 		addCode: 'todoItems: aCollection
-		todoItems := aCollection';
+	todoItems := aCollection';
 		yourself
