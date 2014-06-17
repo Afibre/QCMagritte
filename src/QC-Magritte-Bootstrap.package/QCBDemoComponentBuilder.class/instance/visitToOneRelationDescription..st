@@ -1,6 +1,0 @@
-visiting-description
-visitToOneRelationDescription: aDescription
-	| columnClass |
-	columnClass := aDescription reportColumnClass.
-	(columnClass = aDescription class defaultReportColumnClass) ifTrue: [ aDescription reportColumnClass: QCRelationColumn ].
-	^super visitRelationDescription: aDescription
