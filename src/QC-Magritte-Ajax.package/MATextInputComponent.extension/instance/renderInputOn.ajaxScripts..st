@@ -4,4 +4,5 @@ renderInputOn: html ajaxScripts: aScriptList
 	tag := html textInput
 		id: self labelId.
 	aScriptList do: [ :each | tag onChange: each ].
+	self magritteDescription hasComment ifTrue: [ tag placeholder: self magritteDescription comment ].
 	tag on: #string of: self

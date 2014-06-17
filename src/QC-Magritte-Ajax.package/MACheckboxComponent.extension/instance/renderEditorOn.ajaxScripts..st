@@ -4,7 +4,8 @@ renderEditorOn: html ajaxScripts: aScriptList
 		| tag |
 		tag := html checkbox
 			id: self labelId;
-			disabled: self isReadonly.
+			disabled: self isReadonly;
+			yourself.
 		aScriptList do: [ :each | tag onChange: each ].
 		tag on: #value of: self.
 		html space; render: self magritteDescription checkboxLabel ]
