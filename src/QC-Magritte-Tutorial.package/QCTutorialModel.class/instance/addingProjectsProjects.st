@@ -7,7 +7,7 @@ addingProjectsProjects
 		chapter: 'Adding projects';
 		description: 'It is very common to have a todo list per project. So we start by adding projects to our model.';
 		addExplanation: 'First we need to define a project. For now we only put in a title for the project.';
-		addCode: 'QCObject subclass: #TodoProject
+		addCode: 'QCParentObject subclass: #TodoProject
 	instanceVariableNames: ''title''
 	classVariableNames: ''''
 	category: ''Tutorial-Model''';
