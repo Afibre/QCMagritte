@@ -4,7 +4,7 @@ todoListMigration
 	^QCTutorial new
 		priority: 20;
 		title: 'Migration';
-		chapter: 'Adding Projects';
+		chapter: 'Adding projects';
 		description: 'We are now going to extend our todo items with a project. Since the project comes from the model, we also going to need a backlink to the model.';
 		addExplanation: 'We are going to change the class definition of TodoItem as follows:';
 		addCode: 'QCParentObject subclass: #TodoItem
@@ -16,7 +16,7 @@ todoListMigration
 		addCode: 'TodoListModel reset.';
 		addExplanation: 'But we are going to take a more complex method, since this is a tutorial. We are going to migrate our todo items. Since this is a common theme when maintaining an application, we have also put some support in the framework for this. We add the following method to TodoListModel:';
 		addCode: 'sanitizeForUpgrade
-	super sanitizeForUpgrade.
-	self todoItems do: [ :each | each parent: self ]';
-		addExplanation: 'Now if we call the method "TodoListModel sanitizeForUpgrade" the framework will follow the magritte descriptions and execute on all objects this method.';
+	self todoItems do: [ :each | each parent: self ].
+	super sanitizeForUpgrade';
+		addExplanation: 'Now if we call the method "TodoListModel sanitizeForUpgrade" the framework will follow the magritte descriptions and execute on all objects this method. Note that we call our super after we do our own sanitize code, because the super will walk the entire tree.';
 		yourself
