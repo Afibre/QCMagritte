@@ -1,3 +1,4 @@
 actions
 execute: aBlock with: aRow 
-	aBlock cull: aRow cull: self component
+	aBlock isSymbol ifTrue: [ ^aRow perform: aBlock ].
+	^aBlock cull: aRow cull: self component
