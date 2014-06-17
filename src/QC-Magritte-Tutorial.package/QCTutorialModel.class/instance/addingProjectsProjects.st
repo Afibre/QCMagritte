@@ -34,5 +34,5 @@ addingProjectsProjects
 		priority: 300;
 		classes: { TodoProject };
 		yourself';
-		addExplanation: 'When you start a new session, our projects should appear in the menu. Add a few projects, so we have some data.';
+		addExplanation: 'When you start a new session, our projects should appear in the menu. Add a few projects, so we have some data. Also do not forget to implement the displayName.';
 		yourself
