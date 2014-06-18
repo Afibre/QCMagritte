@@ -1,3 +1,3 @@
 actions
 setBatchPageOn: aRow
-	" todo "
+	self batchPage: ((self cache indexOf: aRow) -1 // self batchSize) +1
