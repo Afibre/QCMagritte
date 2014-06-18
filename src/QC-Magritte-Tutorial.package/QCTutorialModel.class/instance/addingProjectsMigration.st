@@ -2,7 +2,7 @@ addingProjects
 addingProjectsMigration
 	<tutorial>
 	^QCTutorial new
-		priority: 20;
+		priority: 30;
 		title: 'Migration';
 		chapter: 'Adding projects';
 		description: 'We are now going to extend our todo items with a project. Since the project comes from the model, we also going to need a backlink to the model.';

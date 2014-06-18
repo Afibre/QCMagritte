@@ -2,7 +2,7 @@ addingProjects
 addingProjectsProjects
 	<tutorial>
 	^QCTutorial new
-		priority: 10;
+		priority: 20;
 		title: 'Projects';
 		chapter: 'Adding projects';
 		description: 'It is very common to have a todo list per project. So we start by adding projects to our model.';
