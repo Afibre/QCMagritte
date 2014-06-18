@@ -5,7 +5,7 @@ renderSingleLink: aCommand on: html for: anObject text: aLabel
 			html anchor
 				class: 'command-link';
 				callback: [ self execute: aCommand with: anObject ];
-				 with: [ aCommand renderImageOn: html height: 16 ] ]
+				 with: [ aCommand renderImageOn: html height: 16 altText: aLabel ] ]
 		ifFalse: [ 
 			html span
 				class: 'command';

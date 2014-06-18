@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MAContainerDecoration",
+	"category" : "QC-Magritte-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"staticButtons",
+		"commands"
+	],
+	"name" : "QCCommandFormDecoration",
+	"type" : "normal"
+}
