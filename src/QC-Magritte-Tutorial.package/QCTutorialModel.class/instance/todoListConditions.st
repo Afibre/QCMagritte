@@ -10,8 +10,8 @@ todoListConditions
 		addCode: 'containerActions: aContainer
 	<magritteContainer>
 	^aContainer
-		addCommand: ''complete'' condition: #notComplete action: #complete;
-		addCommand: ''reopen'' condition: #isComplete action: #reopen;
+		addCommand: ''Complete'' condition: #notComplete action: #complete;
+		addCommand: ''Reopen'' condition: #isComplete action: #reopen;
 		yourself';
 		addExplanation: 'Of course we need to implement the two method''s that are referenced here too.';
 		addCode: 'isComplete
