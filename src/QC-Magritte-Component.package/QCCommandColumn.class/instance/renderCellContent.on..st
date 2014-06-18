@@ -1,6 +1,6 @@
 rendering
 renderCellContent: anObject on: html
-	html span
+	html div
 		class: 'commands';
 		with: [ 
 			(self useLinksFor: anObject)

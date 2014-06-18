@@ -1,6 +1,6 @@
 rendering
 renderHeadContentOn: html
-	html span
+	html div
 		class: 'commands';
 		with: [ 
 			(self headerCommands select: [ :each | each isValidCommandFor: nil ])
