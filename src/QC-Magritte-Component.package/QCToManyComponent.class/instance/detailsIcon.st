@@ -1,3 +1,0 @@
-customization
-detailsIcon
-	^nil
