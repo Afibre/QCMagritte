@@ -1,7 +1,7 @@
 visiting-description
 visitToManyRelationDescription: aDescription
 	(aDescription reportColumnClass == aDescription class defaultReportColumnClass)
-		ifTrue: [ aDescription reportColumnClass: QCToManyColumn ].
+		ifTrue: [ aDescription reportColumnClass: QCBToManyColumn ].
 	super visitToManyRelationDescription: 
 		(aDescription
 			componentClass: QCBExtendedToManyComponent;

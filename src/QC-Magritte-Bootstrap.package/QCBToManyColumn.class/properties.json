@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCToManyColumn",
+	"category" : "QC-Magritte-Bootstrap-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCBToManyColumn",
+	"type" : "normal"
+}
