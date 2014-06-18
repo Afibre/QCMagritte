@@ -36,8 +36,8 @@ addingProjectsAnnouncements
 	(self currentPage isShown: anAnnouncement target)
 		ifFalse: [ 
 			super showDetails: anAnnouncement ]';
-		addExplanation: 'So we revert to our old showDetails:. But we are going to add the following method to your new overview, since our overview will now also show the details of the objects:';
+		addExplanation: 'So we revert to our old "showDetails:", with a modification to test if it is visible on the currentpage, as there may be multiple pages where the object will be shown. Now we are going to add the following method to your new overview, since our overview will now also show the details of the objects:';
 		addCode: 'showsObject: anObject
 	^(super showsObject: anObject) or: [ self isShown: anObject ]';
-		addExplanation: 'Instead of creating a new page, we now lookup the page where the details will be shown. We also add the test if it is visible on the currentpage, as there may be multiple pages where the object will be shown. Now test you application and see how you like it.';
+		addExplanation: 'Now see how it looks like.';
 		yourself
