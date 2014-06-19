@@ -5,8 +5,8 @@ todoListConditions
 		priority: 90;
 		title: 'Conditions';
 		chapter: 'Todo List';
-		description: 'Now we have links to complete and reopen an item, but this still is a bit awkward. The links are shown always, undependant of the state.';
-		addExplanation: 'We are going to add a condition to the commands. This is quite simple as we only need to fill out the paramter for this.';
+		description: 'Now we have links to complete and reopen an item, but this still is a bit awkward. The links are shown always, independant of the state.';
+		addExplanation: 'We are going to add a condition to the commands. This is quite simple as we only need to fill out the parameter for this.';
 		addCode: 'containerActions: aContainer
 	<magritteContainer>
 	^aContainer

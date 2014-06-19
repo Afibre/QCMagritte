@@ -14,5 +14,5 @@ todoListItemsDescription
 		priority: 200;
 		classes: { TodoItem };
 		yourself';
-		addExplanation: 'The type of the todo list is a "to many relation" to the classes "TodoItem". Note that the "{" "}" create an array of the things that are listed in between.';
+		addExplanation: 'The type of the todo list is a "to many relation" to the classes "TodoItem". Note that the "{" "}" creates an array of the things that are listed in between.';
 		yourself

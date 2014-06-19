@@ -16,7 +16,7 @@ todoListOpenItems
 		priority: 100;
 		classes: { TodoItem };
 		yourself';
-		addExplanation: 'Of the original method we change the label into: "All items" and the priority into 200. Finally we need to implement the new accessors.';
+		addExplanation: 'In the original method we change the label into: "All items" and the priority into 200. Finally we need to implement the new accessors.';
 		addCode: 'openItems
 	^self todoItems select: [ :each | each notComplete ]';
 		addExplanation: 'The "select:" method returns a collection with only the items for those the block will evaluate to "true".';
@@ -25,5 +25,5 @@ todoListOpenItems
 		(aCollection includes: each) ifFalse: [ self todoItems remove: each ] ].
 	aCollection do: [ :each |
 		(self todoItems includes: each) ifFalse: [ self todoItems add: each ] ]';
-		addExplanation: 'When you are editing a collection in Magritte, Magritte assigns after the change the collection to the object. So you will not notice any individual add or remove actions. So we need to implement here the difference. First we check for all removals, then we check for all new items.';
+		addExplanation: 'When you edit a collection in Magritte, Magritte assigns the whole collection to the object after the change. So you will not notice any individual add or remove actions. So we need to implement here the difference. First we check for all removals, then we check for all new items.';
 		yourself
