@@ -5,7 +5,7 @@ addingProjectsRename
 		priority: 10;
 		title: 'Renaming application';
 		chapter: 'Adding projects';
-		description: 'Since our application is starting to get a serious application, we are going to rename it into TodoApplication.';
+		description: 'Since our application is starting to become a serious application, we are going to rename it into TodoApplication.';
 		addExplanation: 'First we are going to rename the class, using the refactoring tools of Smalltalk. Right-click on the project to get the menu, and select rename... input: "TodoApplication" in the dialog.';
 		addExplanation: 'Secondly we are going to change the title and the applicationName. Note that the application name is a method on the class side. For this we need to check the box "class side" in the system browser. Then add the following method:';
 		addCode: 'applicationName

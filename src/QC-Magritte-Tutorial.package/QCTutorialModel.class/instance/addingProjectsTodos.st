@@ -23,7 +23,7 @@ addingProjectsTodos
 		addExplanation: 'And in the model we perform a simple select. ';
 		addCode: 'todosFor: aProject
 	^self todoItems select: [ :each | each notComplete and: [ each project = aProject ] ]';
-		addExplanation: 'Since the magritte also sends the message "todos:" on save, we need this method as well. We can ignore this for now, just add the method. ';
+		addExplanation: 'Since the magritte framework also sends the message "todos:" on save, we need this method as well. We can ignore this for now, just add the method. ';
 		addCode: 'todos: aCollection';
 		addExplanation: 'Now go back to the site and look if it worked.';
 		yourself

@@ -10,7 +10,7 @@ addingProjectsAnnouncements
 		addExplanation: 'First we need our own overview class, so we can add the code for the columns and render the detail view here. Add the class TodoOverview as a subclass of QCBootstrapOverview in the category Tutorial-Web. We need to link this class to the TodoApplication. We do this by overriding the overview class:';
 		addCode: 'overviewClass
 	^TodoOverview';
-		addExplanation: 'Now we are going to move all methods with our modifications. Simply use drag and drop to move the following methods: "renderDetailPageOn:", "detailsPage" and "children". The "renderCurrentPageOn:" needs a small change while moving, so we copy/paste this method and rename it to "renderContentOn:", and also modify the reference to the super.';
+		addExplanation: 'Now we are going to move all methods with our modifications. Simply use drag and drop to move the following methods: "renderDetailPageOn:", "detailsPage" and "children". The "renderCurrentPageOn:" needs a small change after moving, so we copy/paste this method and rename it to "renderContentOn:", and also modify the reference to the super.';
 		addExplanation: 'Finally we need to change the "showDetails:". Remove the contents for now in TodoApplication, we will come back to this shortly. We are going to implement a "showDetails:" method on TodoOverview.';
 		addCode: 'showDetails: anAnnouncement
 	detailsPage := self createPageFor: anAnnouncement target';
@@ -24,14 +24,14 @@ addingProjectsAnnouncements
 		addExplanation: 'The last method will subscribe the overview component to the event: "QCShowDetails". Now go back to the website and check the behavior. You will notice that when you press on a details, it still does not work. A details page keeps a reference to the previous page. It does so, by asking the parent for the current page. In the debugger create this method and supply the following answer:';
 		addCode: 'currentPage
 	^self detailsPage';
-		addExplanation: 'We could also have chosen simply to return "nil", but we will use this later in the tutorial. Notice on the website that the behavior has not changed. But we are nearly there. Instead of creating one details page in the application, we now have 3 details page, created by the overviews. But instead of creating 3, we should create only a details view, when the overview is displaying the element. So we change the showDetails: method once more:';
+		addExplanation: 'We could also have chosen simply to return "nil", but we will use this later in the tutorial. Notice on the website that the behavior has not changed. But now we are nearly there. Instead of creating one details page in the application, we now have 3 details pages, created by the overviews. But instead of creating 3, we should create only a details view, when the overview is displaying the element. So we change the showDetails: method once more:';
 		addCode: 'showDetails: anAnnouncement
 	(self isShown: anAnnouncement target)
 		ifTrue: [ detailsPage := self createPageFor: anAnnouncement target ]';
 		addCode: 'isShown: anObject
 	^self report rows includes: anObject';
 		addExplanation: 'An overview holds a reference to the report that shows the objects.';
-		addExplanation: 'Now try to open the details of an open todo item. You can see that it is opened in 2 places: in todo''s and in All items, but no longer in projects. Now when we open the details of a project, by clicking on a project, we still have not the desired result, as the details are opened on an invisible page. So we go back to the showDetails: in the class TodoApplication. Change the code to the following:';
+		addExplanation: 'Now try to open the details of an open todo item. You can see that it is opened in 2 places: in todo''s and in All items, but no longer in projects. Now when we open the details of a project, by clicking on a project, we still have not the desired result, as the details are opened on an invisible page. So we go back to the showDetails: in the class TodoApplication. Change the code to:';
 		addCode: 'showDetails: anAnnouncement 
 	(self currentPage isShown: anAnnouncement target)
 		ifFalse: [ 
