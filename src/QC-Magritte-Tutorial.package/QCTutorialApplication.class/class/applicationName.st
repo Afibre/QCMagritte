@@ -1,3 +1,3 @@
 accessing
 applicationName
-	^'QCMagritte/Tutorial'
+	^'QCMagritte Tutorial'
