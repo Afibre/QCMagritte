@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "QCSearchForm",
+	"super" : "QCSimpleSearchForm",
 	"category" : "QC-Magritte-Bootstrap-Component",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "QCBootstrapSearchForm",
+	"name" : "QCBootstrapSimpleSearchForm",
 	"type" : "normal"
 }
