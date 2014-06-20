@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "QCParentObject",
+	"category" : "Tutorial-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title"
+	],
+	"name" : "TodoProject",
+	"type" : "normal"
+}

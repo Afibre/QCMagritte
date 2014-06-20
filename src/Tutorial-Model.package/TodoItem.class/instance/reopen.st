@@ -1,0 +1,3 @@
+actions
+reopen
+	completed := false
