@@ -1,0 +1,3 @@
+hooks
+displayChildren
+	^false

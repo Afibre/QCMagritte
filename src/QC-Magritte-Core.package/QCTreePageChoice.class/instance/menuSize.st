@@ -1,3 +1,3 @@
 accessing
 menuSize
-	^self menuSize: true
+	^self menuSize: self displayChildren

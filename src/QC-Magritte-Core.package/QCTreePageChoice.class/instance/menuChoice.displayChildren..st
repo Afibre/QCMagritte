@@ -3,7 +3,7 @@ menuChoice: anIndex displayChildren: aDisplayChildren
 	| index |
 	aDisplayChildren ifFalse: [ | retVal |
 		retVal := (self pages at: anIndex).
-		(retVal respondsTo: #rootPage) ifTrue: [ ^retVal rootPage ].
+		((retVal respondsTo: #rootPage) and: [ retVal rootPage notNil ]) ifTrue: [ ^retVal rootPage ].
 		^retVal ].
 	index := 0.
 	self pages do: [ :page |
