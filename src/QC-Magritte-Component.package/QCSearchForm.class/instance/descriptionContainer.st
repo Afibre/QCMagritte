@@ -4,5 +4,6 @@ descriptionContainer
 	^ super descriptionContainer
 		componentRenderer: QCFormRenderer;
 		stringWriter: QCLabelReflectiveWriter;
-		componentClass: QCSearchComponent;
+		componentClass: self componentClass;
+		descriptionBuilders: self descriptionBuilders;
 		yourself
