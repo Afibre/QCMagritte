@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "QCBootstrapOverview",
+	"category" : "Tutorial-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"detailsPage"
+	],
+	"name" : "TodoOverview",
+	"type" : "normal"
+}
