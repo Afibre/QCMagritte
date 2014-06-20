@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "QCParentObject",
+	"category" : "QC-Magritte-User",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"userid",
+		"passwordHash",
+		"userOptions",
+		"roles"
+	],
+	"name" : "QCUser",
+	"type" : "normal"
+}

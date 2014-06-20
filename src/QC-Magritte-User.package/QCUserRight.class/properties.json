@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "QCObject",
+	"category" : "QC-Magritte-User",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"crud",
+		"rightsClass"
+	],
+	"name" : "QCUserRight",
+	"type" : "normal"
+}

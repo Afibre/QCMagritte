@@ -1,0 +1,3 @@
+accessing
+canAddToRightsClass: aClass
+	^true

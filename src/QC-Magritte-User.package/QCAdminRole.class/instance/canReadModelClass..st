@@ -1,0 +1,3 @@
+accessing
+canReadModelClass: aClass 
+	^true

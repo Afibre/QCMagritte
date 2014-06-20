@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "QCObject",
+	"category" : "QC-Magritte-User",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"descriptionsOptions",
+		"customColumns",
+		"rowCount"
+	],
+	"name" : "QCReportOptions",
+	"type" : "normal"
+}

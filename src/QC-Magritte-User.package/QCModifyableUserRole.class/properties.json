@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "QCUserRole",
+	"category" : "QC-Magritte-User",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rights",
+		"roleName"
+	],
+	"name" : "QCModifyableUserRole",
+	"type" : "normal"
+}

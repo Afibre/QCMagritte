@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "QCModelOverview",
+	"category" : "QC-Magritte-User",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"users",
+		"roles",
+		"adminRole"
+	],
+	"name" : "QCUserOverview",
+	"type" : "normal"
+}

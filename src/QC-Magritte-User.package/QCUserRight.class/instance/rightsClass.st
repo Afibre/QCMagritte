@@ -1,0 +1,3 @@
+accessing
+rightsClass
+	^ rightsClass
