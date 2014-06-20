@@ -1,0 +1,3 @@
+accessing
+overridesDefaults
+	^#( 'browse' 'welcome' )
