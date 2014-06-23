@@ -2,9 +2,9 @@ accessing
 displayName
 	^String streamContents: [ :s |
 		s nextPutAll: (QCMultilanguageString on: 'Right').
-		self modelClass ifNotNil: [
+		self rightsClass ifNotNil: [
 			s space;
-				nextPutAll: self modelClass displayName.
+				nextPutAll: self rightsClass displayName.
 			self crud ifNotNil: [
 				s nextPut: $(.
 				self crud do: [ :each | s nextPutAll: each asString ].

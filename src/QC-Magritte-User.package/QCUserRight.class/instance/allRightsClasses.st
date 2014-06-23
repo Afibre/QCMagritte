@@ -1,3 +1,3 @@
 accessing-magritte
 allRightsClasses
-	^QCObject allSubclasses select: [ :each | each hasUserRights ]
+	^self model allRightsClasses
