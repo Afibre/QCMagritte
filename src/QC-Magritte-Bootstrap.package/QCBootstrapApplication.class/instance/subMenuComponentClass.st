@@ -1,0 +1,3 @@
+hooks
+subMenuComponentClass
+	^QCBootstrapSubMenuComponent
