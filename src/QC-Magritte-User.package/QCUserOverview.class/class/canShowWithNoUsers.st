@@ -1,0 +1,3 @@
+security
+canShowWithNoUsers
+	^true
