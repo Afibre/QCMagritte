@@ -1,3 +1,3 @@
 *qc-magritte-user
-canShowWithNoUsers
+canShowWithNoAdmin
 	^false

@@ -1,0 +1,3 @@
+security
+canShowWithNoAdmin
+	^true

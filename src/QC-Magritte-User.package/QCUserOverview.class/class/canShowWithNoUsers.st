@@ -1,3 +1,0 @@
-security
-canShowWithNoUsers
-	^true
