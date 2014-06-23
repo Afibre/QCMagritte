@@ -1,13 +1,13 @@
 initialization
-pageFor: aRelationDescription target: aTarget in: aComponent
+pageFor: aRelationDescription model: aModel in: aComponent
 	" add the page for the description "
 	(aRelationDescription isKindOf: MAToManyRelationDescription)
 		ifTrue: [ 
-			^(self overviewClass onDescription: aRelationDescription model: self model target: aTarget) ].
+			^(self overviewClass onDescription: aRelationDescription model: self model target: aModel) ].
 	(aRelationDescription isKindOf: MAToOneRelationDescription)
 		ifTrue: [
 			| retVal target |
-			target := aTarget readUsing: aRelationDescription.
+			target := aModel readUsing: aRelationDescription.
 			aRelationDescription commonClass hasModelChildren ifFalse: [ ^(self detailsClass on: nil target: target) ].
 			aRelationDescription commonClass showRootAsPage
 				ifTrue: [ retVal := aComponent subMenuComponentClass on: (self detailsClass on: nil target: target) ]
@@ -16,9 +16,9 @@ pageFor: aRelationDescription target: aTarget in: aComponent
 					yourself ].
 			retVal parent: aComponent.
 			" add sub-pages "
-			(self user rootsFor: target) do: [ :each |
+			(self rootsFor: target) do: [ :each |
 				| container |
-				container := QCDescriptionBuildMultiLanguage buildFrom: each asContainer target: self user model.
+				container := QCDescriptionBuildMultiLanguage buildFrom: each asContainer target: aModel.
 				self addPagesFor: container children first model: target to: retVal ].
 			^retVal ].
 	" this can only happen when the model returns a 'non-relation' description "
