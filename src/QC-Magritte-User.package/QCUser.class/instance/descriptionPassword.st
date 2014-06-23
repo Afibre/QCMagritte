@@ -7,7 +7,7 @@ descriptionPassword
 		beRequired;
 		requiredErrorMessage: 'You need to input a password';
 		comment: 'Please enter your password';
-		label: 'password';
+		label: 'Password';
 		priority: 200;
 		visible: (passwordHash isNil);
 		visibleInReport: false;

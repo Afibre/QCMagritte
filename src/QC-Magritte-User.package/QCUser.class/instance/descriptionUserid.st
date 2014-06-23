@@ -6,7 +6,7 @@ descriptionUserid
 		readonly: userid notNil;
 		beRequired;
 		comment: 'The unique id of the user';
-		label: 'userid';
+		label: 'Userid';
 		priority: 50;
 		visibleInReport: false;
 		yourself

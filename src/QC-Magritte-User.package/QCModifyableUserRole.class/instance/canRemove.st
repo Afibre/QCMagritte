@@ -1,4 +1,5 @@
 accessing
 canRemove
-	self parent ifNil: [ ^super canRemove ].
-	^self parent canRemoveRole: self
+	(self parent notNil and: [ self parent respondsTo: #'canRemoveRole:' ]) ifTrue: [ ^self parent canRemoveRole: self  ].
+	^super canRemove
+	

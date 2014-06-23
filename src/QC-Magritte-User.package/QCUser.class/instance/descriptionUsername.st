@@ -5,7 +5,7 @@ descriptionUsername
 		accessor: #username;
 		beReadonly;
 		comment: 'The displayname of the user';
-		label: 'user name';
+		label: 'User name';
 		priority: 50;
 		visibleInReport: true;
 		visible: (self username notNil);

@@ -7,7 +7,7 @@ descriptionPasswordVerify
 		beRequired;
 		requiredErrorMessage: 'You need to input a password verification';
 		comment: 'Please retype your password for verification';
-		label: 'password';
+		label: 'Password';
 		priority: 200;
 		visible: (passwordHash isNil);
 		visibleInReport: false;
