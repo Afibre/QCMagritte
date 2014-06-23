@@ -1,6 +1,5 @@
 initialization
 initializeMenu
-	" check user rights and generate pages "
 	self model ifNotNil: [
 		self model roots do: [ :each |
 			| container |
