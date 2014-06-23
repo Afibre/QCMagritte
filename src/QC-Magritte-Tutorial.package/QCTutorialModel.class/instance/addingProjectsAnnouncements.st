@@ -33,7 +33,7 @@ addingProjectsAnnouncements
 		addExplanation: 'An overview holds a reference to the report that shows the objects.';
 		addExplanation: 'Now try to open the details of an open todo item. You can see that it is opened in 2 places: in todo''s and in All items, but no longer in projects. Now when we open the details of a project, by clicking on a project, we still have not the desired result, as the details are opened on an invisible page. So we go back to the showDetails: in the class TodoApplication. Change the code to:';
 		addCode: 'showDetails: anAnnouncement 
-	(self currentPage isShown: anAnnouncement target)
+	(self currentPage showsObject: anAnnouncement target)
 		ifFalse: [ 
 			super showDetails: anAnnouncement ]';
 		addExplanation: 'So we revert to our old "showDetails:", with a modification to test if it is visible on the currentpage, as there may be multiple pages where the object will be shown. Now we are going to add the following method to your new overview, since our overview will now also show the details of the objects:';

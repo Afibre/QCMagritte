@@ -2,11 +2,11 @@ user-management
 userManagementUsers
 	<tutorial>
 	^QCTutorial new
-		priority: 10;
+		priority: 20;
 		title: 'Users';
 		chapter: 'User management';
-		description: 'We want to add users to the application. In the QC-Magritte framework we already have users.';
-		addExplanation: 'We start by defining our custom user class. We inherit from QCUser, and create our own custom class to be able to extend our users in the future.';
+		description: 'Having defined users is only the first step. Just try and add a user role and a user to the system. You will notice that there are still some things to be configured.';
+		addExplanation: 'First of all we need to define that classes that have rights in our system. By default you can set rights to the user overview.';
 		addCode: 'QCUser subclass: #TodoUser
 	instanceVariableNames: ''''
 	classVariableNames: ''''
@@ -32,7 +32,5 @@ userManagementUsers
 		beRequired;
 		yourself';
 		addExplanation: 'Go back to your application and see how it looks. Did you remember to add the initialization code for the userOverview?';
-		addCode: 'userOverview
-	^userOverview ifNil: [ userOverview := TodoUserOverview on: self ]'
 		yourself
 		
