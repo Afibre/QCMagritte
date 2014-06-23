@@ -1,10 +1,7 @@
 accessing
 menuChoice: anIndex displayChildren: aDisplayChildren
 	| index |
-	aDisplayChildren ifFalse: [ | retVal |
-		retVal := (self pages at: anIndex).
-		((retVal respondsTo: #rootPage) and: [ retVal rootPage notNil ]) ifTrue: [ ^retVal rootPage ].
-		^retVal ].
+	aDisplayChildren ifFalse: [ ^self pages at: anIndex ].
 	index := 0.
 	self pages do: [ :page |
 		| size |
