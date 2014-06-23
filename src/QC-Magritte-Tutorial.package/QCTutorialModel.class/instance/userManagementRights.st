@@ -13,4 +13,8 @@ userManagementRights
 		addExplanation: 'As you can see, not all classes are shown. Only the classes with the flag "hasUserRights" will show up. We will add the TodoProjects and TodoItems to the list, by adding the following method to the class side of these classes';
 		addCode: 'hasUserRights
 	^true';
+		addExplanation: 'Now go back to the site and check again. Now it is time to put security in place. Set the following method in your application model:';
+		addCode: 'hasUserManagement
+	^true';
+		addExplanation: 'Did you forget to add an admin user like me? Then you should still be able to add a user. Please do so now, and give him the role of admin.';
 		yourself
