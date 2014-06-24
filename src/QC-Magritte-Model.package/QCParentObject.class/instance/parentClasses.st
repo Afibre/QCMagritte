@@ -1,3 +1,4 @@
 accessing-magritte
 parentClasses
-	^{ QCObject }
+	self parent ifNil: [ ^{ QCObject } ].
+	^{ self parent class }

@@ -11,4 +11,5 @@ descriptionParent
 		visibleInReport: false;
 		stringWriter: QCLabelReflectiveWriter;
 		visible: (self class == QCParentObject);
+		isRoot: false;
 		yourself
