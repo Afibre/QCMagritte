@@ -61,7 +61,7 @@ baseline030: spec
 			group: 'default' with: #('Tutorial' 'Tests' );
 			group: 'Bootstrap' with: #( 'QC-Magritte-Bootstrap' );
 			group: 'Core' with: #( 'QC-Magritte-Core' );
-			group: 'Demo' with: #( 'QC-Magritte-Demo' );
+			group: 'Demo' with: #( 'QC-Magritte-Demo' 'QC-Magritte-User' );
 			group: 'Tests' with: #( 'QC-Magritte-Tests' );
 			group: 'Tutorial' with: #( 'QC-Magritte-Tutorial' 'QC-Magritte-User' );
 			group: 'All' with: #( 'Tutorial' 'Tests' 'Demo' ) ].
