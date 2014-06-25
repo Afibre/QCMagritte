@@ -52,7 +52,7 @@ baseline030: spec
 			package: 'QC-Magritte-Model' with: [ spec requires: #( 'QC-Magritte-Ajax' ) ];
 			package: 'QC-Magritte-Session' with: [ spec requires: #('QC-Magritte-Model')];
 			package: 'QC-Magritte-Meta' with: [ spec requires: #('QC-Magritte-Component' 'QC-Magritte-Visitor') ];
-			package: 'QC-Magritte-User' with: [ spec requires: #('QC-Magritte-Model') ];
+			package: 'QC-Magritte-User' with: [ spec requires: #('QC-Magritte-Model' 'QC-Magritte-Application') ];
 			package: 'QC-Magritte-Unit' with: [ spec requires: #( 'Magritte3' 'Units' ) ];
 			package: 'QC-Magritte-Tutorial' with: [ spec requires: #( 'QC-Magritte-Application' 'QC-Magritte-Bootstrap' ) ];
 			package: 'QC-Magritte-Tests' with: [ spec requires: #( 'QC-Magritte-Component' 'QC-Magritte-Model' 'QC-Magritte-Language' ) ];
