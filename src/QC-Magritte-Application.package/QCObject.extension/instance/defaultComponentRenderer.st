@@ -1,0 +1,3 @@
+*qc-magritte-application
+defaultComponentRenderer
+	^QCGroupedFormRenderer

@@ -1,0 +1,3 @@
+*qc-magritte-application
+defaultStringWriter
+	^QCLabelReflectiveWriter
