@@ -39,18 +39,18 @@ baseline030: spec
 					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].	
 
 		spec
-			package: 'QC-Magritte-Ajax' with: [ spec requires: #( 'Magritte3' 'QC-Magritte-Model') ];
+			package: 'QC-Magritte-Ajax' with: [ spec requires: #( 'Magritte3' ) ];
 			package: 'QC-Magritte-Application' with: [ spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Component' 'QC-Magritte-Ajax' 'QC-Magritte-Language' 'QC-Magritte-Meta' 'QC-Magritte-Session' ) ];
 			package: 'QC-Magritte-Bootstrap' with: [ spec requires: #( 'QC-Magritte-Application' 'BootstrapMagritte' ) ];
 			package: 'QC-Magritte-Builder' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
-			package: 'QC-Magritte-Component' with: [ spec requires: #( 'QC-Magritte-Model' 'QC-Magritte-Other' 'QC-Magritte-Builder' 'NeoCSV' ) ];
-			package: 'QC-Magritte-Core' with: [ spec requires: #( 'Magritte3' 'Seaside3' ) ];
+			package: 'QC-Magritte-Component' with: [ spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Other' 'QC-Magritte-Builder' 'NeoCSV' ) ];
+			package: 'QC-Magritte-Core' with: [ spec requires: #( 'Magritte3' 'Seaside3' 'QC-Magritte-Session') ];
 			package: 'QC-Magritte-Demo' with: [ spec requires: #( 'QC-Magritte-Application' 'QC-Magritte-Unit' ) ];
 			package: 'QC-Magritte-Renderer' with: [ spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Ajax' ) ];
 			package: 'QC-Magritte-Language' with: [ spec requires: #( 'QC-Magritte-Builder' 'QC-Magritte-Model' ) ];
 			package: 'QC-Magritte-Other' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
-			package: 'QC-Magritte-Model' with: [ spec requires: #( 'QC-Magritte-Session' ) ];
-			package: 'QC-Magritte-Session' with: [ spec requires: #('QC-Magritte-Core')];
+			package: 'QC-Magritte-Model' with: [ spec requires: #( 'QC-Magritte-Ajax' ) ];
+			package: 'QC-Magritte-Session' with: [ spec requires: #('QC-Magritte-Model')];
 			package: 'QC-Magritte-Meta' with: [ spec requires: #('QC-Magritte-Component' 'QC-Magritte-Visitor') ];
 			package: 'QC-Magritte-User' with: [ spec requires: #('QC-Magritte-Model') ];
 			package: 'QC-Magritte-Unit' with: [ spec requires: #( 'Magritte3' 'Units' ) ];
