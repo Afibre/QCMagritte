@@ -1,3 +1,0 @@
-accessing
-passwordHash
-	^ passwordHash ifNil: ['']
