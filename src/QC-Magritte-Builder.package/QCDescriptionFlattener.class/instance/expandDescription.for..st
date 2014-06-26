@@ -4,4 +4,4 @@ expandDescription: aDescription for: aValue
 		each group: aDescription label;
 			addToAccessor: aDescription accessor;
 			priority: aDescription priority + (each priority / 1000).
-	buildedDescription add: each ]
+		buildedDescription add: each ]
