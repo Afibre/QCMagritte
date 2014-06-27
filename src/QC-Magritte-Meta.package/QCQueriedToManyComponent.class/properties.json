@@ -12,6 +12,6 @@
 		"selectQuery",
 		"resultsDescription"
 	],
-	"name" : "QCExtendedToManyComponent",
+	"name" : "QCQueriedToManyComponent",
 	"type" : "normal"
 }

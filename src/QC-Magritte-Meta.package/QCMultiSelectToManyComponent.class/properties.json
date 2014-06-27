@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCQueriedToManyComponent",
+	"category" : "QC-Magritte-Meta-Other",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCMultiSelectToManyComponent",
+	"type" : "normal"
+}

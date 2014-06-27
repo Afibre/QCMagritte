@@ -1,0 +1,3 @@
+actions
+possibleSelection
+	^self magritteDescription possibleSelection value
