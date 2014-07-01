@@ -9,7 +9,7 @@ renderSearchContentOn: canvas
 				canvas textInput
 					tbsFormControl;
 					id: 'searchValue';
-					placeholder: (QCMultilanguageString on: 'Search on');
+					placeholder: 'Search on';
 					on: #searchValue of: self.
 				canvas space ] ].
 		canvas tbsFormGroup: [
@@ -19,8 +19,8 @@ renderSearchContentOn: canvas
 						canvas tbsButton
 							beDefault;
 							callback: [ self search ];
-							with: (QCMultilanguageString on: 'Search') ].
+							with: 'Search' ].
 				canvas tbsButton 
 					beDefault;
 					callback: [ self clear ];
-					with: (QCMultilanguageString on: 'Clear') ] ]
+					with: 'Clear' ] ]

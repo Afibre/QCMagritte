@@ -6,4 +6,4 @@ renderSelectButtonsOn: canvas
 			canvas tbsButton
 				beDefault;
 				callback: [ self save ];
-				with: (QCMultilanguageString on: 'Confirm removal') ] ]
+				with: 'Confirm removal' ] ]

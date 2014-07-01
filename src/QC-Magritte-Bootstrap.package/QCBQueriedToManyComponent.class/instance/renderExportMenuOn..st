@@ -4,4 +4,4 @@ renderExportMenuOn: canvas
 		canvas tbsButton
 			beDefault; 
 			callback: [ self exportCsv ];
-			text: (QCMultilanguageString on: 'Export') ]
+			text: 'Export' ]
