@@ -4,4 +4,4 @@ select
 		self root 
 			show: self createSelectComponent
 			onAnswer: [ :result |
-				result ifNotNil: [ self addAll: result selectedItems ] ] ]
+				result ifNotNil: [ self addAll: result ] ] ]

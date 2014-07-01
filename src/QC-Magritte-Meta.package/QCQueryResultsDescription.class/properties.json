@@ -11,7 +11,8 @@
 		"resultType",
 		"queryColumns",
 		"shownColumns",
-		"rowCount"
+		"rowCount",
+		"references"
 	],
 	"name" : "QCQueryResultsDescription",
 	"type" : "normal"
