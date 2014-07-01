@@ -3,8 +3,9 @@ componentClassForContainer: aContainer
 	<magritteContainer>
 	aContainer componentRenderer = aContainer class defaultComponentRenderer
 		ifTrue: [ aContainer componentRenderer: self componentRenderer ].
+	aContainer componentClass = aContainer class defaultComponentClass
+		ifTrue: [ aContainer componentClass: self componentClass ].
 	^aContainer
 		stringWriter: self stringWriter;
-		componentClass: self componentClass;
 		descriptionBuilders: self descriptionBuilders;
 		yourself
