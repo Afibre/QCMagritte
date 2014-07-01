@@ -38,5 +38,7 @@ addingProjectsAnnouncements
 		addExplanation: 'So we revert to our old "showDetails:", with a modification to test if it is visible on the currentpage, as there may be multiple pages where the object will be shown. Now we are going to add the following method to your new overview, since our overview will now also show the details of the objects:';
 		addCode: 'showsObject: anObject
 	^(super showsObject: anObject) or: [ self isShown: anObject ]';
+		addCode: 'isShown: anObject
+	^self report rows includes: anObject';
 		addExplanation: 'Now see how it looks like.';
 		yourself
