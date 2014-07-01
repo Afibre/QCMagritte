@@ -1,5 +1,5 @@
 actions
 showDetails: anAnnouncement 
-	(self currentPage isShown: anAnnouncement target)
+	(self currentPage showsObject: anAnnouncement target)
 		ifFalse: [ 
 			super showDetails: anAnnouncement ]
