@@ -18,6 +18,7 @@ addingProjectsOwnerShip
 		yourself';
 		addExplanation: 'And don''t forget to add the accessor function "allProjects":';
 		addCode: 'allProjects
-	^self model allProjects';
-		addExplanation: 'Now that it is a parentObject, we know what the model is. We prefer using the model over the parent, because we might decide to change ownership, and this would mean that our parent no longer is the model. Now go back to the website and select for a few todoitems the project.';
+	self model ifNil: [ ^#() ].
+	^self model projects';
+		addExplanation: 'Now that it is a parentObject, we know what the model is. We prefer using the model over the parent, because we might decide to change ownership, and this would mean that our parent no longer is the model. Now go back to the website and select for a few todoitems the project. Also we protect this method if we somewhere forgot to set the parent, so it will never crash.';
 		yourself

@@ -10,10 +10,9 @@ addingProjectsAnnouncements
 		addExplanation: 'First we need our own overview class, so we can add the code for the columns and render the detail view here. Add the class TodoOverview as a subclass of QCBootstrapOverview in the category Tutorial-Web. We need to link this class to the TodoApplication. We do this by overriding the overview class:';
 		addCode: 'overviewClass
 	^TodoOverview';
-		addExplanation: 'Now we are going to move all methods with our modifications. Simply use drag and drop to move the following methods: "renderDetailPageOn:", "detailsPage" and "children". The "renderCurrentPageOn:" needs a small change after moving, so we copy/paste this method and rename it to "renderContentOn:", and also modify the reference to the super.';
-		addExplanation: 'Finally we need to change the "showDetails:". Remove the contents for now in TodoApplication, we will come back to this shortly. We are going to implement a "showDetails:" method on TodoOverview.';
-		addCode: 'showDetails: anAnnouncement
-	detailsPage := self createPageFor: anAnnouncement target';
+		addExplanation: 'Now we are going to move all methods with our modifications. Simply use drag and drop to move the following methods: "renderDetailPageOn:", "detailsPage" and "children". We copy the method: "showDetails:"".';
+		addExplanation: 'The "renderCurrentPageOn:" needs a small change after moving, so we copy/paste this method and rename it to "renderContentOn:", and also modify the reference to the super.';
+		addExplanation: 'Finally we need to add the "createPageFor:" method on TodoOverview, as this method is called, and is implemented in QCApplication. As an overview does not inherit from QCApplication we need the implement this here. Also we need some initialization.';
 		addCode: 'createPageFor: anObject
 	^(QCBootstrapDetailView on: self target: anObject)
 		canClose: true;

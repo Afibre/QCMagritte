@@ -7,11 +7,11 @@ todoListOpenItems
 		chapter: 'Todo List';
 		description: 'Finally we are going to make one last change to complete this chapter.';
 		addExplanation: 'We are going to add a second description to our model. Instead of showing all todo items, we only want to show the incomplete todo items. Since this method looks very much like our first description, we first select the description. First we are going to save this as a different method by changing the first line into: "descriptionOpenItems", and then save.';
-		addExplanation: 'By saving the same method under a different name, we automatically have a copy of the method. Now we change the accessor of this copy into: #openItems" and the priority into 100. The result should look like this:';
+		addExplanation: 'By saving the same method under a different name, we automatically have a copy of the method. Now we change the accessor of this copy into: #openItems", set the priority into 100 and the label to "Open todo''s". The result should look like this:';
 		addCode: 'descriptionOpenItems
 	<magritteDescription>
 	^MAToManyRelationDescription new
-		label: ''Todo'';
+		label: ''Open items'';
 		accessor: #openItems;
 		priority: 100;
 		classes: { TodoItem };
