@@ -1,4 +1,4 @@
-magritte-description
+magritte descriptions
 descriptionDescription
 	<magritteDescription>
 	^MAMemoDescription new

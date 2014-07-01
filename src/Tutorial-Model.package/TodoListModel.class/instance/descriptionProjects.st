@@ -1,4 +1,4 @@
-magritte-description
+magritte descriptions
 descriptionProjects
 	<magritteDescription>
 	^MAToManyRelationDescription new

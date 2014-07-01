@@ -1,10 +1,10 @@
-magritte-description
+magritte descriptions
 descriptionProject
 	<magritteDescription>
 	^QCToOneOptionRelationDescription new
 		label: 'Project';
 		accessor: #project;
-		options: self allProjects;
 		priority: 250;
+		options: self allProjects;
 		classes: { TodoProject };
 		yourself

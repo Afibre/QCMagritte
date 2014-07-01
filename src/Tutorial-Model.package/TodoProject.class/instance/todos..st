@@ -1,2 +1,2 @@
-magritte-dummy
-todos: aCollection 
+accessing
+todos: aCollection

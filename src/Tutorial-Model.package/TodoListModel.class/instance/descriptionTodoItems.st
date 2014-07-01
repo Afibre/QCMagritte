@@ -1,4 +1,4 @@
-magritte-description
+magritte descriptions
 descriptionTodoItems
 	<magritteDescription>
 	^MAToManyRelationDescription new

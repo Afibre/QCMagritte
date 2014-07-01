@@ -1,4 +1,4 @@
-magritte-description
+magritte descriptions
 descriptionCompleted
 	<magritteDescription>
 	^MABooleanDescription new
@@ -7,3 +7,4 @@ descriptionCompleted
 		priority: 300;
 		beReadonly;
 		yourself
+

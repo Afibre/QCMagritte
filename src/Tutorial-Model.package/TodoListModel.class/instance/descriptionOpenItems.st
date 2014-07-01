@@ -1,8 +1,8 @@
-magritte-description
+magritte descriptions
 descriptionOpenItems
 	<magritteDescription>
 	^MAToManyRelationDescription new
-		label: 'Todo';
+		label: 'Open items';
 		accessor: #openItems;
 		priority: 100;
 		classes: { TodoItem };

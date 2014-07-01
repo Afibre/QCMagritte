@@ -1,4 +1,4 @@
-magritte-description
+magritte descriptions
 containerActions: aContainer
 	<magritteContainer>
 	^aContainer

@@ -1,4 +1,4 @@
-magritte-description
+acessing-magritte
 descriptionTodoItems
 	<magritteDescription>
 	^MAToManyRelationDescription new
@@ -8,4 +8,3 @@ descriptionTodoItems
 		classes: { TodoItem };
 		beDefinitive;
 		yourself
-

@@ -1,3 +1,3 @@
 accessing
 displayName
-	^self title
+	^self title ifNil: [ 'New todo item' ]
