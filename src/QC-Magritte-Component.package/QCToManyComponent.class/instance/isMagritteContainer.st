@@ -1,0 +1,3 @@
+actions
+isMagritteContainer
+	^ true
