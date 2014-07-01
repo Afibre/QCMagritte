@@ -4,5 +4,5 @@ visitToManyRelationDescription: aDescription
 		ifTrue: [ aDescription reportColumnClass: QCBToManyColumn ].
 	super visitToManyRelationDescription: 
 		(aDescription
-			componentClass: QCBExtendedToManyComponent;
+			componentClass: QCBQueriedToManyComponent;
 			yourself) 

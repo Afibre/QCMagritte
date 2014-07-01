@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "QCExtendedToManyComponent",
+	"super" : "QCQueriedToManyComponent",
 	"category" : "QC-Magritte-Bootstrap-Component",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"canEdit"
 	],
-	"name" : "QCBExtendedToManyComponent",
+	"name" : "QCBQueriedToManyComponent",
 	"type" : "normal"
 }
