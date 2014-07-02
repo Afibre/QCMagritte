@@ -1,4 +1,4 @@
 visiting
 visitBooleanDescription: aDescription
-	aDescription checkboxLabel: (self mulitLangStringFor: aDescription checkboxLabel).
+	aDescription checkboxLabel: aDescription checkboxLabel asMultilanguageString.
 	super visitBooleanDescription: aDescription

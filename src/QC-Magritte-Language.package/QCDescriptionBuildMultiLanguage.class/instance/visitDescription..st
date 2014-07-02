@@ -1,10 +1,11 @@
 visiting
 visitDescription: aDescription
-	aDescription label: (self mulitLangStringFor: aDescription label).
-	aDescription comment: (self mulitLangStringFor: aDescription comment).
-	aDescription group: (self mulitLangStringFor: aDescription group).
-	aDescription requiredErrorMessage: (self mulitLangStringFor: aDescription requiredErrorMessage).
-	aDescription multipleErrorsMessage: (self mulitLangStringFor: aDescription multipleErrorsMessage).
-	aDescription kindErrorMessage: (self mulitLangStringFor: aDescription kindErrorMessage).
-	aDescription conflictErrorMessage: (self mulitLangStringFor: aDescription conflictErrorMessage).
+	aDescription label: aDescription label asMultilanguageString.
+	aDescription comment: aDescription comment asMultilanguageString.
+	aDescription group: aDescription group asMultilanguageString.
+	aDescription requiredErrorMessage: aDescription requiredErrorMessage asMultilanguageString.
+	aDescription multipleErrorsMessage: aDescription multipleErrorsMessage asMultilanguageString.
+	aDescription kindErrorMessage: aDescription kindErrorMessage asMultilanguageString.
+	aDescription conflictErrorMessage: aDescription conflictErrorMessage asMultilanguageString.
+	aDescription commands do: [ :each | each label: each label asMultilanguageString ].
 	super visitDescription: aDescription
