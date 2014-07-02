@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCLoginForm",
+	"category" : "QC-Magritte-Bootstrap-Component",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCBootstrapLoginForm",
+	"type" : "normal"
+}

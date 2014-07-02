@@ -8,5 +8,5 @@ renderHeaderOn: canvas
 			canvas div
 				class: 'container-fluid';
 				with: [
-					super renderHeaderOn: canvas.
+					self renderHeaderTextOn: canvas.
 					self renderPageChoiceMenuOn: canvas ] ]
