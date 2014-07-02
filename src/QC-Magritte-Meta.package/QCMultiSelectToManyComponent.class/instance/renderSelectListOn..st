@@ -3,4 +3,4 @@ renderSelectListOn: html
 	" never ask for a class: always select "
 	html submitButton 
 		callback: [ self select ];
-		text: (QCMultilanguageString on: 'Select')
+		text: 'Select' asMultilanguageString
