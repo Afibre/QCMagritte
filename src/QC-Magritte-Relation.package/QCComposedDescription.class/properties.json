@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MAElementDescription",
+	"category" : "QC-Magritte-Relation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"relativeTo",
+		"wrappedDescription"
+	],
+	"name" : "QCComposedDescription",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MAToOneRelationDescription",
+	"category" : "QC-Magritte-Relation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"options"
+	],
+	"name" : "QCToOneOptionRelationDescription",
+	"type" : "normal"
+}

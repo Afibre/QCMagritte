@@ -1,0 +1,3 @@
+dummy
+currentPage
+	^self

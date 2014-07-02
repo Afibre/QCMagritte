@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "QCObject",
+	"category" : "QC-Magritte-Relation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"items",
+		"template"
+	],
+	"name" : "QCSelectionList",
+	"type" : "normal"
+}

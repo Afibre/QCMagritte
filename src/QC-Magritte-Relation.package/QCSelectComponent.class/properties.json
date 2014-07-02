@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "QCMultiPartComponent",
+	"category" : "QC-Magritte-Relation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"searchAction",
+		"hasForm"
+	],
+	"name" : "QCSelectComponent",
+	"type" : "normal"
+}
