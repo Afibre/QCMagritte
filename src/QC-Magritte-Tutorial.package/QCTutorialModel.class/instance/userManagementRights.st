@@ -14,7 +14,7 @@ userManagementRights
 		addCode: 'hasUserRights
 	^true';
 		addExplanation: 'Now go back to the site and check again. Now it is time to put security in place. Set the following method in your application model:';
-		addCode: 'hasUserManagement
-	^true';
-		addExplanation: 'Did you forget to add an admin user like me? Then you should still be able to add a user. Please do so now, and give him the role of admin.';
+		addCode: 'users
+	^self userOverview users';
+		addExplanation: 'As you can see, we only link our users to the users in our user overview. If we have added an admin user, we will have user management. Now see how it looks like. If you did not add an admin user, do so now. And then reset the session.';
 		yourself

@@ -2,10 +2,10 @@ user-management
 userManagementUsers
 	<tutorial>
 	^QCTutorial new
-		priority: 20;
+		priority: 10;
 		title: 'Users';
 		chapter: 'User management';
-		description: 'Having defined users is only the first step. Just try and add a user role and a user to the system. You will notice that there are still some things to be configured.';
+		description: 'First we are going to define our own users. Just try and add a user role and a user to the system. You will notice that there are still some things to be configured.';
 		addExplanation: 'First of all we need to define that classes that have rights in our system. By default you can set rights to the user overview.';
 		addCode: 'QCUser subclass: #TodoUser
 	instanceVariableNames: ''''
