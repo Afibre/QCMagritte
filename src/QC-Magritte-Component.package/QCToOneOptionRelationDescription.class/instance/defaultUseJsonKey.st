@@ -1,3 +1,0 @@
-accessing-properties
-defaultUseJsonKey
-	^true

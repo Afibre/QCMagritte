@@ -1,3 +1,0 @@
-visiting
-acceptMagritte: aVisitor
-	aVisitor visitToOneOptionRelationDescription: self
