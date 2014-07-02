@@ -1,10 +1,10 @@
 initialization
 pageFor: aRelationDescription model: aModel in: aComponent
 	" add the page for the description "
-	(aRelationDescription isKindOf: MAToManyRelationDescription)
+	aRelationDescription isOverviewRoot
 		ifTrue: [ 
 			^(self overviewClass onDescription: aRelationDescription model: self model target: aModel) ].
-	(aRelationDescription isKindOf: MAToOneRelationDescription)
+	aRelationDescription isDetailRoot
 		ifTrue: [
 			| retVal target |
 			target := aModel readUsing: aRelationDescription.
