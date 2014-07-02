@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MABasicObject",
+	"category" : "QC-Magritte-Application",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCPragmaBuilder",
+	"type" : "normal"
+}
