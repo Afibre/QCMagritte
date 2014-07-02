@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCDescriptionBuilder",
+	"category" : "QC-Magritte-User",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QCDescriptionFilterForSecurity",
+	"type" : "normal"
+}
