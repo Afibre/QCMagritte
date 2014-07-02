@@ -18,7 +18,7 @@ pageFor: aRelationDescription model: aModel in: aComponent
 			" add sub-pages "
 			(self rootsFor: target) do: [ :each |
 				| container |
-				container := QCDescriptionBuildMultiLanguage buildFrom: each asContainer target: aModel.
+				container := QCDescriptionBuildMultiLanguage buildFrom: each asContainer target: aModel model: self model.
 				self addPagesFor: container children first model: target to: retVal ].
 			^retVal ].
 	" this can only happen when the model returns a 'non-relation' description "
