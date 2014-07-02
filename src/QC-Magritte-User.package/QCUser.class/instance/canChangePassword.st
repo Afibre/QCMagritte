@@ -1,3 +1,4 @@
 security
 canChangePassword
-	^(self user = self) or: [ self user isAdminUser ]
+	self ifLoggedIn: [ ^(self user = self) or: [ self user isAdminUser ] ].
+	^false
