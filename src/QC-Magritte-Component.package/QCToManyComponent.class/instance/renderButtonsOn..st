@@ -8,7 +8,8 @@ renderButtonsOn: canvas
 				canvas span
 					class: 'button-space';
 					with: [  canvas space ] ].
-			self renderExportMenuOn: canvas.
+			self canExport ifTrue: [ 
+				self renderExportMenuOn: canvas ].
 			canvas span
 				class: 'button-space';
 				with: [  canvas space ].
