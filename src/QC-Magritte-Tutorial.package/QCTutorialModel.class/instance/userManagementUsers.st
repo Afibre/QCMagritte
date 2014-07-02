@@ -32,5 +32,6 @@ userManagementUsers
 		beRequired;
 		yourself';
 		addExplanation: 'Go back to your application and see how it looks. Did you remember to add the initialization code for the userOverview?';
+		addExplanation: 'Remeber that this is the barre minimum for user management. You probably want to have a user name for the users as well. Extend the user with a first name and a sur name. Now override the method "username" to display the first name. This method is determine what name is displayed when you are logged in.';
 		yourself
 		
