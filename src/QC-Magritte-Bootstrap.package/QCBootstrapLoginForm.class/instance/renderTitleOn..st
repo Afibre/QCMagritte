@@ -1,3 +1,3 @@
 rendering
 renderTitleOn: canvas
-	canvas tbsNavbarHeader: [ self title ]
+"	canvas tbsNavBarBrand: [ canvas text: self title ]"
