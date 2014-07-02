@@ -1,3 +1,3 @@
 *QC-Magritte-Other
 >= aColumn 
-	^self magritteDescription priority >= aColumn magritteDescription priority
+	^(self = aColumn) or: [ self magritteDescription priority > aColumn magritteDescription priority ]
