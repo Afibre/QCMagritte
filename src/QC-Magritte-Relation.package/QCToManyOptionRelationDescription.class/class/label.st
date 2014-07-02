@@ -1,3 +1,3 @@
 accessing
 label
-	^ 'Multiple-Option'
+	^ 'Multiple-Option-With-Type'

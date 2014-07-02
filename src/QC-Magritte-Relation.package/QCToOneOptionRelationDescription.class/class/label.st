@@ -1,3 +1,3 @@
 accessing
 label
-	^QCMultilanguageString on: 'Single-Option-With-Type'
+	^'Single-Option-With-Type'
