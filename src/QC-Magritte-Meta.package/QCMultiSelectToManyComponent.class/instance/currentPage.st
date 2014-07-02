@@ -1,3 +1,0 @@
-dummy
-currentPage
-	^self

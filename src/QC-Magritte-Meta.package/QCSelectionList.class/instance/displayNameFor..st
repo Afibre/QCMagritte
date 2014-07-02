@@ -1,3 +1,0 @@
-accessing
-displayNameFor: aString 
-	^aString

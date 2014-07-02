@@ -1,3 +1,0 @@
-decorating
-formButtons
-	^#( select cancel )
