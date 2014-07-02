@@ -16,6 +16,6 @@ version030: spec
 		spec 
 			project: 'NeoCSV' with: '10';
 			project: 'Magritte3' with: #'release3.0';
-			project: 'Seaside3' with: #'release3.0.'.
+			project: 'Seaside3' with: #'release3.0'.
 		" For now we want bleeding edge
 		"  ]
