@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "QCBDefaultComponentBuilder",
+	"name" : "QCBootstrapComponentBuilder",
 	"type" : "normal"
 }
