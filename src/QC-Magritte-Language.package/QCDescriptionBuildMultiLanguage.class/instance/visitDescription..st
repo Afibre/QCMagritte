@@ -7,5 +7,4 @@ visitDescription: aDescription
 	aDescription multipleErrorsMessage: aDescription multipleErrorsMessage asMultilanguageString.
 	aDescription kindErrorMessage: aDescription kindErrorMessage asMultilanguageString.
 	aDescription conflictErrorMessage: aDescription conflictErrorMessage asMultilanguageString.
-	aDescription commands do: [ :each | each label: each label asMultilanguageString ].
 	super visitDescription: aDescription
