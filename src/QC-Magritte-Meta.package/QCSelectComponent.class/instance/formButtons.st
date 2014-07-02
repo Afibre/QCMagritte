@@ -1,3 +1,3 @@
 decorating
 formButtons
-	^#( cancel select )
+	^#( select cancel )

@@ -10,4 +10,5 @@ descriptionItems
 		priority: 100;
 		tabDisplay: false;
 		startEditAll: true;
+		canExport: false;
 		yourself
