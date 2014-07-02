@@ -7,6 +7,6 @@ buildComponentFor: anObject
 		ifNotNil: [ 
 			| builder |
 			builder := anObject magritteDescription descriptionBuilder.
-			builder ifNotNil: [ magritteDescription := builder buildFrom: magritteDescription target: anObject ] ].
+			builder ifNotNil: [ magritteDescription := builder buildFrom: magritteDescription target: anObject model: anObject model ] ].
 	^magritteDescription componentClass
 		memento: (self mementoCache at: anObject) description: magritteDescription parent: anObject magritteDescription

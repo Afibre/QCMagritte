@@ -5,5 +5,5 @@ magritteDescriptionFor: anObject
 	retVal ifNotNil: [ 
 		|  builder |
 		builder := retVal descriptionBuilder.
-		builder ifNotNil: [ ^builder buildFrom: retVal target: anObject ] ].
+		builder ifNotNil: [ ^builder buildFrom: retVal target: anObject model: anObject model ] ].
 	^retVal

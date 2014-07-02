@@ -7,5 +7,5 @@ reference
 			| builder |
 			originalReference := super reference.
 			builder := originalReference descriptionBuilder.
-			builder ifNotNil: [ ^reference := builder buildFrom: originalReference target: self value ] ].
+			builder ifNotNil: [ ^reference := builder buildFrom: originalReference target: self value model: self model model ] ].
 	^originalReference
