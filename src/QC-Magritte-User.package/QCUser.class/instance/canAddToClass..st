@@ -1,4 +1,4 @@
-accessing
+security
 canAddToClass: aClass 
 	self roles do: [ :each | (each canAddToClass: aClass) ifTrue: [ ^true ] ].
-	^false
+	^(self model hasClassUserRights: aClass) not
