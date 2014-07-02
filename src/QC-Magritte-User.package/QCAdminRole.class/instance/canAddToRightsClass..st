@@ -1,3 +1,0 @@
-accessing
-canAddToRightsClass: aClass
-	^true

@@ -1,3 +1,0 @@
-accessing
-canAddToModelClass: aClass
-	^true

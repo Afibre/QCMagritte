@@ -1,3 +1,3 @@
 accessing
-canAddToRightsClass: aClass
+rightsForClass: aModelClass 
 	^self subclassResponsibility

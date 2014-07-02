@@ -1,4 +1,3 @@
 accessing
 canAddToClass: aClass 
-	self rights do: [:each | (each canAddToClass: aClass) ifTrue: [ ^true ] ].
-	^false
+	^self rights contains: [:each | each canAddToClass: aClass ]
