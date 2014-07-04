@@ -1,3 +1,3 @@
 accessing-defaults
 defaultComponentClasses
-	^ Array with: QCDynamicSelectListComponent with: MAMultiselectListComponent with: MACheckboxGroupComponent with: MAListCompositonComponent
+	^ Array with: QCMultiSelectToManyComponent with: MAMultiselectListComponent with: MACheckboxGroupComponent with: MAListCompositonComponent
