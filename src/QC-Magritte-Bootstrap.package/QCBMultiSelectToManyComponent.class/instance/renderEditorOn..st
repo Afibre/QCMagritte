@@ -1,5 +1,5 @@
 rendering
 renderEditorOn: html
-	self parent hasForm
+	self hasForm
 		ifTrue: [ self renderViewerOn: html ]
 		ifFalse: [ html tbsForm: [ self renderViewerOn: html ] ]
