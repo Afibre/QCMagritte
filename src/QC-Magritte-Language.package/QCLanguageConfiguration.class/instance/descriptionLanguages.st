@@ -8,6 +8,5 @@ descriptionLanguages
 		classes: {QCLanguage};
 		ordered: true;
 		comment: 'All languages';
-		componentClass: QCToManyComponent;
 		visibleInLabel: false;
 		yourself
