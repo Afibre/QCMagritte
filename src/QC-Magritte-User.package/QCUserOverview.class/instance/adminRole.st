@@ -1,3 +1,3 @@
 accessing-magritte
 adminRole
-	^adminRole ifNil: [ adminRole := QCAdminRole on: self ]
+	^adminRole ifNil: [ adminRole := self adminRoleClass on: self ]

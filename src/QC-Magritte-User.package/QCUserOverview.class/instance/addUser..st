@@ -4,6 +4,6 @@ addUser: aUser
 	copy := aUser copy.
 	copy parent: self.
 	copy roles: (OrderedCollection new
-		add: (QCAdminRole on: copy);
+		add: (self adminRoleClass on: copy);
 		yourself).
 	self users add: copy
