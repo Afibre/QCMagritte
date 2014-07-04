@@ -6,5 +6,5 @@ renderLabel: aDescription
 		callback: [ self component setActive: aDescription ];
 		yourself.
 	(self childAt: aDescription) hasLabelId
-		ifTrue: [ label for: (self childAt: aDescription) labelId ].
+		ifTrue: [ label id: (self childAt: aDescription) labelId ].
 	label with: [ html html: aDescription label ]
