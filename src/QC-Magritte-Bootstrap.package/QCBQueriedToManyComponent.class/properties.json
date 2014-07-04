@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"canEdit"
-	],
+	"instvars" : [ ],
 	"name" : "QCBQueriedToManyComponent",
 	"type" : "normal"
 }

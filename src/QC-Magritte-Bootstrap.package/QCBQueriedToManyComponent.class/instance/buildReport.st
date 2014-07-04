@@ -1,3 +1,0 @@
-private
-buildReport
-	^super buildReport.

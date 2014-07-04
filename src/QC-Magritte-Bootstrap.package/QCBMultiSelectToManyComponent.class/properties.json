@@ -1,14 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "QCToManyComponent",
+	"super" : "QCMultiSelectToManyComponent",
 	"category" : "QC-Magritte-Bootstrap-Component",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"columnChooser",
-		"hasColumnChooser"
-	],
-	"name" : "QCBToManyComponent",
+	"instvars" : [ ],
+	"name" : "QCBMultiSelectToManyComponent",
 	"type" : "normal"
 }

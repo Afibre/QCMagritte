@@ -1,15 +1,17 @@
 rendering
 renderSelectListOn: canvas
-	self classes size > 1 ifTrue: [
+	| addClasses |
+	addClasses := self classes select: [ :each | self canAdd: each ].
+	addClasses size > 1 ifTrue: [
 		canvas tbsFormGroup: [
 			canvas label for: 'selectClass'; class: 'sr-only'; with: 'Select class'.
 			canvas select
 				tbsFormControl;
 				id: 'selectClass';
-				list: self classes;
+				list: addClasses;
 				selected: self selected;
 				callback: [ :value | self selected: value ];
 				labels: [ :value | value label ] ].
 			canvas space ].
-	self classes notEmpty
+	addClasses notEmpty
 		ifTrue: [ self renderSelectButtonOn: canvas ]

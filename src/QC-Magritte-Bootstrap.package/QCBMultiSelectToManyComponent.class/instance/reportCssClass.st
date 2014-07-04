@@ -1,0 +1,3 @@
+customization
+reportCssClass
+	^nil
