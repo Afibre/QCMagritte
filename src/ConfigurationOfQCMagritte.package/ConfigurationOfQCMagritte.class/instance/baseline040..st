@@ -1,6 +1,6 @@
 baselines
-baseline030: spec
-	<version: '0.3-baseline'>
+baseline040: spec
+	<version: '0.4-baseline'>
 	" Added a few packages, so created a new baseline "
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
@@ -30,14 +30,21 @@ baseline030: spec
 					className: 'ConfigurationOfMagritte3';
 					versionString: #'stable';
 					loads: #( 'Seaside' );
-					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ].
+					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ];
+			project: 'Seaside3' with: [
+				spec
+					className: 'ConfigurationOfSeaside3';
+					versionString: #'stable';
+					loads: #('JQueryUI' 'JQuery-JSON');
+					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].	
+
 		spec
 			package: 'QC-Magritte-Ajax' with: [ spec requires: #( 'Magritte3' ) ];
 			package: 'QC-Magritte-Application' with: [ spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Relation' 'QC-Magritte-Language' 'QC-Magritte-Session' ) ];
 			package: 'QC-Magritte-Bootstrap' with: [ spec requires: #( 'QC-Magritte-Application' 'BootstrapMagritte' ) ];
 			package: 'QC-Magritte-Builder' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Component' with: [ spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Other' 'QC-Magritte-Builder' 'NeoCSV' ) ];
-			package: 'QC-Magritte-Core' with: [ spec requires: #( 'Magritte3' 'QC-Magritte-Session') ];
+			package: 'QC-Magritte-Core' with: [ spec requires: #( 'Magritte3' 'Seaside3' 'QC-Magritte-Session') ];
 			package: 'QC-Magritte-Demo' with: [ spec requires: #( 'QC-Magritte-Application' 'QC-Magritte-Bootstrap' 'QC-Magritte-Unit' ) ];
 			package: 'QC-Magritte-Language' with: [ spec requires: #( 'QC-Magritte-Builder' 'QC-Magritte-Model' ) ];
 			package: 'QC-Magritte-Meta' with: [ spec requires: #('QC-Magritte-Component' 'QC-Magritte-Visitor') ];
@@ -63,10 +70,7 @@ baseline030: spec
 		spec
 			project: 'Seaside3' with: [
 				spec
-					className: 'ConfigurationOfSeaside3';
-					versionString: #'stable';
-					loads: #('Zinc-Seaside');
-					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].	
+					loads: #( 'Zinc-Seaside' 'JQueryUI' 'JQuery-JSON')].
 		spec
 			package: 'QC-Magritte-Demo' with: [ 
 				spec requires: #( 'Seaside3' ) ] ].

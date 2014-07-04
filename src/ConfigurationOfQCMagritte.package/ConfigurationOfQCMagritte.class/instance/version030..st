@@ -15,7 +15,8 @@ version030: spec
 		spec author: 'DiegoLont'.
 		spec 
 			project: 'NeoCSV' with: '10';
-			project: 'Magritte3' with: #'release3.0';
-			project: 'Seaside3' with: #'release3.0'.
+			project: 'Magritte3' with: #'release3.0'.
 		" For now we want bleeding edge
-		"  ]
+		"  ].
+	spec for: #pharo do: [ 
+		spec project: 'Seaside3' with: #'release3.0' ].
