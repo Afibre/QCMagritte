@@ -9,7 +9,8 @@
 		"changed",
 		"cache",
 		"reportCommands",
-		"reference"
+		"reference",
+		"magritteDescription"
 	],
 	"name" : "QCToManyComponent",
 	"type" : "normal"
