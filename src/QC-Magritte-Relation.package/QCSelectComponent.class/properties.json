@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"searchAction",
-		"hasForm"
+		"searchAction"
 	],
 	"name" : "QCSelectComponent",
 	"type" : "normal"
