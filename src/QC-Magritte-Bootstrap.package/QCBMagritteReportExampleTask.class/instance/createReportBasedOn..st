@@ -5,7 +5,6 @@ createReportBasedOn: aReportChooser
 		reportOptions: aReportChooser;
 		demoRows: self demoRows;
 		asComponent.
-	
 	^ TBSMagritteReportWrapper new
 		report: theReport ;
 		yourself

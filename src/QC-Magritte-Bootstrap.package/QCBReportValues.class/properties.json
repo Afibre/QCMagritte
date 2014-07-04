@@ -1,12 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "QCBObject",
+	"super" : "QCBootstrapApplicationModel",
 	"category" : "QC-Magritte-Bootstrap-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"reportOptions",
 		"demoRows"
 	],
 	"name" : "QCBReportValues",
