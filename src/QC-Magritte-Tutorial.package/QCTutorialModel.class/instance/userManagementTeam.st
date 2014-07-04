@@ -20,4 +20,10 @@ userManagementTeam
 		addExplanation: 'And since we only want the "normal" users to be part of the project we use this as the accessor:';
 		addCode: 'allProjectUsers
 	^self model users select: [ :each | each isAdminUser not ]';
+	" Bugfix --> must be able to remove.
+	Bugfix --> add/remove users to project when:
+		- edit project
+	AND: - edit user
+	Feature: add new users
+	"
 		yourself
