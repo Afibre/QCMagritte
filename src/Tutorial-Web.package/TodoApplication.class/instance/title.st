@@ -1,3 +1,3 @@
 accessing
 title
-	^'Hello world!'
+	^'My todo list'
