@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"hasForm"
-	],
+	"instvars" : [ ],
 	"name" : "QCMultiPartResultsComponent",
 	"type" : "normal"
 }

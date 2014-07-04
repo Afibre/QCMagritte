@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"currentTab",
-		"activeDescription"
+		"activeDescription",
+		"hasForm"
 	],
 	"name" : "QCMultiPartComponent",
 	"type" : "normal"
