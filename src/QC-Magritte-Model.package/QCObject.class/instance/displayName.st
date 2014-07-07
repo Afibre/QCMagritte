@@ -1,3 +1,3 @@
 accessing
 displayName
-	^self name
+	^self printString
