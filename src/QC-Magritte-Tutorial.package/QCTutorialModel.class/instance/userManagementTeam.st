@@ -14,12 +14,13 @@ userManagementTeam
 		label: ''Team'';
 		accessor: #teamMembers;
 		priority: 350;
-		classes: { QCUser };
+		classes: { TodoUser };
 		options: [ self allProjectUsers ];
 		yourself';
 		addExplanation: 'And since we only want the "normal" users to be part of the project we use this as the accessor:';
 		addCode: 'allProjectUsers
 	^self model users select: [ :each | each isAdminUser not ]';
+		addExplanation: 'Now go back to the browser and check how it works out. Notice that the manager can now select users and add them to his team and remove them again. He cannot see the roles of these users, as he does not have any rights on the roles. He can change the details of the user (not the userid) and if he adds himself, he can change his own password here.';
 	" Bugfix --> must be able to remove.
 	Bugfix --> add/remove users to project when:
 		- edit project
