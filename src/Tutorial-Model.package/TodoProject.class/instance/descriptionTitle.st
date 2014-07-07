@@ -1,4 +1,4 @@
-acessing-magritte
+magritte descriptions
 descriptionTitle
 	<magritteDescription>
 	^MAStringDescription new

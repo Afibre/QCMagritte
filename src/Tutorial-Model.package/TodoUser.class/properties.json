@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "QCBootstrapApplicationModel",
+	"super" : "QCUser",
 	"category" : "Tutorial-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"todoItems",
-		"projects",
-		"userOverview"
-	],
-	"name" : "TodoListModel",
+	"instvars" : [ ],
+	"name" : "TodoUser",
 	"type" : "normal"
 }
