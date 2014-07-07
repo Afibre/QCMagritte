@@ -8,4 +8,5 @@ descriptionName
 		priority: 10;
 		beRequired;
 		visibleInLabel: true;
+		visibleInReport: true;
 		yourself

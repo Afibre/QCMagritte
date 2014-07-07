@@ -4,11 +4,11 @@ descriptionRoles
 	^QCToManyOptionRelationDescription new
 		accessor: #roles;
 		label: 'Roles';
-		readonly: (self user = self);
+		readonly: (self user = self);	" no one is allowed to change his owne roles "
 		comment: 'The roles that this user has.';
 		priority: 500;
-		classes: { self roleClasses };
-		options: self allRoles;
+		classes: self roleClasses;
+		ownedIn: [ self allRoles ];
 		visibleInLabel: false;
 		visibleInReport: true;
 		yourself

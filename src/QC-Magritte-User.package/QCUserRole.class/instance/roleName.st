@@ -1,0 +1,3 @@
+accessing
+roleName
+	^self displayName
