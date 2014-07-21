@@ -10,5 +10,6 @@ createChapters
 		allNamed: self class tutorialPragma 
 		from: self class to: Object) collect: [ :each | self perform: each method selector ]) do: [ 
 			:each | (retVal at: each chapter ifAbsent: [ QCTutorialInitializationError signal: 'Cannot find chapter ', each chapter asString, ' for tutorial ', each title asString ]) addTutorial: each ].
+	self addMoreChaptersTo: retVal.	
 	^retVal values asSortedCollection: [ :a :b |
 		a priority < b priority ]
