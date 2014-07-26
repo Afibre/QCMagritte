@@ -1,1 +1,1 @@
-QCComposedMemento makes it possible to use "wrapped" descriptions, that give a value not from the cache, but return a dynmaic value, based on other values in the cache.
+QCComposedMemento makes it possible to use "wrapped" descriptions, that give a value not from the cache, but return a dynamic value, based on other values in the cache.
