@@ -1,4 +1,4 @@
 accessing
 modelConfiguration
-	self ifLoggedIn: [  ^self user model configuration ].
+	self ifLoggedIn: [  ^self model configuration ].
 	^QCConfiguration defaultConfiguration
