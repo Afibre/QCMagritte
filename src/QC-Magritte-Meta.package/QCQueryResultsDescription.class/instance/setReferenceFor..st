@@ -1,8 +1,11 @@
 accessing
 setReferenceFor: aDescription
 	aDescription ifNil: [ ^aDescription ].
-	aDescription classes ifEmpty: [ ^aDescription ].
-	aDescription reference: aDescription reference.
+	aDescription classes
+		ifEmpty: [ 
+			self reference ifNil: [ ^aDescription ].
+			aDescription reference: self reference ]
+		ifNotEmpty: [ aDescription reference: aDescription reference ].
 	shownColumns ifNotNil: [ 
 		aDescription reference children do: [ :each | 
 			each visible: (self isChildVisible: each).

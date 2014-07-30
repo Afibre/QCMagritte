@@ -12,7 +12,7 @@
 		"queryColumns",
 		"shownColumns",
 		"rowCount",
-		"references"
+		"reference"
 	],
 	"name" : "QCQueryResultsDescription",
 	"type" : "normal"
