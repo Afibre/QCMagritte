@@ -1,4 +1,5 @@
 accessing
-target: aModel
-	target := aModel.
-	self processed add: aModel
+target: aTarget
+	target := aTarget.
+	self processed add: aTarget.
+	aTarget hasParent ifTrue: [ self processed add: aTarget parent ]
