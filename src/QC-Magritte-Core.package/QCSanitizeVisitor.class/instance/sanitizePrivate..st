@@ -1,4 +1,4 @@
 visiting
 sanitizePrivate: aValue
 	aValue isString ifTrue: [ ^self ].
-	aValue perform: self selector
+	aValue isModelObject ifTrue: [ aValue perform: self selector ]
