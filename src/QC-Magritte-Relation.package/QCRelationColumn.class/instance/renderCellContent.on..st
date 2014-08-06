@@ -5,4 +5,4 @@ renderCellContent: anObject on: html
 	item ifNil: [ ^html space ].
 	html anchor
 		callback: [ self showDetailsFor: anObject ];
-		with: (self labels value: item)
+		with: [ super renderCellContent: anObject on: html ]
