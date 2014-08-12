@@ -5,15 +5,7 @@ renderGroupContent: aList id: aGroupId
 	tmpList := groupDescriptions.
 	[	groupId := aGroupId.
 		groupDescriptions := aList.
-		html heading
-			level: 3;
-			with: [
-				| tmp |
-				tmp := group.
-				html anchor
-					callback: [ 
-						component setCollapsed: (component isGroupCollapsed: tmp) not for: tmp ];
-					with: group ].
+		self renderGroupHeadingFor: aGroupId.
 		(component isGroupCollapsed: group) ifFalse: [
 			html horizontalRule.
 			aList do: [ :each | self renderElementInternal: each ] ] ]
