@@ -1,10 +1,8 @@
 visiting-description
 visitElementDescription: aDescription
-	| columnClass |
-	columnClass := aDescription reportColumnClass.
-	(columnClass = aDescription class defaultReportColumnClass)
+	(aDescription reportColumnClass = MADescribedColumn)
 		ifTrue: [ aDescription reportColumnClass: QCBDescribedColumn ].
 	(aDescription componentClass = MATextInputComponent)
-		ifTrue: [ aDescription
-			componentClass: TBSMagritteTextInputComponent ].
+		ifTrue: [ 
+			aDescription componentClass: TBSMagritteTextInputComponent ].
 	^super visitElementDescription: aDescription

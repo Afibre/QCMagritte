@@ -1,6 +1,6 @@
 visiting-description
 visitBooleanDescription: aDescription
-	super visitBooleanDescription:
-		(aDescription
-			componentClass: TBSMagritteCheckboxComponent;
-			yourself) 
+	(aDescription componentClass = MACheckboxComponent)
+		ifTrue: [ aDescription
+			componentClass: TBSMagritteCheckboxComponent ].
+	super visitBooleanDescription: aDescription
