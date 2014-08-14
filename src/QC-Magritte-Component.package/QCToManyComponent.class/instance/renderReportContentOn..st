@@ -1,6 +1,10 @@
 rendering
 renderReportContentOn: canvas
-	self reportCssClass ifNil: [ ^super renderContentOn: canvas ].
-	canvas div
+	| tag |
+	self hasForm
+		ifTrue: [ tag := canvas div ]
+		ifFalse: [ tag := canvas form ].
+	self reportCssClass ifNil: [ ^tag with: [ super renderContentOn: canvas ] ].
+	tag
 		class: self reportCssClass;
 		with: [ super renderContentOn: canvas ]
