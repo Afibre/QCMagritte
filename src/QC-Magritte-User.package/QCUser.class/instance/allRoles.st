@@ -1,4 +1,4 @@
 accessing-magritte
 allRoles
-	self parent ifNil: [ ^#() ].
-	^self parent allRoles
+	self userOverview ifNil: [ ^#() ].
+	^self userOverview allRoles

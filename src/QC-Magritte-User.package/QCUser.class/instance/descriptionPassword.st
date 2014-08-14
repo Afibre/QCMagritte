@@ -1,6 +1,7 @@
 magritte-description
 descriptionPassword
 	<magritteDescription>
+	passwordHash ifNotNil: [ ^nil ].
 	^MAPasswordDescription new
 		accessor: #password;
 		readonly: passwordHash notNil;
@@ -9,6 +10,5 @@ descriptionPassword
 		comment: 'Please enter your password';
 		label: 'Password';
 		priority: 200;
-		visible: (passwordHash isNil);
 		visibleInReport: false;
 		yourself

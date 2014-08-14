@@ -5,5 +5,5 @@ visitRelationDescription: aDescription
 			ifEmpty: [ ^self ]
 			ifNotEmpty: [ ^super visitRelationDescription: aDescription ] ].
 	self model ifNil: [ ^super visitRelationDescription: aDescription ].
-	(self model hasClassUserRights: aDescription commonClass)
-		ifFalse: [ ^super visitRelationDescription: aDescription ]
+	(self model canViewWithNoLogin: aDescription commonClass)
+		ifTrue: [ ^super visitRelationDescription: aDescription ]

@@ -1,6 +1,7 @@
 magritte-description
 descriptionRoles
 	<magritteDescription>
+	self userid ifNil: [ ^nil ].
 	^QCToManyOptionRelationDescription new
 		accessor: #roles;
 		label: 'Roles';

@@ -1,5 +1,5 @@
 accessing-magritte
 roleClasses
-	self parent ifNil: [ 
+	self userOverview ifNil: [ 
 		^self defaultRoleClasses ].
-	^self parent allRoleClasses
+	^self userOverview allRoleClasses
