@@ -1,4 +1,4 @@
 testing
 hasNext
 	self prevPage ifNil: [ ^false ].
-	^false
+	^ self prevPage hasNext: self target.

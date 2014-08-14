@@ -8,7 +8,8 @@
 	"instvars" : [
 		"magritteComponent",
 		"target",
-		"canClose"
+		"canClose",
+		"navigationSearchValue"
 	],
 	"name" : "QCDetailview",
 	"type" : "normal"
