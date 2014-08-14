@@ -4,8 +4,5 @@ buildCommands
 	retVal := (QCCommandColumn on: self) setReport: self report.
 	self addDefaultCommandsTo: retVal.
 	self addDescriptionCommandsTo: retVal.
-	self magritteDescription isOrdered ifTrue: [
-		retVal
-			addCommandOn: self selector: #up: text: 'up';
-			addCommandOn: self selector: #down: text: 'down' ].
+	self addOrderingCommandsTo: retVal.
 	^ retVal
