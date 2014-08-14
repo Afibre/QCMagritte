@@ -6,7 +6,7 @@ descriptionUsername
 		beReadonly;
 		comment: 'The displayname of the user';
 		label: 'User name';
-		priority: 50;
+		priority: 60;
 		visibleInReport: true;
 		visible: (self username notNil);
 		yourself
