@@ -9,6 +9,6 @@ descriptionPasswordVerify
 		requiredErrorMessage: 'You need to input a password verification';
 		comment: 'Please retype your password for verification';
 		label: 'Password (Check)';
-		priority: 200;
+		priority: 210;
 		visibleInReport: false;
 		yourself
