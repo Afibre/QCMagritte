@@ -1,0 +1,3 @@
+*qc-magritte-component
+defaultCommandFormClass
+	^QCCommandFormDecoration

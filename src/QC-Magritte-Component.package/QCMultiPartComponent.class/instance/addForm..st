@@ -1,4 +1,4 @@
 decorating
 addForm: aList
-	hasForm := true.
-	super addForm: aList
+	" always use a command form "
+	super addFormWithButtons: aList

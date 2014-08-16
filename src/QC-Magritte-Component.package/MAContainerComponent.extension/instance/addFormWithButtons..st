@@ -1,3 +1,3 @@
 *qc-magritte-component
 addFormWithButtons: aCollection
-	self addDecoration: (QCCommandFormDecoration buttons: aCollection commands: self magritteDescription customCommands)
+	self addDecoration: (self magritteDescription commandFormClass buttons: aCollection commands: self magritteDescription customCommands)

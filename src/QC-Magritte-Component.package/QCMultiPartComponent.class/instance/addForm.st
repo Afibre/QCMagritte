@@ -1,3 +1,4 @@
 decorating
 addForm
-	self addForm: self formButtons
+	" always use a command form "
+	self addFormWithButtons

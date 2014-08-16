@@ -1,3 +1,3 @@
 decorating
 addTabs
-	self addDecoration: QCTabDecoration new
+	self addDecoration: self magritteDescription tabDecorationClass new
