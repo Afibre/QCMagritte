@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "QCOverview",
+	"super" : "QCSimpleOverview",
 	"category" : "QC-Magritte-Bootstrap-Component",
 	"classinstvars" : [ ],
 	"pools" : [ ],

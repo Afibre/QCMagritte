@@ -1,3 +1,9 @@
 rendering
 renderButtonsOn: canvas
-	" disable this for now to save space "
+	canvas tbsButtonToolbar
+		with: [ 
+			self isReadonly ifFalse: [
+				self renderSelectButtonsOn: canvas.
+			self canExport ifTrue: [ 
+				self renderExportMenuOn: canvas ].
+			self renderReportCommandsOn: canvas ] ]

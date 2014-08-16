@@ -1,5 +1,5 @@
 initialization
 addValidationTo: aComponent
 	(self canEdit: self target)
-		ifTrue: [ aComponent addValidatedTbsFormWithButtons ]
-		ifFalse: [ aComponent addTbsFormWithButtons: self buttons ]
+		ifTrue: [ aComponent addValidatedFormWithButtons ]
+		ifFalse: [ aComponent addFormWithButtons: self buttons ]
