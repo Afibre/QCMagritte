@@ -1,0 +1,3 @@
+testing
+hasPrevious: anObject
+	^false
