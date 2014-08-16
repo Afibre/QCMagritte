@@ -1,5 +1,5 @@
 customization
 editCommand
 	^super editCommand
-		imageBlock: [ :canvas | canvas tbsGlyphIcon: #iconEdit ];
+		imageBlock: [ :canvas | canvas tbsGlyphIcon iconEdit ];
 		yourself
