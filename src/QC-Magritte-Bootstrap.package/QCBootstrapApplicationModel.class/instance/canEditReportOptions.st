@@ -1,0 +1,3 @@
+accessing
+canEditReportOptions
+	^self hasUserManagement

@@ -4,7 +4,7 @@ visitToManyRelationDescription: aDescription
 		ifTrue: [ aDescription reportColumnClass: QCBToManyColumn ].
 	(aDescription componentClass == MAOneToManyComponent)
 		ifTrue: [ 
-			(aDescription isComplexFor: self target)
+			aDescription hasQuery
 				ifTrue: [ 
 					aDescription componentClass: QCBQueriedToManyComponent;
 						queryComponentClass: QCBQueriedToManyComponent ]
