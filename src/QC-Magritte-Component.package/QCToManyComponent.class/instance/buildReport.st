@@ -10,6 +10,6 @@ buildReport
 		(each isKindOf: MADescribedColumn) ifTrue: [ 
 			self addColumnCommandsTo: each.
 			each filter: true ] ].
-	retVal showFilter: true.
+	retVal showFilter: self magritteDescription showFilter.
 	retVal doubleClickCommand: self editCommand.
 	^retVal

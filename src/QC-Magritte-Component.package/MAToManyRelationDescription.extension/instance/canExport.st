@@ -1,3 +1,3 @@
 *qc-magritte-component
 canExport
-	^self propertyAt: #canExport ifAbsent: [ self defaultCanExport ]
+	^self propertyAt: #canExport ifAbsent: [ self class defaultCanExport ]
