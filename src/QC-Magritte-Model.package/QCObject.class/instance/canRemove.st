@@ -1,4 +1,4 @@
 accessing
 canRemove
-	" by default an item cannot be removed "
-	^true
+	" by default an item can be removed if it can be changed "
+	^self canEdit
