@@ -1,3 +1,3 @@
 *qc-magritte-renderer
 visibleInReport
-	^self propertyAt: #visibleInReport ifAbsent: [ self visible ]
+	^self propertyAt: #visibleInReport ifAbsent: [ self defaultVisibleInReport ]
