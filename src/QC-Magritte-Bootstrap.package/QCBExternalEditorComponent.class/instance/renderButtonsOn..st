@@ -1,5 +1,6 @@
 rendering
 renderButtonsOn: html
+	html space.
 	html tbsButtonGroup: [ 
 		html
 			tbsButton
