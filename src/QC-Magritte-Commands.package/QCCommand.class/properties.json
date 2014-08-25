@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "WAObject",
+	"category" : "QC-Magritte-Commands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label",
+		"actionBlock",
+		"conditionBlock",
+		"imageUrl",
+		"showInColumn",
+		"showInDetail",
+		"imageBlock",
+		"showInParent"
+	],
+	"name" : "QCCommand",
+	"type" : "normal"
+}
