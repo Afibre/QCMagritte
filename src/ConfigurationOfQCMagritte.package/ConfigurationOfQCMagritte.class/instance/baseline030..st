@@ -36,14 +36,15 @@ baseline030: spec
 			package: 'QC-Magritte-Application' with: [ spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Relation' 'QC-Magritte-Language' 'QC-Magritte-Session' ) ];
 			package: 'QC-Magritte-Bootstrap' with: [ spec requires: #( 'QC-Magritte-Application' 'BootstrapMagritte' ) ];
 			package: 'QC-Magritte-Builder' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
-			package: 'QC-Magritte-Component' with: [ spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Other' 'QC-Magritte-Builder' 'NeoCSV' ) ];
+			package: 'QC-Magritte-Commands';
+			package: 'QC-Magritte-Component' with: [ spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Other' 'QC-Magritte-Builder' 'NeoCSV' 'QC-Magritte-Commands') ];
 			package: 'QC-Magritte-Core' with: [ spec requires: #( 'Magritte3' 'QC-Magritte-Session') ];
 			package: 'QC-Magritte-Demo' with: [ spec requires: #( 'QC-Magritte-Application' 'QC-Magritte-Bootstrap' 'QC-Magritte-Unit' ) ];
 			package: 'QC-Magritte-Language' with: [ spec requires: #( 'QC-Magritte-Builder' 'QC-Magritte-Model' ) ];
 			package: 'QC-Magritte-Meta' with: [ spec requires: #('QC-Magritte-Component' 'QC-Magritte-Visitor') ];
 			package: 'QC-Magritte-Model' with: [ spec requires: #( 'QC-Magritte-Ajax' ) ];
 			package: 'QC-Magritte-Other' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
-			package: 'QC-Magritte-Renderer' with: [ spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Ajax' ) ];
+			package: 'QC-Magritte-Renderer' with: [ spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Ajax' 'QC-Magritte-Commands') ];
 			package: 'QC-Magritte-Relation' with: [ spec requires: #( 'QC-Magritte-Component' 'QC-Magritte-Meta') ];
 			package: 'QC-Magritte-Session' with: [ spec requires: #('QC-Magritte-Model')];
 			package: 'QC-Magritte-Tests' with: [ spec requires: #( 'QC-Magritte-Relation' 'QC-Magritte-Model' 'QC-Magritte-Language' ) ];
