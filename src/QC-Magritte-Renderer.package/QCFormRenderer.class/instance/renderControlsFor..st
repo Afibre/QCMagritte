@@ -3,4 +3,5 @@ renderControlsFor: aDescription
 	html div
 		class: 'control-value';
 		with: [ 
-			html render: (self childAt: aDescription) ]
+			html render: (self childAt: aDescription) ].
+	self renderCommands: aDescription.
