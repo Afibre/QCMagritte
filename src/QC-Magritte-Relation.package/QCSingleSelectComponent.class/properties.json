@@ -1,11 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "QCMultiPartComponent",
+	"super" : "WAComponent",
 	"category" : "QC-Magritte-Relation",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "QCSelectComponent",
+	"instvars" : [
+		"description",
+		"container",
+		"reportComponent"
+	],
+	"name" : "QCSingleSelectComponent",
 	"type" : "normal"
 }

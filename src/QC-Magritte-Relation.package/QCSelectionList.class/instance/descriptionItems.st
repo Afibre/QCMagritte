@@ -6,7 +6,7 @@ descriptionItems
 		accessor: #items;
 		beDefinitive;
 		classes: { QCSelection };
-		reference: (QCSelection on: self template) magritteDescription;
+		reference: (QCSelection on: self magritteTemplate) magritteDescription;
 		priority: 100;
 		tabDisplay: false;
 		startEditAll: true;

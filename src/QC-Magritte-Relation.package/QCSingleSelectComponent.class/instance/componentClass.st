@@ -1,0 +1,3 @@
+rendering
+componentClass
+	^container componentClass
