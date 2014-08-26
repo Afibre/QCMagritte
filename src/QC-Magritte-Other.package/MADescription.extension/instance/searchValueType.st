@@ -1,3 +1,3 @@
 *QC-Magritte-Other
 searchValueType
-	^QCSearchString template
+	^QCSearchString magritteTemplate
