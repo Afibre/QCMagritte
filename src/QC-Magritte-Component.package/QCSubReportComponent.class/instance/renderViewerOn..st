@@ -2,8 +2,8 @@ rendering
 renderViewerOn: html
 	| columns |
 	columns := self report columns
-		copyWithout: self commands.
-	self report columns: (columns copyWith: self commands).
+		copyWithout: self commandColumn.
+	self report columns: (columns copyWith: self commandColumn).
 	html render: self report.
 	self parent hasForm
 		ifTrue: [ self renderButtonsOn: html.
