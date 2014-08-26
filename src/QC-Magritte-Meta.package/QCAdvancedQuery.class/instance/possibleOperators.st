@@ -1,3 +1,3 @@
 accessing-model
 possibleOperators
-	^QCCompareOperator allSubclasses collect: [ :each | each template ]
+	^QCCompareOperator allSubclasses collect: [ :each | each magritteTemplate ]

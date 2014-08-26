@@ -1,3 +1,3 @@
 accessing-magritte
 possibleValueTypes
-	^QCSearchInputType allSubclasses collect: [ :each | each template ]
+	^QCSearchInputType allSubclasses collect: [ :each | each magritteTemplate ]

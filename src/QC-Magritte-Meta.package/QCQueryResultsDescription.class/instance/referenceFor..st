@@ -1,5 +1,5 @@
 accessing-magritte
 referenceFor: aResultType
 	self parent ifNil: [ 
-		^aResultType template magritteDescription ].
+		^aResultType magritteTemplate magritteDescription ].
 	^self parent referenceFor: aResultType

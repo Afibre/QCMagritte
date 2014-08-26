@@ -1,3 +1,3 @@
 accessing
 instance
-	^self template
+	^self magritteTemplate

@@ -1,3 +1,3 @@
 accessing
 searchValueType
-	^searchValueType ifNil: [ searchValueType := QCSearchString template ]
+	^searchValueType ifNil: [ searchValueType := QCSearchString magritteTemplate ]

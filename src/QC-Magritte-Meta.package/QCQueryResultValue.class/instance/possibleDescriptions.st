@@ -1,4 +1,4 @@
 accessing-magritte
 possibleDescriptions
 	self baseType ifNil: [ ^#() ].
-	^self baseType template magritteDescription children select: [ :each | each isKindOf: MAToManyRelationDescription ]
+	^self baseType magritteTemplate magritteDescription children select: [ :each | each isKindOf: MAToManyRelationDescription ]

@@ -5,4 +5,4 @@ possibleElementDescriptionsForMemento: aMemento
 	curTargetDescription := aMemento readUsing: self descriptionTargetDescription.
 	curOperation ifNil: [ ^#() ].
 	curTargetDescription ifNil: [ ^#() ].
-	^curOperation selectValidDescriptions: curTargetDescription commonClass template magritteDescription children
+	^curOperation selectValidDescriptions: curTargetDescription commonClass magritteTemplate magritteDescription children

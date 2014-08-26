@@ -1,3 +1,3 @@
 singleton
 instance
-	^self template
+	^self magritteTemplate
