@@ -5,7 +5,7 @@ renderSearchElementsOn: canvas
 		with: [
 			self hasElement ifTrue: [ 
 				canvas textInput
-					class:'navigation-search';
+					class:'nav-search';
 					id: canvas nextId;
 					value: self navigationSearchValue;
 					script: (canvas jQuery this autocomplete

@@ -1,5 +1,8 @@
 rendering
 renderContentOn: canvas
-	self renderNavigationButtonsOn: canvas.
-	self renderSearchElementsOn: canvas.
+	canvas div
+		class: 'navigation';
+		with: [ 
+			self renderNavigationButtonsOn: canvas.
+			self renderSearchElementsOn: canvas ].
 	super renderContentOn: canvas
