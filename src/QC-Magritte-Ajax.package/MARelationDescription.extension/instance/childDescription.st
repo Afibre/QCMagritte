@@ -1,3 +1,3 @@
 *qc-magritte-ajax
 childDescription
-	^self commonClass template magritteDescription
+	^self commonClass magritteTemplate magritteDescription
