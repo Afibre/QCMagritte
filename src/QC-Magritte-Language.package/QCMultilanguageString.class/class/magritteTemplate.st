@@ -1,3 +1,3 @@
 accessing
-template
+magritteTemplate
 	^self on: ''
