@@ -3,7 +3,7 @@
 	"super" : "GRObject",
 	"category" : "QC-Magritte-Model",
 	"classinstvars" : [
-		"template"
+		"magritteTemplate"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
