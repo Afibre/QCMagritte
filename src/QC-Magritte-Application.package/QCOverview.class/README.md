@@ -1,0 +1,1 @@
+A QCOverview expects a query. Use a QCSimpleOverview otherwise
