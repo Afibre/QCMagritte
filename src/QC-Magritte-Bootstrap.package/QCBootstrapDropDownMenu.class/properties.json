@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "QCBootstrapDrowDownMenu",
+	"name" : "QCBootstrapDropDownMenu",
 	"type" : "normal"
 }

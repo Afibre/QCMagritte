@@ -1,3 +1,3 @@
 accessing
 treePageChoiceClass
-	^QCBootstrapDrowDownMenu
+	^QCBootstrapDropDownMenu
