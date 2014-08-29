@@ -1,6 +1,7 @@
 magritte-description
 descriptionExplanation
 	<magritteDescription>
+	self explanation ifEmpty: [ ^nil ].
 	^QCParagraphDescription new
 		priority: 250;
 		label: 'Explanation';
