@@ -2,5 +2,5 @@ accessing
 saveCommand
 	^saveCommand ifNil: [ saveCommand := 
 		QCCommand on: 'Save'
-			condition: nil
+			condition: [ self canSave ]
 			action: [ self parent saveRowCount ] ]

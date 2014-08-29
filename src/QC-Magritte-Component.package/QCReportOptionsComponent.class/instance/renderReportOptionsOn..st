@@ -16,8 +16,9 @@ renderReportOptionsOn: canvas
 	canvas submitButton
 		callback: [];
 		with: (QCMultilanguageString on: 'Update').
-	canvas submitButton
-		callback: [ self save ];
-		with: self saveCommand label
+	self canSave ifTrue: [  	
+		canvas submitButton
+			callback: [ self save ];
+			with: self saveCommand label]
 
 	
