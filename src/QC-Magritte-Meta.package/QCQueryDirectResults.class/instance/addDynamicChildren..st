@@ -1,6 +1,7 @@
 magritte-description
 addDynamicChildren: aContainer
 	<magritteContainer>
-	aContainer add: self resultsDescription.
+	self resultsDescription ifNotNilDo: [ :aDescription |
+		aContainer add: aDescription].
 	aContainer componentRenderer: QCOverviewRenderer.
 	^aContainer
