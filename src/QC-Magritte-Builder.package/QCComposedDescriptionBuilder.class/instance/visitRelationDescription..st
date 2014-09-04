@@ -1,8 +1,10 @@
 visiting
 visitRelationDescription: aDescription
-	| builders buildedReference |
+	| builders buildedReference relationValue |
 	builders := self target magritteDescription descriptionBuilders.
 	buildedReference := aDescription reference.
-	builders do: [ :each | buildedReference := each buildFrom: buildedReference target: target model: model ].
-	aDescription reference: buildedReference.
+	relationValue := (target readUsing: aDescription).
+	relationValue ifNotNil: [ 
+		builders do: [ :each | buildedReference := each buildFrom: buildedReference target: relationValue model: model ].
+		aDescription reference: buildedReference].
 	super visitReferenceDescription: aDescription

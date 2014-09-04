@@ -9,6 +9,4 @@ expandDescription: aDescription for: aValue
 		aDescription groupExpandOnLabel
 			ifTrue: [ each group: aDescription label ]
 			ifFalse: [ each group: aDescription group ].
-		each canExpand
-			ifTrue: [ self expandDescription: each for: val ]
-			ifFalse: [ buildedDescription add: each  ] ]
+		self addToBuildedDescription: each for: val ]
