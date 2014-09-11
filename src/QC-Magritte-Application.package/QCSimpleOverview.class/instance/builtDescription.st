@@ -1,5 +1,5 @@
 initialization
-buildedDescription
+builtDescription
 	|  targetDesc |
 	targetDesc := self target magritteDescription.
 	^ self description asContainer

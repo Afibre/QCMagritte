@@ -1,3 +1,3 @@
 initialization
 buildMagritteComponent
-	^self buildedDescription asComponentOn: target
+	^self builtDescription asComponentOn: target
