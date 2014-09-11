@@ -1,6 +1,6 @@
 visiting
 visitContainer: aContainer
-	buildedDescription := aContainer copy.
-	buildedDescription removeAll.
+	builtDescription := aContainer copy.
+	builtDescription removeAll.
 	aContainer do: [ :each |
 		self visit: each copy ]

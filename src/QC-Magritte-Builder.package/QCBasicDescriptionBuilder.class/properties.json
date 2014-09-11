@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "StephanEggermont 8/29/2014 15:16",
+	"super" : "MAVisitor",
+	"category" : "QC-Magritte-Builder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"target",
+		"priority",
+		"builtDescription"
+	],
+	"name" : "QCBasicDescriptionBuilder",
+	"type" : "normal"
+}

@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "StephanEggermont 8/29/2014 15:18",
 	"super" : "QCBasicDescriptionBuilder",
 	"category" : "QC-Magritte-Builder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"model"
+		"builders"
 	],
-	"name" : "QCDescriptionBuilder",
+	"name" : "QCDescriptionBuilderContainer",
 	"type" : "normal"
 }
