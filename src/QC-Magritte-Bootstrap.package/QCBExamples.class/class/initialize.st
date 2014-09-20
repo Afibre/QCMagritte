@@ -1,7 +1,7 @@
 class initialization
 initialize
 	"
-	TBSQCExamples initialize
+	QCBExamples initialize
 	"
 	(WAAdmin register: self asApplicationAt: 'qc-bootstrap-examples')
 		preferenceAt: #scriptGeneratorClass put: JQScriptGenerator;
