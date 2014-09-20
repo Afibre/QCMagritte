@@ -5,4 +5,4 @@ visitContainer: aContainer
 	aContainer tabDecorationClass = QCTabDecoration
 		ifTrue: [ aContainer tabDecorationClass: QCBTabDecoration ].
 	super visitContainer: aContainer.
-	buildedDescription groupsStartCollapsed: true
+	builtDescription groupsStartCollapsed: true
