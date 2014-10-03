@@ -45,7 +45,7 @@ baseline040: spec
 			package: 'QC-Magritte-Builder' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Commands';
 			package: 'QC-Magritte-Component' with: [ spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Other' 'QC-Magritte-Builder' 'NeoCSV' 'QC-Magritte-Commands') ];
-			package: 'QC-Magritte-Core' with: [ spec requires: #( 'Magritte3' 'QC-Magritte-Session') ];
+			package: 'QC-Magritte-Core' with: [ spec requires: #( 'Magritte3') ];
 			package: 'QC-Magritte-Demo' with: [ spec requires: #( 'QC-Magritte-Application' 'QC-Magritte-Bootstrap' 'QC-Magritte-Unit' ) ];
 			package: 'QC-Magritte-Language' with: [ spec requires: #( 'QC-Magritte-Builder' 'QC-Magritte-Model' ) ];
 			package: 'QC-Magritte-Meta' with: [ spec requires: #('QC-Magritte-Component' 'QC-Magritte-Visitor') ];
@@ -53,7 +53,7 @@ baseline040: spec
 			package: 'QC-Magritte-Other' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Renderer' with: [ spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Ajax' 'QC-Magritte-Commands') ];
 			package: 'QC-Magritte-Relation' with: [ spec requires: #( 'QC-Magritte-Component' 'QC-Magritte-Meta') ];
-			package: 'QC-Magritte-Session' with: [ spec requires: #('QC-Magritte-Model' 'Seaside3')];
+			package: 'QC-Magritte-Session' with: [ spec requires: #('QC-Magritte-Builder')];
 			package: 'QC-Magritte-Tests' with: [ spec requires: #( 'QC-Magritte-Relation' 'QC-Magritte-Model' 'QC-Magritte-Language' ) ];
 			package: 'QC-Magritte-Tutorial' with: [ spec requires: #( 'QC-Magritte-Application' 'QC-Magritte-Bootstrap' ) ];
 			package: 'QC-Magritte-Unit' with: [ spec requires: #( 'Magritte3' 'Units' ) ];
@@ -62,7 +62,7 @@ baseline040: spec
 		spec 
 			group: 'default' with: #('Tutorial' 'Tests' );
 			group: 'Bootstrap' with: #( 'QC-Magritte-Bootstrap' );
-			group: 'Core' with: #( 'QC-Magritte-Core' );
+			group: 'Core' with: #( 'QC-Magritte-Session' );
 			group: 'Demo' with: #( 'QC-Magritte-Demo' 'QC-Magritte-User' );
 			group: 'Tests' with: #( 'QC-Magritte-Tests' );
 			group: 'Tutorial' with: #( 'QC-Magritte-Tutorial' 'QC-Magritte-User' );
