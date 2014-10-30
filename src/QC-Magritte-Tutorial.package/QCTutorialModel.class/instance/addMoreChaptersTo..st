@@ -1,6 +1,7 @@
 initialization
 addMoreChaptersTo: aDictionary
-	{ QCTutChapterExplore. QCTutChapterHelloWorld. QCTutChapterInstallation. QCTutChapterToDoList. QCTutChapterUserManagement. QCTutChapterApplication. QCTutChapterAddingProjects  } do: [  :aTutorialChapter |
+	{ QCTutChapterExplore. QCTutChapterHelloWorld. QCTutChapterInstallation. QCTutChapterToDoList. QCTutChapterUserManagement. QCTutChapterApplication. QCTutChapterAddingProjects.
+QCTutChapterAddingActions } do: [  :aTutorialChapter |
 	((Pragma 
 		allNamed: self class chapterPragma 
 		from: aTutorialChapter to: Object) collect: [ :each | aTutorialChapter new perform: each method selector ]) do: [ 
