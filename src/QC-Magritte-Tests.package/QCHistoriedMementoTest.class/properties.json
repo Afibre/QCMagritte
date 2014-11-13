@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "QC-Magritte-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"memento",
+		"one",
+		"two"
+	],
+	"name" : "QCHistoriedMementoTest",
+	"type" : "normal"
+}
