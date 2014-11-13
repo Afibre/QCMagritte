@@ -2,5 +2,4 @@
 addInfluence: aBlock forAll: aDescriptionSymbolCollection in: aSubject
 	" blocks that are executed by the AJAXMemento, when the value of any of the descriptions changes "
 	aDescriptionSymbolCollection do: [ :symbol | 
-		(self propertyAt: #influencedValues ifAbsentPut: [ Dictionary new ]) 
-			at: (aSubject perform: symbol) put: aBlock ]
+		self addInfluence: aBlock for: (aSubject perform: symbol) ]

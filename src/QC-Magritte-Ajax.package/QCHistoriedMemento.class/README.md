@@ -1,0 +1,1 @@
+Remembers the order in which changes were made. Deals better with complex influences

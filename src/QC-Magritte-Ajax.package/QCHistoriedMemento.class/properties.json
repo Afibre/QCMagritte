@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "StephanEggermont 11/13/2014 10:53",
+	"super" : "QCAjaxMemento",
+	"category" : "QC-Magritte-Ajax",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"history"
+	],
+	"name" : "QCHistoriedMemento",
+	"type" : "normal"
+}
