@@ -1,9 +1,13 @@
 rendering
 renderOn: canvas
 	| tag |
-	tag := canvas paragraph.
-	self cssClass ifNotNil: [ tag class: self cssClass ].
-	tag with: [
-		self text linesDo: [ :line |
-			canvas text: line;
-				break ] ]
+	imageUrl ifNil: [
+		tag := canvas paragraph.
+		self cssClass ifNotNil: [ tag class: self cssClass ].
+		tag with: [
+			self text linesDo: [ :line |
+				canvas text: line;
+					break ] ]]
+	ifNotNil: [ 
+		tag := canvas image
+			url: QCTutorialLibrary / imageUrl ]
