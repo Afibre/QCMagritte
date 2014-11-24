@@ -9,5 +9,8 @@ renderOn: canvas
 				canvas text: line;
 					break ] ]]
 	ifNotNil: [ 
-		tag := canvas image
-			url: QCTutorialLibrary / imageUrl ]
+		tag := canvas paragraph.
+		self cssClass ifNotNil: [ tag class: self cssClass ].
+		tag with: [  
+			canvas image
+				url: QCTutorialLibrary / imageUrl ]]
