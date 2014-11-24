@@ -1,5 +1,5 @@
 customization
 detailsCommand
 	^super detailsCommand
-		imageBlock: [ :canvas | canvas tbsGlyphIcon iconPlay ];
+		imageBlock: [ :canvas | canvas tbsGlyphIcon iconTextHeightList ];
 		yourself
