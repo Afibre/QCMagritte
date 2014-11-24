@@ -13,4 +13,7 @@ mainCss
 }
 .column-data {
 	min-height: 100px;
+}
+.command-column {
+	min-width: 70px;
 }'
