@@ -8,7 +8,8 @@
 	"instvars" : [
 		"memento",
 		"one",
-		"two"
+		"two",
+		"three"
 	],
 	"name" : "QCHistoriedMementoTest",
 	"type" : "normal"
