@@ -1,7 +1,8 @@
 as yet unclassified
 descriptionThree
 	"influenced by two"
-	<magrittedescription>
+	<magritteDescription>
 	^MANumberDescription new
+		label: 'fieldThree';
 		accessor: #three;
 		yourself

@@ -1,6 +1,7 @@
 as yet unclassified
 descriptionTwo
-	<magrittedescription>
+	<magritteDescription>
 	^MANumberDescription new
+		label: 'fieldTwo';
 		accessor: #two;
 		yourself
