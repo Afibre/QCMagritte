@@ -2,8 +2,8 @@ magritte-description
 descriptionLabel
 	<magritteDescription>
 	^MAStringDescription new
-		label: 'Label';
+		beReadonly;
 		accessor: #label;
-		priority: 100;
-		beRequired;
+		label: 'Name';
+		comment: 'Will be shown in overview';
 		yourself

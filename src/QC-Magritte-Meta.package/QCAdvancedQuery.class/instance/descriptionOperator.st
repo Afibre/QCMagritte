@@ -3,7 +3,7 @@ descriptionOperator
 	<magritteDescription>
 	^MASingleOptionDescription new
 		accessor: #operator;
-		label: (QCMultilanguageString on: 'Operator');
+		label: 'Operator';
 		options: self possibleOperators;
 		priority: 200;
 		beRequired;

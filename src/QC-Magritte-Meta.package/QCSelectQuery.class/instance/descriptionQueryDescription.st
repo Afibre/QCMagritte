@@ -3,8 +3,8 @@ descriptionQueryDescription
 	<magritteDescription>
 	^MAStringDescription new
 		accessor: #queryDescription;
-		comment: (QCMultilanguageString on: 'A string representation of this query.');
-		label: (QCMultilanguageString on: 'Query description');
+		comment: 'A string representation of this query.';
+		label: 'Query description';
 		priority: 75;
 		reportColumnClass: QCDescribedColumn;
 		visibleInReport: true;

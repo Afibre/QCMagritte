@@ -2,6 +2,6 @@ magritte-description
 descriptionLabel
 	<magritteDescription>
 	^MAStringDescription new
-		label: (QCMultilanguageString on: 'Label');
+		label: 'Label';
 		accessor: #label;
 		yourself

@@ -3,7 +3,7 @@ subQueryDescription
 	<magritteDescription>
 	^ MAToManyRelationDescription new
 		priority: 200;
-		label: (QCMultilanguageString on: 'Sub queries');
+		label: 'Sub queries';
 		accessor: #subQueries;
 		classes: QCSelectQuery allSubclasses;
 		componentClass: QCExtendedQueryComponent;

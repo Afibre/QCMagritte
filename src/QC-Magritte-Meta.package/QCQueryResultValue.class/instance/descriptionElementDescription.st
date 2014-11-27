@@ -2,7 +2,7 @@ magritte-description
 descriptionElementDescription
 	<magritteDescription>
 	^QCDynamicSingleOptionDescription new
-		label: (QCMultilanguageString on: 'Value');
+		label: 'Value';
 		accessor: #elementDescription;
 		priority: 400;
 		options: self possibleElementDescriptions;

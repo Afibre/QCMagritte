@@ -2,7 +2,7 @@ magritte-description
 descriptionTargetDescription
 	<magritteDescription>
 	^MASingleOptionDescription new
-		label: (QCMultilanguageString on: 'Target');
+		label: 'Target';
 		accessor: #targetDescription;
 		priority: 400;
 		options: self possibleDescriptions;

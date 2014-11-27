@@ -2,7 +2,7 @@ magritte-description
 descriptionSearchValueType
 	<magritteDescription>
 	^MASingleOptionDescription new
-		label: (QCMultilanguageString on: 'Search value type');
+		label: 'Search value type';
 		options: self possibleValueTypes;
 		labels: QCLabelReflectiveWriter;
 		accessor: #searchValueType;
