@@ -3,7 +3,7 @@ descriptionQuery
 	<magritteDescription>
 	^MAToOneRelationDescription new
 		accessor: #selectQuery;
-		label: (QCMultilanguageString on: 'Search on');
+		label: 'Search on';
 		classes: QCSelectQuery allSubclasses;
 		beRequired;
 		priority: 200;
