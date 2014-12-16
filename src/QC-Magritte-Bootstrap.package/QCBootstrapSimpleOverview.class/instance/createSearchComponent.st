@@ -1,0 +1,3 @@
+initialization
+createSearchComponent
+	^QCBootstrapSimpleSearchForm onParent: self
