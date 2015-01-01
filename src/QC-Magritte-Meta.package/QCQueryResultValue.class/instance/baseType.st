@@ -1,5 +1,8 @@
 accessing
 baseType
+	|p|
 	baseType ifNil: [
-		self parent isModel ifFalse: [ baseType := self parent resultType ] ].
+		p := self parent.
+		p ifNil: [ ^nil ].
+		p isModel ifFalse: [ baseType := self parent resultType ] ].
 	^baseType
