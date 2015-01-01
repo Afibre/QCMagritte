@@ -1,3 +1,3 @@
 accessing-magritte
 allRightsClasses
-	^self model allRightsClasses
+	^self model ifNotNil: [:m | m allRightsClasses]

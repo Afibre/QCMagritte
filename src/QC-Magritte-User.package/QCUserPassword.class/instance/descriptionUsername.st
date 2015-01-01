@@ -1,6 +1,9 @@
 magritte-description
 descriptionUsername
 	<magritteDescription>
-	^self parent descriptionUsername
+	|p|
+	p := self parent.
+	p ifNil: [ ^nil ].
+	^p descriptionUsername
 		addToAccessor: #parent;
 		yourself

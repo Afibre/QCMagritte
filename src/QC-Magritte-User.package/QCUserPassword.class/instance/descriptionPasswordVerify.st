@@ -1,7 +1,10 @@
 magritte-description
 descriptionPasswordVerify
 	<magritteDescription>
-	^self parent descriptionPasswordVerify
+	|p|
+	p := self parent.
+	p ifNil: [ ^nil ].
+	^p descriptionPasswordVerify
 		addToAccessor: #parent;
 		readonly: false;
 		visible: true;
