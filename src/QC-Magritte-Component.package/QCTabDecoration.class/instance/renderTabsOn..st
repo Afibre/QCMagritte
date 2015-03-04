@@ -4,8 +4,9 @@ renderTabsOn: canvas
 		ifTrue: [
 			canvas unorderedList
 				class: 'tab-menu';
-				with: [ QCTabRenderer component: self decoratedComponent on: canvas ] ].
+				with: [ 
+					QCTabRenderer component: self decoratedComponent on: canvas ] ].
 	self decoratedComponent activeDescription ifNotNil: [
 		canvas div
 			class: 'tab-menu-ruler';
-			with: [ canvas space ] ]
+			with: [ canvas space ] ].
