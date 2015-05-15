@@ -9,5 +9,4 @@ initialize
 		addLibrary: JQDeploymentLibrary;
 		addLibrary: JQUiDeploymentLibrary;
 		addLibrary: TBSDevelopmentLibrary;
-		addLibrary: QCMagritteFileLibrary;
-		addLibrary: QCMagritteDemoLibrary
+		addLibrary: QCMagritteFileLibrary
