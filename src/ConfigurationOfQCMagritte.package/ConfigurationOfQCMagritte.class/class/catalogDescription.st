@@ -1,0 +1,4 @@
+catalog
+catalogDescription
+	^
+'QCMagritte provides extensions on Magritte3. It is mostly oriented to creating web (Seaside) applications. It provides a chain of visitors to generate the components, allowing separation of concerns for translations, access control, generating bootstrap components, flattening nested components. It offers an Ajax based memento with submit-free updates, hierarchical navigation and a ready made bootstrap web-application and domain model. It was developed by yDiego Lont and Stephan Eggermont (www.legacycode.nl). Thanks to Q-Software (Friedrich Dominicus) for open-sourcing this framework '
