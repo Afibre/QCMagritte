@@ -9,7 +9,7 @@ tutorialDownload
 		addExplanation: 'For now we will summarize the chapter "installation" as follows: download a QCMagritte image and make sure you can launch it.';
 		addExplanation: 'Also at some points there are references to images. The images are not yet included in the tutorial and should be added.';
 		addExplanation: 'Finally, as this is work in progress, you might need to "reset" this tutorial to get a new version. I included a button here to do so.';
-		addCommand: (QCCommand on: 'Reset' condition: nil action: [ :row :component | self resetTutorialOn: component ]);
+		addCommand: (QCCommand on: 'Reset' condition: nil action: [ :row :component | QCTutorialModel default resetTutorialOn: component ]);
 		" add a picture of the webpage with a red circle around the link."
 		yourself
 		
