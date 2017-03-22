@@ -6,7 +6,7 @@ addingProjectsMigration
 		title: 'Migration';
 		chapter: 'Adding projects';
 		description: 'We are now going to extend our todo items with a project. Since the project comes from the model, we also going to need a backlink to the model.';
-		addExplanation: 'We are going to add the following accessor to TodoItem. When you try to save this method, it automatically gives you a few suggestions what to do with project. Select it to be an instance variable. Also add an accessor.';
+		addExplanation: 'We are going to add the following accessor to TodoItem. When you try to save this method, it automatically gives you a few suggestions what to do with project. Select it to be an instance variable. Also add a setter for the project.';
 		addCode: 'project
 	^project';
 		addExplanation: 'Now we are going to change the object definition to have a different supperclass: QCParentObject. QCParentObject knows its parent, and the QC Magritte framework make sure that new items are created with a backlink,';
@@ -14,7 +14,7 @@ addingProjectsMigration
 	instanceVariableNames: ''title description completed project''
 	classVariableNames: ''''
 	category: ''Tutorial-Model''';
-		addExplanation: 'Before we proceed we have to realize that our current todo items do not yet know their parent. We can solve this in two ways. First we could simply throw away our current data by performing "TodoListModel reset" in a workspace. But we are going to take a more complex method, since this is a tutorial. We are going to migrate our todo items. Since this is a common problem when maintaining an application, we have also put some support in the framework for this. We add the following method to TodoListModel:';
+		addExplanation: 'Before we proceed we have to realize that our current todo items do not yet know their parent. We can solve this in two ways. First we could simply throw away our current data by performing "TodoListModel reset" in a workspace. But for the tutorial, we our going to take this oppertunity, to teach you something about migration. Since migration of data is a common problem when maintaining an application, we have also put some support in the framework for this. We add the following method to TodoListModel:';
 		addCode: 'sanitizeForUpgrade
 	self todoItems do: [ :each | each parent: self ].
 	super sanitizeForUpgrade';

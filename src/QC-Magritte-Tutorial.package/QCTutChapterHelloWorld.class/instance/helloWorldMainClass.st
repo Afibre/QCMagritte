@@ -6,6 +6,7 @@ helloWorldMainClass
 		title: 'MainClass';
 		chapter: 'Hello world';
 		description: 'In QCMagritte, the basic application class is a subclass of QCApplication. We will start with a bootstrap template, and subclass from QCBootstrapApplication, so we have decent layout and do not have to focus on that. In the System Browser, click on any line in the first column to get a new class-creation template. In the text area replace the existing text (beginning with ‘Object subclass: #NameOfSubclass’) with the following and save it (<Ctrl>+<S>).';
+		addExplanation: 'The System Brower can also be found in the world menu (top item).';
 		addCode: 'QCBootstrapApplication subclass: #HelloWorldApplication
 	instanceVariableNames: ''''
 	classVariableNames: ''''

@@ -29,5 +29,5 @@ todoListCompleted
 	completed := true';
 		addCode: 'reopen
 	completed := false';
-		addExplanation: 'Go back to the website and test how this looks.';
+		addExplanation: 'Go back to the website and test how this looks. There is a good chance that reloading won''t change a thing, because the component is already initialized with the magritte-description. We will go into the technical about this later, for now: if the webpage has not changed, press the "new session" button on the bottom left.';
 		yourself
