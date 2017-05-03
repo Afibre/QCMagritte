@@ -1,3 +1,3 @@
 hooks
 descriptionBuilders
-	^(Array with: QCDescriptionFlattener with: QCDescriptionBuildMultiLanguage with: QCBootstrapComponentBuilder)
+	^(Array with: MADescriptionFlattener with: QCDescriptionBuildMultiLanguage with: QCBootstrapComponentBuilder)
