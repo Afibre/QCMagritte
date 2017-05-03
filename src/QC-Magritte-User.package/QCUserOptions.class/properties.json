@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "QCParentObject",
+	"super" : "QCModelPart",
 	"category" : "QC-Magritte-User",
 	"classinstvars" : [ ],
 	"pools" : [ ],
