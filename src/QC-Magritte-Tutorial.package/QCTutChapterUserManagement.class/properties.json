@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "QCTutChapter",
 	"category" : "QC-Magritte-Tutorial-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
