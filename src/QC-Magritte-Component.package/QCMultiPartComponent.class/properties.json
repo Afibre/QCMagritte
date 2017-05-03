@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "QCContainerComponent",
+	"super" : "MAContainerComponent",
 	"category" : "QC-Magritte-Component",
 	"classinstvars" : [ ],
 	"pools" : [ ],
