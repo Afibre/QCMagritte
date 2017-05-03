@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "QCDescriptionBuilder",
+	"super" : "MADescriptionBuilder",
 	"category" : "QC-Magritte-Relation",
 	"classinstvars" : [ ],
 	"pools" : [ ],
