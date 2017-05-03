@@ -3,5 +3,5 @@ setContainerDefaults: aContainer
 	<magritteContainer>
 	^aContainer
 		componentClass: QCContainerComponent;
-		descriptionBuilder: QCDescriptionFlattener;
+		descriptionBuilder: MADescriptionFlattener;
 		yourself

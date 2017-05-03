@@ -4,5 +4,5 @@ testModel
 	model := self.
 	instance := QCTest2LevelNestedObject new.
 	desc := instance magritteDescription.
-	buildedDesc := QCDescriptionFlattener buildFrom: desc target: instance model: model.
+	buildedDesc := MADescriptionFlattener buildFrom: desc target: instance model: model.
 	self assert: buildedDesc children size equals: 7.
