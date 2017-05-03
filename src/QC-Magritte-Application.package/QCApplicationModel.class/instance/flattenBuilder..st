@@ -1,5 +1,5 @@
 builders
 flattenBuilder: aCollection
 	<magritteBuilder>
-	self flattenDescriptions ifTrue: [ aCollection addFirst: QCDescriptionFlattener ].
+	self flattenDescriptions ifTrue: [ aCollection addFirst: MADescriptionFlattener ].
 	^aCollection
