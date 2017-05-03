@@ -2,6 +2,6 @@ magritte-description
 childDescriptionFor: aClassList label: aLabel
 	| classes |
 	aClassList
-		ifEmpty: [ classes := { QCParentObject } ]
+		ifEmpty: [ classes := { QCModelPart } ]
 		ifNotEmpty: [ classes := aClassList ].
 	^self query childDescriptionFor: classes label: aLabel
