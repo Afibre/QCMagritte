@@ -10,6 +10,6 @@ descriptionParent
 		visibleInLabel: false;
 		visibleInReport: false;
 		stringWriter: QCLabelReflectiveWriter;
-		visible: (self class == QCParentObject);
+		visible: (self class == QCModelPart);
 		isRoot: false;
 		yourself

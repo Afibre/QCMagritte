@@ -1,0 +1,3 @@
+defaults
+defaultMagritteTemplate
+	^self new

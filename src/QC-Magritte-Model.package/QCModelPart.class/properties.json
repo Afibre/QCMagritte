@@ -12,6 +12,6 @@
 		"comments",
 		"parent"
 	],
-	"name" : "QCParentObject",
+	"name" : "QCModelPart",
 	"type" : "normal"
 }
