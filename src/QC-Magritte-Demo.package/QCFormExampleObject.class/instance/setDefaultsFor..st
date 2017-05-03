@@ -4,5 +4,5 @@ setDefaultsFor: aContainer
 	^aContainer
 		componentRenderer: QCGroupedFormRenderer;
 		componentClass: QCContainerComponent;
-		descriptionBuilder: QCDescriptionFlattener;
+		descriptionBuilder: MADescriptionFlattener;
 		yourself
