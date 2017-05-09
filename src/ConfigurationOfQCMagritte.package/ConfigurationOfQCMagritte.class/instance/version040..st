@@ -18,5 +18,5 @@ version040: spec
 			project: 'NeoCSV' with: '10';
 			project: 'Magritte3' with: #'release3.2';
 			project: 'Seaside3' with: #'release3.1'.
-		" For now we want bleeding edge
-		"  ]
+			
+		  ]
