@@ -1,4 +1,4 @@
 accessing
 curLanguage
-	self user ifNotNilDo: [ :user | ^user curLanguage ].
-	^self class curLanguage
+	self user ifNotNil: [ :user | ^ user curLanguage ].
+	^ self class curLanguage

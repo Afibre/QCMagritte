@@ -1,3 +1,0 @@
-testing
-canEdit
-	^true
