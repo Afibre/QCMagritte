@@ -5,7 +5,13 @@ baseline: spec
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec author: 'DiegoLont'.
-		spec 
+		spec 			
+			project: 'Magritte3' with: [
+				spec
+					className: 'ConfigurationOfMagritte3';
+					versionString: #'development';
+					loads: #( 'Seaside' );
+					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ];
 			project: 'BootstrapMagritte' with: [
 				spec
 					className: 'ConfigurationOfBootstrapMagritte';
@@ -24,12 +30,6 @@ baseline: spec
 					versionString: #'development';
 					loads: #( 'core' );
 					repository: 'http://smalltalkhub.com/mc/MarcusDenker/Units/main' ];
-			project: 'Magritte3' with: [
-				spec
-					className: 'ConfigurationOfMagritte3';
-					versionString: #'development';
-					loads: #( 'Seaside' );
-					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ];
 			project: 'Seaside3' with: [
 				spec
 					className: 'ConfigurationOfSeaside3';
