@@ -27,7 +27,7 @@ baseline: spec
 			project: 'Magritte3' with: [
 				spec
 					className: 'ConfigurationOfMagritte3';
-					versionString: #'stable';
+					versionString: #'development';
 					loads: #( 'Seaside' );
 					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ];
 			project: 'Seaside3' with: [
