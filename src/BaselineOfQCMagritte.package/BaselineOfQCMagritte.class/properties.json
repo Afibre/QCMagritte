@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "LaurentLaffont 10/27/2017 15:37",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfQCMagritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfQCMagritte",
+	"type" : "normal"
+}
