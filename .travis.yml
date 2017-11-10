@@ -1,0 +1,21 @@
+language: smalltalk
+sudo: false
+
+os:
+- linux
+
+smalltalk:
+- Pharo-6.1
+
+script:
+- bash ./build.sh
+
+deploy:
+  provider: releases
+  api_key:
+    secure: BF5dSlOiAi0yDqHxC/G1UJHBtJ7kchQK//fxhvarf4LWyYrd/5L4C5ZLf09jnCyuiZzbhQ4aS9rKkSAg6fSP5KNel6+4ysxEwktmRGrAs3Rmge+GKsWYTueNHTFDNH4r9P1hJcL6jevTf1t0fwLdNOfmY5Y+FqJeAYunm4N548ToJ5abM5kesRikqgVTJWhshfvKj0gVvKJsYdNUf51FpNVALENmR601IsT/5J01lJtruW1Lqp6H7Kap4s5Xj7my+t3CfelgKUEmtphWcxiXRNPiBiCs1GLX73VM2Iraq9tf/gttoGRz5Khtm4b0QZgnBZbe9IN2idYULGqBvFwyLCq0mugWDXzuhnRAHimuqCgVkDy7dvUNE7oF5SDFfROH+L+WdiC2bf8TZ0E0LX7YDKOy9mQAri2+svFwAl20kk0ghwyjKHVLCzvJ2Q3CmrEAfD3QgN8TqaKdD5Oj4FPMgX0HULgVxMYpO5gPIL0dpcULrE2Jk2kNXwTqt2WgR2B40wNvfdiA+VZqwMKD/6VJH7C39h5MVNKNbyWFsD87+chD/1UjDUPzWypOAAzd6wo5wGpweFlPZikQjoG/IwqRfvp1B4RMxTrB1AZqPiKrzdNVxg4U+sfRbOD3XBctgLk9oODnwL5U6gcoFsEXnRnKiAa20Lfus6wNm7tIGFCWs78=
+  file: QCMagritte.zip
+  skip_cleanup: true
+  on:
+    repo: Afibre/QCMagritte
+    all_branches: true
