@@ -11,7 +11,7 @@ See [Releases](/Afibre/QCMagritte/releases) to get latest zip built by travis
 
 ```smalltalk
 Metacello new 
-  githubUser: 'Afibre' project: 'QCMagritte' commitish: 'master' path: 'src'; 
+  githubUser: 'delware' project: 'QCMagritte' commitish: 'master' path: 'src'; 
   baseline: 'QCMagritte';
   load. 
 ```
