@@ -6,9 +6,8 @@ baseline: spec
 		spec blessing: #'baseline'.
 		spec author: 'DiegoLont'.
 		spec 			
-			project: 'Magritte' with: [
+			baseline: 'Magritte' with: [
 				spec
-					baseline: 'Magritte';
 					loads: #( 'Seaside' );
 					repository: 'github://magritte-metamodel/magritte/source' ];
 			project: 'BootstrapMagritte' with: [
@@ -29,9 +28,8 @@ baseline: spec
 					versionString: #'development';
 					loads: #( 'core' );
 					repository: 'http://smalltalkhub.com/mc/MarcusDenker/Units/main' ];
-			project: 'Seaside3' with: [
+			baseline: 'Seaside3' with: [
 				spec
-					baseline: 'Seaside3';
 					loads: #('JQueryUI' 'JQuery-JSON');
 					repository: 'github://SeasideSt/Seaside/repository' ].	
 
