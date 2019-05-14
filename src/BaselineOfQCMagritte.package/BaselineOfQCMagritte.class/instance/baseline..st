@@ -1,4 +1,4 @@
-baselines
+"protocol: baselines"
 baseline: spec
 	<baseline>
 	" Added a few packages, so created a new baseline "
@@ -6,12 +6,11 @@ baseline: spec
 		spec blessing: #'baseline'.
 		spec author: 'DiegoLont'.
 		spec 			
-			project: 'Magritte3' with: [
+			project: 'Magritte' with: [
 				spec
-					className: 'ConfigurationOfMagritte3';
-					versionString: #'development';
+					baseline: 'Magritte';
 					loads: #( 'Seaside' );
-					repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main' ];
+					repository: 'github://magritte-metamodel/magritte/source' ];
 			project: 'BootstrapMagritte' with: [
 				spec
 					className: 'ConfigurationOfBootstrapMagritte';
@@ -32,19 +31,18 @@ baseline: spec
 					repository: 'http://smalltalkhub.com/mc/MarcusDenker/Units/main' ];
 			project: 'Seaside3' with: [
 				spec
-					className: 'ConfigurationOfSeaside3';
-					versionString: #'stable';
+					baseline: 'Seaside3';
 					loads: #('JQueryUI' 'JQuery-JSON');
-					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ].	
+					repository: 'github://SeasideSt/Seaside/repository' ].	
 
 		spec
-			package: 'QC-Magritte-Ajax' with: [ spec requires: #( 'Magritte3' ) ];
+			package: 'QC-Magritte-Ajax' with: [ spec requires: #( 'Magritte' ) ];
 			package: 'QC-Magritte-Application' with: [ spec requires: #( 'QC-Magritte-Renderer' 'QC-Magritte-Relation' 'QC-Magritte-Language' 'QC-Magritte-Session' ) ];
 			package: 'QC-Magritte-Bootstrap' with: [ spec requires: #( 'QC-Magritte-Application' 'BootstrapMagritte' ) ];
 			package: 'QC-Magritte-Builder' with: [ spec requires: #( 'QC-Magritte-Core' ) ];
 			package: 'QC-Magritte-Commands';
 			package: 'QC-Magritte-Component' with: [ spec requires: #( 'QC-Magritte-Core' 'QC-Magritte-Other' 'QC-Magritte-Builder' 'NeoCSV' 'QC-Magritte-Commands') ];
-			package: 'QC-Magritte-Core' with: [ spec requires: #( 'Magritte3') ];
+			package: 'QC-Magritte-Core' with: [ spec requires: #( 'Magritte') ];
 			package: 'QC-Magritte-Demo' with: [ spec requires: #( 'QC-Magritte-Application' 'QC-Magritte-Bootstrap' 'QC-Magritte-Unit' ) ];
 			package: 'QC-Magritte-Language' with: [ spec requires: #( 'QC-Magritte-Builder' 'QC-Magritte-Model' ) ];
 			package: 'QC-Magritte-Meta' with: [ spec requires: #('QC-Magritte-Component' 'QC-Magritte-Visitor') ];
@@ -55,7 +53,7 @@ baseline: spec
 			package: 'QC-Magritte-Session' with: [ spec requires: #('QC-Magritte-Builder')];
 			package: 'QC-Magritte-Tests' with: [ spec requires: #( 'QC-Magritte-Relation' 'QC-Magritte-Model' 'QC-Magritte-Language' ) ];
 			package: 'QC-Magritte-Tutorial' with: [ spec requires: #( 'QC-Magritte-Application' 'QC-Magritte-Bootstrap' ) ];
-			package: 'QC-Magritte-Unit' with: [ spec requires: #( 'Magritte3' 'Units' ) ];
+			package: 'QC-Magritte-Unit' with: [ spec requires: #( 'Magritte' 'Units' ) ];
 			package: 'QC-Magritte-User' with: [ spec requires: #('QC-Magritte-Model' 'QC-Magritte-Application') ];
 			package: 'QC-Magritte-Visitor'.
 		spec 
@@ -91,7 +89,7 @@ baseline: spec
 		spec
 			package: 'QC-Magritte-Pharo2';
 			package: 'QC-Magritte-Core' with: [ spec requires: 'QC-Magritte-Pharo2' ] ].
-	spec for: #(#'pharo3.x' #'pharo4.x' #'pharo5.x' #'pharo6.x' #'pharo7.x') do: [ 
+	spec for: #(#'pharo3.x' #'pharo4.x' #'pharo5.x' #'pharo6.x' #'pharo7.x' #'pharo8.x') do: [ 
 		spec
 			package: 'QC-Magritte-Pharo3';
 			package: 'QC-Magritte-Core' with: [ spec requires: 'QC-Magritte-Pharo3' ] ]
