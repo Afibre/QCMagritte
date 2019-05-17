@@ -1,3 +1,3 @@
 accessing
 confirms
-	^ Array with: #tbsConfirmInfo: -> 'btn-info' with: #tbsConfirmSuccess: -> 'btn-success'  with: #tbsConfirmError: -> 'btn-danger'
+	^ Array with: #confirmInfo -> 'btn-info' with: #confirmSuccess -> 'btn-success' with: #confirmWarning -> 'btn-warning' with: #confirmError -> 'btn-danger'

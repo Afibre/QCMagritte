@@ -1,4 +1,4 @@
 accessing
 baseType
-	self resultsDescription resultType ifNotNilDo: [ :retVal | ^retVal ].
+	self resultsDescription resultType ifNotNil: [ :retVal | ^retVal ].
 	^self select baseType

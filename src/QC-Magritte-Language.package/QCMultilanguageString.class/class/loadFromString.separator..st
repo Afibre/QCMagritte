@@ -18,7 +18,7 @@ loadFromString: aString separator: aCharacter
 						ifFalse: [
 							(languages add: (self findLang: each trimLeft))
 								ifNil: [ messages add: ((QCMultilanguageString on: 'Could not find language'), ' ', each trimLeft) ]
-								ifNotNilDo: [ :lang |
+								ifNotNil: [ :lang |
 									messages add: ((QCMultilanguageString on: 'Loading data for'), ' ', lang languageName) ] ] ].
 				first := false ]
 			ifFalse: [ self addLineFromFile: lineData languages: languages.

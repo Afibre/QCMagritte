@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"super" : "WAComponent",
 	"category" : "Bootstrap-Examples-Browser",
 	"classinstvars" : [ ],
@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"displayIntro",
-		"browser"
+		"browser",
+		"currentExample"
 	],
 	"name" : "TBSExamplesHome",
 	"type" : "normal"
