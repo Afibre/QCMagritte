@@ -9,7 +9,7 @@ baseline: spec
 			baseline: 'Magritte' with: [
 				spec
 					loads: #( 'Seaside' );
-					repository: 'github://delware/magritte/source' ];
+					repository: 'github://magritte-metamodel/magritte/source' ];
 			project: 'BootstrapMagritte' with: [
 				spec
 					className: 'ConfigurationOfBootstrapMagritte';
