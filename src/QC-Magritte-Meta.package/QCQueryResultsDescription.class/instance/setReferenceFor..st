@@ -14,5 +14,5 @@ setReferenceFor: aDescription
 	self queryColumns
 		do: [ :each | each isValid
 			ifTrue: [ aDescription reference add: each descriptionValue ] ].
-	aDescription reference resort.
+	aDescription reference.
 	^aDescription
