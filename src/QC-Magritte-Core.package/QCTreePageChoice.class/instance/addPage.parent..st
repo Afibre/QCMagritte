@@ -10,5 +10,5 @@ addPage: aComponent parent: aParent
 			(aParent = homePage) ifTrue: [ homePage := newPage ].
 			newPage onCloseLastPage: [ self replacePageAt: index with: aParent ].
 			^newPage addPage: aComponent parent: parent ].
-	(self findPage: aParent) ifNotNilDo: [ :page | ^page addPage: aComponent parent: aParent ].
+	(self findPage: aParent) ifNotNil: [ :page | ^page addPage: aComponent parent: aParent ].
 	self addPage: aComponent

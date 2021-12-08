@@ -1,3 +1,5 @@
 accessing
 allExamples
-	^TBSBootstrapExample allSubclasses sort: [:a :b | a name <= b name ]
+	^(TBSBootstrapExample allSubclasses 
+		select: [:ea| ea isAbstract not ]) 
+			sort: [:a :b | a name <= b name ]

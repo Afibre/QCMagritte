@@ -47,7 +47,7 @@ renderButtonsSizesOn: html
 
 	html break; break.	
 		
-	html paragraph: 'Create block level buttons—those that span the full width of a parent.'.
+	html paragraph: 'Create block level buttons those that span the full width of a parent.'.
 
 	html tbsButton 	
 			bePrimary;		 

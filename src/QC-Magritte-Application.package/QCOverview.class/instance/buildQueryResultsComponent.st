@@ -5,7 +5,7 @@ buildQueryResultsComponent
 		setParent: self;
 		hideOptionsPane;
 		yourself.
-	self originalQueryResultsDescription rowCount ifNotNilDo: [ :batchSize |
-		(retVal children detect: [ :each | each hasOptionsPane ] ifNone: [ nil ]) ifNotNilDo: [ :comp |
+	self originalQueryResultsDescription rowCount ifNotNil: [ :batchSize |
+		(retVal children detect: [ :each | each hasOptionsPane ] ifNone: [ nil ]) ifNotNil: [ :comp |
 			comp report batchSize: batchSize ] ].
-	^retVal
+	^ retVal

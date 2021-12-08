@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "WAComponent",
-	"category" : "Bootstrap-Examples-Magritte",
+	"super" : "TBSBootstrapExample",
+	"category" : "Bootstrap-Examples-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"informMessage",
-		"confirmMessage"
+		"confirmMessage",
+		"yourAnswer"
 	],
 	"name" : "TBSExampleInformsConfirms",
 	"type" : "normal"

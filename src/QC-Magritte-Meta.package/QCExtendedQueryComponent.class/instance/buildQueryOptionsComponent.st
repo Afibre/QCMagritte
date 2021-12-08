@@ -3,7 +3,7 @@ buildQueryOptionsComponent
 	| retVal |
 	retVal := QCAccordionComponent new.
 	retVal addPage: (QCSearchForm onParent: self) label: (QCSearchLabel onParent: self).
-	self toManyComponent ifNotNilDo: [ :comp |
+	self toManyComponent ifNotNil: [ :comp |
 		retVal addPage: (self columnChooserFor: comp) label: (QCMultilanguageString on: 'Choose columns').
 		comp
 			resetReportCommands;

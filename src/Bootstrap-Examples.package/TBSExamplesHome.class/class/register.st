@@ -6,4 +6,6 @@ register
 	app 
 		addLibrary: JQDeploymentLibrary;
 		addLibrary: TBSDevelopmentLibrary;
-		addLibrary: TBSExamplesLibrary
+		addLibrary: TBSExamplesLibrary;
+		addLibrary: TBSJasnyDeploymentLibrary;
+		addLibrary: TBSVerticalTabsDeploymentLibrary

@@ -1,10 +1,10 @@
 magritte-description
 descriptionTutorials
 	<magritteDescription>
-	^MAToManyRelationDescription new
+	^ MAToManyRelationDescription new
 		label: 'Tutorials';
 		accessor: #tutorials;
 		sorted: true;
-		classes: { QCTutorial };
+		classes: QCTutorial withAllSubclasses;
 		visibleInReport: false;
 		yourself

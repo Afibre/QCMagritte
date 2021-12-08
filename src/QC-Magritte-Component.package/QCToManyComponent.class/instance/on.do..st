@@ -1,3 +1,3 @@
 session
 on: anAnnouncement do: aBlock
-	self session subscribe: anAnnouncement do: aBlock for: self
+	self session when: anAnnouncement do: aBlock for: self

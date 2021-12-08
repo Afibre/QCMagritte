@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAFileMetadataLibrary",
+	"category" : "Bootstrap-Examples-Widgets-Table",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSBootstrapTableExampleLibrary",
+	"type" : "normal"
+}

@@ -2,7 +2,7 @@ rendering
 renderExampleOn: html
 	
 	html heading level: 2; with: 'Example'.	
-	html tbsDropdown: [ 
+	html div tbsDropdown: [ 
 		html tbsDropdownAnchor with: [html text: 'Dropdown '; tbsCaret]. 
 		html tbsDropdownMenu: [ 
 			html tbsDropdownMenuItem: [ html anchor: 'Action' ].
@@ -14,7 +14,7 @@ renderExampleOn: html
 
 
 	html heading level: 2; with: 'Headers'.
-	html tbsDropdown: [ 
+	html div tbsDropdown: [ 
 		html tbsDropdownAnchor with: [html text: 'Dropdown '; tbsCaret]. 
 		html tbsDropdownMenu: [ 
 			html tbsDropdownHeader: 'Dropdown header'.
@@ -28,7 +28,7 @@ renderExampleOn: html
 
 	html heading level: 2; with: 'Disabled menu items'.
 
-	html tbsDropdown: [ 
+	html div tbsDropdown: [ 
 		html tbsDropdownAnchor with: [html text: 'Dropdown '; tbsCaret]. 
 		html tbsDropdownMenu: [ 		 
 			html tbsDropdownMenuItem: [ html anchor: 'Regular Link' ].

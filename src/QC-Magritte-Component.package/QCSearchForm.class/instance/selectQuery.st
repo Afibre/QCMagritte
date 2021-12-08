@@ -1,3 +1,3 @@
 accessing
 selectQuery
-	^self parent selectQuery
+	^ self parent selectQuery

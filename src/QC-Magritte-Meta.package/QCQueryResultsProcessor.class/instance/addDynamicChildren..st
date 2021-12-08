@@ -4,6 +4,6 @@ addDynamicChildren: aContainer
 	self query resultType
 		ifNil: [ self resultsPerType keysDo: [ :aClass |
 			aContainer add: (self dynamicChildFor: aClass) ] ]
-		ifNotNilDo: [ :aClass | aContainer add: (self dynamicChildFor: aClass) ].
+		ifNotNil: [ :aClass | aContainer add: (self dynamicChildFor: aClass) ].
 	aContainer componentRenderer: QCOverviewRenderer.
 	^aContainer

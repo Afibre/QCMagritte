@@ -1,3 +1,3 @@
 accessing
 magritteTemplate
-	^magritteTemplate ifNil: [ magritteTemplate := self defaultMagritteTemplate ]
+	^ magritteTemplate ifNil: [ magritteTemplate := self defaultMagritteTemplate ]

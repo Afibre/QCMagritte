@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TBSBootstrapTableExample",
+	"category" : "Bootstrap-Examples-Widgets-Table",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSTableTransformTableExample",
+	"type" : "normal"
+}

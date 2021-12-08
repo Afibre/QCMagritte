@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TBSBootstrapExample",
+	"category" : "Bootstrap-Examples-Jasny",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TBSJasnyNavmenuExample",
+	"type" : "normal"
+}
