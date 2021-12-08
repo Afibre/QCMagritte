@@ -1,3 +1,3 @@
 defaults
 defaultMagritteTemplate
-	^self new
+	^ self new

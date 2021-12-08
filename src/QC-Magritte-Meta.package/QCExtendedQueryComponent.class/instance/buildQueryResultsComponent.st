@@ -8,4 +8,4 @@ buildQueryResultsComponent
 	self originalQueryResultsDescription rowCount ifNotNil: [ :batchSize |
 		(retVal children detect: [ :each | each hasOptionsPane ] ifNone: [ nil ]) ifNotNil: [ :comp |
 			comp report batchSize: batchSize ] ].
-	^retVal
+	^ retVal
